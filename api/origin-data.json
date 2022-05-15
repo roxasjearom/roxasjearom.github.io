@@ -6397,8 +6397,8 @@
       "image": "buff_fury.png"
     },
     {
-      "id": 2,
-      "name": "Fury",
+      "id": 40,
+      "name": "Steal",
       "type": "Buff",
       "description": "Deal pure DMG and gain HP.",
       "image": ""
