@@ -6447,7 +6447,7 @@
       "class": "Neutral",
       "isBlockchain": 0,
       "rarity": "Epic",
-      "effect": "All cards gain 15% {Class Bonus}.",
+      "effect": "All cards gain 15% Class Bonus.",
       "image": "rune_neutral_hybrid_2.png"
     },
     {
@@ -6465,7 +6465,7 @@
       "class": "Neutral",
       "isBlockchain": 0,
       "rarity": "Rare",
-      "effect": "Attack Abilities gain 15% {Class Bonus}.",
+      "effect": "Attack Abilities gain 15% Class Bonus.",
       "image": "rune_neutral_offensive_2.png"
     },
     {
@@ -6474,7 +6474,7 @@
       "class": "Neutral",
       "isBlockchain": 0,
       "rarity": "Rare",
-      "effect": "Heal and Shield Abilities gain 15% {Class Bonus}.",
+      "effect": "Heal and Shield Abilities gain 15% Class Bonus.",
       "image": "rune_neutral_defensive_2.png"
     },
     {
