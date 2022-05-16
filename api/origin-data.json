@@ -7780,14 +7780,14 @@
       "name": "Little Robin",
       "class": "Bird",
       "hp": 18,
-      "effect": "Attacks of allies deal 16 more damage. At end of turn, this Little Robin loses 8 HP."
+      "effect": "Attacks of allies deal 16 more damage. Lose 8 HP when your turn ends."
     },
     {
       "id": 2,
       "name": "Mavis",
       "class": "Bird",
       "hp": 18,
-      "effect": "When your turn starts (after card drawing), {Mavis} reduces 1 Energy of a random Attack card."
+      "effect": "When your turn starts (after card drawing), Mavis reduces 1 Energy of a random Attack card. Lose 8 HP when your turn ends."
     },
     {
       "id": 3,
@@ -7801,14 +7801,14 @@
       "name": "Clover",
       "class": "Plant",
       "hp": 35,
-      "effect": "When your turn starts, randomly grants 1~2 Leafs to your Axies. Has 4 Leafs and dissappears after granting its last Leaf."
+      "effect": "When your turn starts, randomly grants 1~2 Leafs to your Axies. Clover disappears after 4 leafs are granted."
     },
     {
       "id": 5,
       "name": "Trunk",
       "class": "Plant",
       "hp": 75,
-      "effect": "{Taunt}."
+      "effect": "Taunt. The target is always targeted by enemy's attack abilities."
     }
   ]
 }
