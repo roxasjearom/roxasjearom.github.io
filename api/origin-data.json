@@ -7776,30 +7776,35 @@
   ],
   "summons": [
     {
+      "id": 1,
       "name": "Little Robin",
       "class": "Bird",
       "hp": 18,
       "effect": "Attacks of allies deal 16 more damage. At end of turn, this Little Robin loses 8 HP."
     },
     {
+      "id": 2,
       "name": "Mavis",
       "class": "Bird",
       "hp": 18,
       "effect": "When your turn starts (after card drawing), {Mavis} reduces 1 Energy of a random Attack card."
     },
     {
+      "id": 3,
       "name": "Mushroom",
       "class": "Plant",
       "hp": 18,
       "effect": "When your turn ends, this Mushroom restores 24 HP to your most injured ally and loses 8 HP."
     },
     {
+      "id": 4,
       "name": "Clover",
       "class": "Plant",
       "hp": 35,
       "effect": "When your turn starts, randomly grants 1~2 Leafs to your Axies. Has 4 Leafs and dissappears after granting its last Leaf."
     },
     {
+      "id": 5,
       "name": "Trunk",
       "class": "Plant",
       "hp": 75,
