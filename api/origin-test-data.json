@@ -6949,7 +6949,7 @@
       "class": "Neutral",
       "isBlockchain": 0,
       "rarity": "Mystic",
-      "effect": "(Enhance any card)\nAdd Ethereal.",
+      "effect": "(Enhance any card)\nAdd {Ethereal}.",
       "potentialCost": 5,
       "image": "energy-drink-s.png"
     },
@@ -7239,7 +7239,7 @@
       "class": "Bird",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance any Abilities)\r\nAdd Ethereal.",
+      "effect": "(Enhance any Abilities)\r\nAdd {Ethereal}.",
       "potentialCost": 4,
       "image": "bird-energy-drink-s.png"
     },
@@ -7811,5 +7811,7 @@
       "effect": "Taunt. The target is always targeted by enemy's attack abilities."
     }
   ],
-  "imageUrlVersion": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/"
+  "cardImageUrl": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/",
+  "runeImageUrl": "https://www.axie.tech/images/templates/rune/art/",
+  "charmImageUrl": "https://www.axie.tech/images/templates/charm/art/"
 }
