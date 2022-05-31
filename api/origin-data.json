@@ -120,7 +120,7 @@
       "partType": "back",
       "cardName": "Blue Moon",
       "cardType": "attack",
-      "cardDamage": 50,
+      "cardDamage": 55,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -132,7 +132,7 @@
         "effect": null
       },
       "cardImage": "aquatic-back-04.png",
-      "cardText": "Draw 1 card.",
+      "cardText": "If <Initial>, draw a card.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -316,7 +316,7 @@
       "partType": "back",
       "cardName": "Goldfish",
       "cardType": "attack",
-      "cardDamage": 60,
+      "cardDamage": 70,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -328,7 +328,7 @@
         "effect": null
       },
       "cardImage": "aquatic-back-06.png",
-      "cardText": "If <Initial>, draw 1 card.",
+      "cardText": "Draw 1 card if this is the only Attack card in your hand.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -428,7 +428,7 @@
       "partType": "tail",
       "cardName": "Koi",
       "cardType": "attack",
-      "cardDamage": 110,
+      "cardDamage": 95,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "2",
@@ -570,7 +570,7 @@
       "cardType": "skill",
       "cardDamage": 0,
       "cardShield": 0,
-      "cardHeal": 35,
+      "cardHeal": 40,
       "cardEnergy": "0",
       "tags": "skill,heal,energy",
       "summon": {
@@ -580,7 +580,7 @@
         "effect": null
       },
       "cardImage": "aquatic-ears-02.png",
-      "cardText": "Gain 1 Energy if this Axie's HP is full. <Banish>.",
+      "cardText": "Target any ally. <Banish>.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -990,7 +990,7 @@
       "cardType": "skill",
       "cardDamage": 0,
       "cardShield": 0,
-      "cardHeal": 0,
+      "cardHeal": 35,
       "cardEnergy": "0",
       "tags": "skill,card,draw,buff",
       "summon": {
@@ -1000,7 +1000,7 @@
         "effect": null
       },
       "cardImage": "aquatic-ears-04.png",
-      "cardText": "Draw 1 card. Gain 2 {Damage Boost}. <Banish>.",
+      "cardText": "Gain 4 {Damage Boost} to self. <Banish>.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -1380,7 +1380,7 @@
       "partType": "mouth",
       "cardName": "Goda",
       "cardType": "attack",
-      "cardDamage": 60,
+      "cardDamage": 40,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -1420,7 +1420,7 @@
         "effect": null
       },
       "cardImage": "beast-tail-08.png",
-      "cardText": "If <Initial>, draw 1 card.",
+      "cardText": "Draw 1 card if this is the only Attack card in your hand.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -1436,7 +1436,7 @@
       "partType": "back",
       "cardName": "Hero",
       "cardType": "attack",
-      "cardDamage": 50,
+      "cardDamage": 55,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -1448,7 +1448,7 @@
         "effect": null
       },
       "cardImage": "beast-back-04.png",
-      "cardText": "Draw 1 card.",
+      "cardText": "If <Initial>, draw 1 card.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -3380,7 +3380,7 @@
         "effect": null
       },
       "cardImage": "bug-ears-02.png",
-      "cardText": "<Scry> 2 cards. Gain 1 Energy if you discard a skill card upon scrying.",
+      "cardText": "<Scry> 2 cards. Gain 1 Energy if you discard a skill card upon scrying. <Banish>",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -4012,7 +4012,7 @@
       "partType": "mouth",
       "cardName": "Beetroot",
       "cardType": "attack",
-      "cardDamage": 60,
+      "cardDamage": 55,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -4024,7 +4024,7 @@
         "effect": null
       },
       "cardImage": "plant-mouth-01.png",
-      "cardText": "Draw 1 Card.",
+      "cardText": "If <Initial>, draw a card.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -4584,7 +4584,7 @@
         "effect": null
       },
       "cardImage": "plant-tail-10.png",
-      "cardText": "Gain {Stealth} if there is at least 1 living Ally.",
+      "cardText": "Gain {Stealth} for 2 turns if there is at least 1 non-stealth Axie alive.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -5816,7 +5816,7 @@
         "effect": null
       },
       "cardImage": "reptile-mouth-10.png",
-      "cardText": "Target any Enemy. Apply {Stunned} for 2 turns if this attack breaks enemy's shield.",
+      "cardText": "Target any enemy. Apply {Stunned} for 2 turns if this attack breaks target's Shield.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -5860,7 +5860,7 @@
       "partType": "eyes",
       "cardName": "Topaz",
       "cardType": "attack",
-      "cardDamage": 25,
+      "cardDamage": 5,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -5872,7 +5872,7 @@
         "effect": null
       },
       "cardImage": "reptile-eyes-10.png",
-      "cardText": "Deal 10 bonus DMG per your banished card.",
+      "cardText": "Deal 10 bonus DMG for each of your banished cards. (Cap at 150 bonus DMG)",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -5984,7 +5984,7 @@
         "effect": null
       },
       "cardImage": "reptile-tail-02.png",
-      "cardText": "This Axie loses 50 HP. Takes 30% less DMG for 4 turns.",
+      "cardText": "This Axie loses 50 HP and takes 30% less DMG for 4 turns. (Stack by turn)",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -6528,7 +6528,7 @@
       "class": "Beast",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "{Solo}. Gain 2 {Rage} when your turn starts. Each {Rage} grant 1 bonus DMG.",
+      "effect": "{Solo}. Gain 2 {Rage} when your turn starts. Rage now grant 3 bonus DMG.",
       "image": "rune_beast_utility_1.png"
     },
     {
@@ -6939,7 +6939,7 @@
       "class": "Neutral",
       "isBlockchain": 0,
       "rarity": "Mystic",
-      "effect": "(Enhance any card)\nAdd {Banish}. Card's base stat +20%.",
+      "effect": "(Enhance any card)\nAdd {Banish}.",
       "potentialCost": 5,
       "image": "energy-drink-m.png"
     },
@@ -6949,7 +6949,7 @@
       "class": "Neutral",
       "isBlockchain": 0,
       "rarity": "Mystic",
-      "effect": "(Enhance any card)\nAdd Ethereal. Card's base stat +10%.",
+      "effect": "(Enhance any card)\nAdd {Ethereal}.",
       "potentialCost": 5,
       "image": "energy-drink-s.png"
     },
@@ -7079,7 +7079,7 @@
       "class": "Aquatic",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance any card)\nAdd {Ethereal}. Card's base stat +10%.",
+      "effect": "(Enhance any card)\nAdd {Ethereal}.",
       "potentialCost": 4,
       "image": "aquatic-energy-drink-s.png"
     },
@@ -7099,7 +7099,7 @@
       "class": "Aquatic",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance any Attack card)\nAttack applies {Vulnerable} for 2 turns.",
+      "effect": "(Enhance any Attack card)\nAttack applies {Vulnerable} for 4 turns.",
       "potentialCost": 5,
       "image": "paralyze-jelly-fish.png"
     },
@@ -7159,7 +7159,7 @@
       "class": "Beast",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance any card)\nAdd {Banish}. Card's base stat +20%.",
+      "effect": "(Enhance any card)\nAdd {Banish}.",
       "potentialCost": 4,
       "image": "beast-energy-drink-m.png"
     },
@@ -7169,7 +7169,7 @@
       "class": "Beast",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance any card)\nAdd {Ethereal}. Card's base stat +10%.",
+      "effect": "(Enhance any card)\nAdd {Ethereal}.",
       "potentialCost": 4,
       "image": "beast-energy-drink-s.png"
     },
@@ -7179,7 +7179,7 @@
       "class": "Beast",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance an Attack card)\nAttacks apply {Bleed} for 2 turns.",
+      "effect": "(Enhance Attack Abilities)\nAttack applies {Bleed} for 4 turns.",
       "potentialCost": 5,
       "image": "hidden-razor.png"
     },
@@ -7239,7 +7239,7 @@
       "class": "Bird",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance any Abilities)\r\nAdd Ethereal. Card's base stat +10%.",
+      "effect": "(Enhance any Abilities)\r\nAdd {Ethereal}.",
       "potentialCost": 4,
       "image": "bird-energy-drink-s.png"
     },
@@ -7259,7 +7259,7 @@
       "class": "Bird",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance Attack Abilities)\r\nAttack applies Fragile for 2 turns.",
+      "effect": "(Enhance Attack Abilities)\nAttack applies {Fragile} for 4 turns.",
       "potentialCost": 5,
       "image": "flamingo-hammer.png"
     },
@@ -7319,7 +7319,7 @@
       "class": "Bug",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance any card)\nAdd {Banish}. Card's base stat +20%.",
+      "effect": "(Enhance any card)\nAdd {Banish}.",
       "potentialCost": 4,
       "image": "bug-energy-drink-m.png"
     },
@@ -7339,7 +7339,7 @@
       "class": "Bug",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance any Attack card)\nAttack applies {Weak} for 2 turns.",
+      "effect": "(Enhance Attack Abilities)\nAttack applies {Weak} for 4 turns.",
       "potentialCost": 5,
       "image": "lazy-snail.png"
     },
@@ -7719,7 +7719,7 @@
       "class": "Reptile",
       "isBlockchain": 1,
       "rarity": "Epic",
-      "effect": "(Enhance Attack cards)\n{Taunt} all Enemies for 2 turns.",
+      "effect": "(Enhance any Abilities)\n{Taunt} all Enemies for 4 turns.",
       "potentialCost": 4,
       "image": "gecko-mask.png"
     },
@@ -7729,7 +7729,7 @@
       "class": "Reptile",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance any card)\nAdd {Banish}. Card's base stat +20%.",
+      "effect": "(Enhance any card)\nAdd {Banish}.",
       "potentialCost": 4,
       "image": "reptile-energy-drink-m.png"
     },
@@ -7810,5 +7810,8 @@
       "hp": 60,
       "effect": "Taunt. The target is always targeted by enemy's attack abilities."
     }
-  ]
+  ],
+  "cardImageUrl": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/",
+  "runeImageUrl": "https://www.axie.tech/images/templates/rune/art/",
+  "charmImageUrl": "https://www.axie.tech/images/templates/charm/art/"
 }
