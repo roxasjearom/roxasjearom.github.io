@@ -67,8 +67,8 @@
       "cardDamage": 0,
       "cardShield": 0,
       "cardHeal": 0,
-      "cardEnergy": "2",
-      "tags": "power",
+      "cardEnergy": "1",
+      "tags": "power,innate",
       "summon": {
         "name": null,
         "class": null,
@@ -76,7 +76,7 @@
         "effect": null
       },
       "cardImage": "aquatic-eyes-01.png",
-      "cardText": "Attacks deal 33 bonus DMG if HP is above 66%",
+      "cardText": "<Innate>. Attacks deal 22 bonus DMG if HP is above 66%. <Exile>",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -120,7 +120,7 @@
       "partType": "back",
       "cardName": "Blue Moon",
       "cardType": "attack",
-      "cardDamage": 55,
+      "cardDamage": 60,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -132,7 +132,7 @@
         "effect": null
       },
       "cardImage": "aquatic-back-04.png",
-      "cardText": "If <Initial>, draw a card.",
+      "cardText": "<Limit>: 1. Draw 1 card.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -428,7 +428,7 @@
       "partType": "tail",
       "cardName": "Koi",
       "cardType": "attack",
-      "cardDamage": 95,
+      "cardDamage": 105,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "2",
@@ -440,7 +440,7 @@
         "effect": null
       },
       "cardImage": "aquatic-tail-02.png",
-      "cardText": "Deal 15 bonus DMG per Aquatic Ally.",
+      "cardText": "Deal 15 bonus DMG per alive Aquatic teammate. (not counting summon)",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -512,7 +512,7 @@
       "partType": "tail",
       "cardName": "Navaga",
       "cardType": "attack",
-      "cardDamage": 65,
+      "cardDamage": 70,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -524,7 +524,7 @@
         "effect": null
       },
       "cardImage": "aquatic-tail-10.png",
-      "cardText": "If <Initial>, deal 15 more DMG.",
+      "cardText": "If <Initial>, apply {Stealth} to the target for 2 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -544,7 +544,7 @@
       "cardShield": 0,
       "cardHeal": 15,
       "cardEnergy": "0",
-      "tags": "skill,energy,banish",
+      "tags": "skill,energy",
       "summon": {
         "name": null,
         "class": null,
@@ -552,7 +552,7 @@
         "effect": null
       },
       "cardImage": "aquatic-tail-04.png",
-      "cardText": "Gain 1 Energy. <Banish>.",
+      "cardText": "Heal any ally. Gain 1 Energy. <Unstable>.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -596,7 +596,7 @@
       "partType": "horn",
       "cardName": "Oranda",
       "cardType": "attack",
-      "cardDamage": 120,
+      "cardDamage": 110,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "2",
@@ -736,7 +736,7 @@
       "partType": "mouth",
       "cardName": "Risky Fish",
       "cardType": "attack",
-      "cardDamage": 80,
+      "cardDamage": 70,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -748,7 +748,7 @@
         "effect": null
       },
       "cardImage": "aquatic-mouth-08.png",
-      "cardText": "Apply {Weak} to this Axie for 2 turns.",
+      "cardText": "If <Initial>, deal 20 more DMG and apply {Fear} to self for 2 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -820,7 +820,7 @@
       "partType": "tail",
       "cardName": "Shrimp",
       "cardType": "attack",
-      "cardDamage": 65,
+      "cardDamage": 40,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -832,7 +832,7 @@
         "effect": null
       },
       "cardImage": "aquatic-tail-12.png",
-      "cardText": "If <Initial>, this attack targets the furthest enemy.",
+      "cardText": "Target any enemy. Apply Taunt to the target and to self for 2 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -944,7 +944,7 @@
         "effect": null
       },
       "cardImage": "aquatic-horn-04.png",
-      "cardText": "Targeted Ally gains 20 shield for each card played this turn.",
+      "cardText": "Target any ally. That ally gains 20 Shield for each card played before it this turn.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -972,7 +972,7 @@
         "effect": null
       },
       "cardImage": "aquatic-eyes-10.png",
-      "cardText": "Put 1 Aquatic card from your draw pile into your hand. <Banish>.",
+      "cardText": "Take 1 Aquatic card from your draw pile and push it to the top of draw pile.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -1016,7 +1016,7 @@
       "partType": "horn",
       "cardName": "Arco",
       "cardType": "attack",
-      "cardDamage": 65,
+      "cardDamage": 55,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -1028,7 +1028,7 @@
         "effect": null
       },
       "cardImage": "beast-horn-12.png",
-      "cardText": "This does not trigger Secrets.",
+      "cardText": "Remove up to 2 Secret on the target.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -1188,7 +1188,7 @@
       "cardShield": 0,
       "cardHeal": 15,
       "cardEnergy": "0",
-      "tags": "skill,heal,energy,banish",
+      "tags": "skill,heal,energy",
       "summon": {
         "name": null,
         "class": null,
@@ -1196,7 +1196,7 @@
         "effect": null
       },
       "cardImage": "beast-tail-02.png",
-      "cardText": "Heal any ally. Gain 1 Energy. <Banish>",
+      "cardText": "Heal any ally. Gain 1 Energy. <Unstable>.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -1352,7 +1352,7 @@
       "partType": "tail",
       "cardName": "Gerbil",
       "cardType": "attack",
-      "cardDamage": 65,
+      "cardDamage": 60,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -1364,7 +1364,7 @@
         "effect": null
       },
       "cardImage": "beast-tail-12.png",
-      "cardText": "If <Initial>, this attack targets the second-frontmost enemy.",
+      "cardText": "Targets the second-closest enemy.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -1380,7 +1380,7 @@
       "partType": "mouth",
       "cardName": "Goda",
       "cardType": "attack",
-      "cardDamage": 40,
+      "cardDamage": 50,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -1392,7 +1392,7 @@
         "effect": null
       },
       "cardImage": "beast-mouth-04.png",
-      "cardText": "Shuffle 1 [Void] into your opponent's discard pile. <Banish>.",
+      "cardText": "Shuffle 1 [Void] into your opponent's discard pile. <Unstable>.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -1436,7 +1436,7 @@
       "partType": "back",
       "cardName": "Hero",
       "cardType": "attack",
-      "cardDamage": 55,
+      "cardDamage": 60,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -1448,7 +1448,7 @@
         "effect": null
       },
       "cardImage": "beast-back-04.png",
-      "cardText": "If <Initial>, draw 1 card.",
+      "cardText": "<Limit>: 1. Draw 1 card.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -1464,7 +1464,7 @@
       "partType": "horn",
       "cardName": "Imp",
       "cardType": "attack",
-      "cardDamage": 70,
+      "cardDamage": 60,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -1496,7 +1496,7 @@
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "skill,card,banish",
+      "tags": "skill,card,banish,innate",
       "summon": {
         "name": null,
         "class": null,
@@ -1504,7 +1504,7 @@
         "effect": null
       },
       "cardImage": "beast-ears-06.png",
-      "cardText": "<Innate>. Select one of this Axie's skill cards and add a copy of it to your hand. <Banish>.",
+      "cardText": "<Innate>. Select one of this Axie's skill card and add a copy of it to your hand. <Unstable>.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -1744,7 +1744,7 @@
       "partType": "horn",
       "cardName": "Pocky",
       "cardType": "attack",
-      "cardDamage": 65,
+      "cardDamage": 70,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -1840,7 +1840,7 @@
         "effect": null
       },
       "cardImage": "beast-eyes-08.png",
-      "cardText": "Put 1 Beast card from your discard pile into your hand. <Banish>.",
+      "cardText": "Take 1 Beast card from your discard pile and push it to the top of draw pile.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -1884,7 +1884,7 @@
       "partType": "back",
       "cardName": "Risky Beast",
       "cardType": "attack",
-      "cardDamage": 80,
+      "cardDamage": 70,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -1896,7 +1896,7 @@
         "effect": null
       },
       "cardImage": "beast-back-08.png",
-      "cardText": "Apply {Weak} to this Axie for 2 turns.",
+      "cardText": "If <Initial>, deal 20 more DMG and apply {Death Mark} to self for 2 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -2036,7 +2036,7 @@
         "effect": null
       },
       "cardImage": "beast-eyes-02.png",
-      "cardText": "Put 1 Beast card from your draw pile into your hand. <Banish>.",
+      "cardText": "Take 1 Beast card from your draw pile and push it to the top of draw pile.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -2260,7 +2260,7 @@
         "effect": null
       },
       "cardImage": "bird-ears-04.png",
-      "cardText": "If <Initial>, draw 1 card.",
+      "cardText": "<Limit>: 1. Draw 1 card.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -2364,7 +2364,7 @@
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "attack,non_multihit,area,debuff",
+      "tags": "attack,non_multihit,area,debuff,innate",
       "summon": {
         "name": null,
         "class": null,
@@ -2388,7 +2388,7 @@
       "partType": "mouth",
       "cardName": "Hungry Bird",
       "cardType": "attack",
-      "cardDamage": 65,
+      "cardDamage": 60,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -2400,7 +2400,7 @@
         "effect": null
       },
       "cardImage": "bird-mouth-08.png",
-      "cardText": "If <Initial>, heal 15 HP.",
+      "cardText": "If <Initial>, {Steal} 20 HP and apply {Heal Block} to self for 2 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -2456,7 +2456,7 @@
         "effect": null
       },
       "cardImage": "bird-back-10.png",
-      "cardText": "Target any ally. Next attack against the target is reflected for 85 DMG.",
+      "cardText": "<Limit>: 1. Target any ally. Reflect 85 DMG for the next attack against the target.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -2540,7 +2540,7 @@
         "effect": null
       },
       "cardImage": "bird-eyes-04.png",
-      "cardText": "Put 1 Bird card from your draw pile into your hand. <Banish>.",
+      "cardText": "Take 1 Bird card from your draw pile and push it to the top of draw pile.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -2780,7 +2780,7 @@
       "partType": "ears",
       "cardName": "Risky Bird",
       "cardType": "attack",
-      "cardDamage": 80,
+      "cardDamage": 70,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -2792,7 +2792,7 @@
         "effect": null
       },
       "cardImage": "bird-ears-12.png",
-      "cardText": "Apply {Weak} to this Axie for 2 turns.",
+      "cardText": "If <Initial>, deal 20 more DMG and apply {Bleed} to self for 2 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -2848,7 +2848,7 @@
         "effect": null
       },
       "cardImage": "bird-tail-02.png",
-      "cardText": "If <Initial>, deal 15 more DMG.",
+      "cardText": "If <Initial>, lose 20 HP and destroy up to 120 Shield of the target.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -2904,7 +2904,7 @@
         "effect": null
       },
       "cardImage": "bird-back-12.png",
-      "cardText": "Attack all enemies.",
+      "cardText": "Attack all enemies. Apply {Doubt} for 2 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -2948,11 +2948,11 @@
       "partType": "horn",
       "cardName": "Wing Horn",
       "cardType": "attack",
-      "cardDamage": 65,
+      "cardDamage": 33,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "attack,non_multihit,single_attack,buff",
+      "tags": "attack,multihit,single_attack,buff",
       "summon": {
         "name": null,
         "class": null,
@@ -2960,7 +2960,7 @@
         "effect": null
       },
       "cardImage": "bird-horn-10.png",
-      "cardText": "If <Initial>, this attack targets the second-frontmost enemy.",
+      "cardText": "Deal 2 hits. Gain 2 {Feather} to self.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -3072,7 +3072,7 @@
         "effect": null
       },
       "cardImage": "bug-eyes-02.png",
-      "cardText": "Put 1 Bug card from your draw pile into your hand. <Banish>.",
+      "cardText": "Take 1 Bug card from your draw pile and push it to the top of draw pile.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -3483,7 +3483,7 @@
       "cardDamage": 0,
       "cardShield": 0,
       "cardHeal": 0,
-      "cardEnergy": "1",
+      "cardEnergy": "0",
       "tags": "skill,card,banish",
       "summon": {
         "name": null,
@@ -3492,7 +3492,7 @@
         "effect": null
       },
       "cardImage": "bug-eyes-04.png",
-      "cardText": "<Retain>. Look at the top 4 cards of your opponent's draw pile. <Banish>.",
+      "cardText": "Look at the top 4 cards of your opponent's draw pile. <Banish>.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -3676,7 +3676,7 @@
       "partType": "back",
       "cardName": "Scarab",
       "cardType": "attack",
-      "cardDamage": 30,
+      "cardDamage": 60,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -3688,7 +3688,7 @@
         "effect": null
       },
       "cardImage": "bug-back-10.png",
-      "cardText": "Gain 40 Shield. Apply {Doubt} for 4 turns.",
+      "cardText": "Target any enemy. Apply {Doubt} for 4 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -4012,7 +4012,7 @@
       "partType": "mouth",
       "cardName": "Beetroot",
       "cardType": "attack",
-      "cardDamage": 55,
+      "cardDamage": 60,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -4024,7 +4024,7 @@
         "effect": null
       },
       "cardImage": "plant-mouth-01.png",
-      "cardText": "If <Initial>, draw a card.",
+      "cardText": "<Limit>: 1. Draw 1 card.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -4080,7 +4080,7 @@
         "effect": null
       },
       "cardImage": "plant-eyes-10.png",
-      "cardText": "Put 1 Plant card from your draw pile into your hand. <Banish>.",
+      "cardText": "Take 1 Plant card from your draw pile and push it to the top of draw pile.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -4108,7 +4108,7 @@
         "effect": null
       },
       "cardImage": "plant-horn-10.png",
-      "cardText": "If <Initial>, deal 15 more DMG.",
+      "cardText": "If <Initial>, deal 15 more DMG and apply {Taunt} to self for 2 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -4404,7 +4404,7 @@
       "partType": "ears",
       "cardName": "Leafy",
       "cardType": "attack",
-      "cardDamage": 15,
+      "cardDamage": 20,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -4464,7 +4464,7 @@
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "skill,card",
+      "tags": "skill,card,innate",
       "summon": {
         "name": null,
         "class": null,
@@ -4715,8 +4715,8 @@
       "cardDamage": 0,
       "cardShield": 0,
       "cardHeal": 0,
-      "cardEnergy": "2",
-      "tags": "power",
+      "cardEnergy": "1",
+      "tags": "power,innate",
       "summon": {
         "name": null,
         "class": null,
@@ -4724,7 +4724,7 @@
         "effect": null
       },
       "cardImage": "plant-ears-08.png",
-      "cardText": "Target any ally. Whenever you play a card this battle, heal this Axie 10 HP.",
+      "cardText": "<Innate>. Target any ally. Whenever you play a card this battle, restore 7 HP to this ally. <Exile>",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -4740,7 +4740,7 @@
       "partType": "mouth",
       "cardName": "Serious",
       "cardType": "attack",
-      "cardDamage": 80,
+      "cardDamage": 70,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -4752,7 +4752,7 @@
         "effect": null
       },
       "cardImage": "plant-mouth-02.png",
-      "cardText": "Discard 1 card from your hand.",
+      "cardText": "If <Initial>, deal 20 more DMG and apply {Disarm} to self for 2 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -4798,7 +4798,7 @@
       "cardType": "skill",
       "cardDamage": 0,
       "cardShield": 0,
-      "cardHeal": 65,
+      "cardHeal": 50,
       "cardEnergy": "1",
       "tags": "skill,heal",
       "summon": {
@@ -4808,7 +4808,7 @@
         "effect": null
       },
       "cardImage": "plant-mouth-10.png",
-      "cardText": "Target any ally.",
+      "cardText": "Target any ally. {Poison} on this Axie heal 1 HP per stack instead of HP loss for 6 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -4992,7 +4992,7 @@
       "partType": "tail",
       "cardName": "Yam",
       "cardType": "attack",
-      "cardDamage": 15,
+      "cardDamage": 20,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -5079,8 +5079,8 @@
       "cardDamage": 0,
       "cardShield": 0,
       "cardHeal": 0,
-      "cardEnergy": "2",
-      "tags": "power",
+      "cardEnergy": "1",
+      "tags": "power,innate",
       "summon": {
         "name": null,
         "class": null,
@@ -5088,7 +5088,7 @@
         "effect": null
       },
       "cardImage": "reptile-horn-12.png",
-      "cardText": "<Innate>. Whenever you play a card this battle, this Axie gains 10 Shield.",
+      "cardText": "<Innate>. Whenever you play a card this battle, this Axie gains 7 Shield. <Exile>",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -5116,7 +5116,7 @@
         "effect": null
       },
       "cardImage": "reptile-horn-06.png",
-      "cardText": "Target any ally. Next attack against the target is reflected for 85 DMG.",
+      "cardText": "<Limit>: 1. Target any ally. Reflect 85 DMG for the next attack against the target.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -5332,7 +5332,7 @@
       "cardShield": 60,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "skill,shield,no_effect",
+      "tags": "skill,shield,no_effect,innate",
       "summon": {
         "name": null,
         "class": null,
@@ -5424,7 +5424,7 @@
         "effect": null
       },
       "cardImage": "reptile-back-08.png",
-      "cardText": "Target any ally. Next turn, after the target is attacked, reflect 25% of Shield lost.",
+      "cardText": "Target any ally. Next turn, after the target is attacked, reflect 50% of Shield lost.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -5592,7 +5592,7 @@
         "effect": null
       },
       "cardImage": "reptile-horn-08.png",
-      "cardText": "Target any ally. Next turn, after the target is attacked, reflect 25% of Shield lost.",
+      "cardText": "Target any ally. Next turn, after the target is attacked, reflect 50% of Shield lost.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -5620,7 +5620,7 @@
         "effect": null
       },
       "cardImage": "reptile-eyes-08.png",
-      "cardText": "Put 1 Reptile card from your draw pile into your hand. <Banish>.",
+      "cardText": "Take 1 Reptile card from your draw pile and push it to the top of draw pile.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -5804,7 +5804,7 @@
       "partType": "mouth",
       "cardName": "Tiny Turtle",
       "cardType": "attack",
-      "cardDamage": 50,
+      "cardDamage": 55,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -5816,7 +5816,7 @@
         "effect": null
       },
       "cardImage": "reptile-mouth-10.png",
-      "cardText": "Target any enemy. Apply {Stunned} for 2 turns if this attack breaks target's Shield.",
+      "cardText": "If <Initial>, apply Stunned to the target and to self for 2 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -5832,7 +5832,7 @@
       "partType": "mouth",
       "cardName": "Toothless Bite",
       "cardType": "attack",
-      "cardDamage": 65,
+      "cardDamage": 60,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -5844,7 +5844,7 @@
         "effect": null
       },
       "cardImage": "reptile-mouth-02.png",
-      "cardText": "If <Initial>, this attack targets the furthest enemy.",
+      "cardText": "Targets the furthest enemy.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -5860,7 +5860,7 @@
       "partType": "eyes",
       "cardName": "Topaz",
       "cardType": "attack",
-      "cardDamage": 5,
+      "cardDamage": 25,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -5872,7 +5872,7 @@
         "effect": null
       },
       "cardImage": "reptile-eyes-10.png",
-      "cardText": "Deal 10 bonus DMG for each of your banished cards. (Cap at 150 bonus DMG)",
+      "cardText": "Deal 10 bonus DMG for each of your banished cards. (Cap at 120 bonus DMG)",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -6134,7 +6134,7 @@
       "id": 4,
       "name": "Bubble",
       "type": "Buff",
-      "description": "Block 5 DMG/stack. Max: 3 stack. Turn into Bubble Bomb upon reaching 3 stacks.",
+      "description": "Single attack and AoE deal bonus DMG equal to 2% of the target current HP per stack. Turn into Bubble Bomb upon reaching 3 stacks.",
       "image": "buff_bubble.png"
     },
     {
@@ -6190,7 +6190,7 @@
       "id": 1,
       "name": "Rage",
       "type": "Buff",
-      "description": "DMG is increases by 2 per Rage stack. Transform into Fury Form when reaches 10 Rage stack.",
+      "description": "Single and AoE attack deal 2 bonus DMG per stack, but this unit also suffer 1 extra DMG from direct attacks. Enter Fury Form at 10 stacks.",
       "image": "buff_rage.png"
     },
     {
@@ -6295,7 +6295,7 @@
       "id": 15,
       "name": "Death Mark",
       "type": "Debuff",
-      "description": "Whenever opponent plays an Attack Card, the target take 13 DMG per Energy spent.",
+      "description": "Whenever your opponent plays an Attack Card, the target take 15 DMG per Energy spent.",
       "image": "debuff_death_mark.png"
     },
     {
@@ -6401,6 +6401,27 @@
       "name": "Steal",
       "type": "Buff",
       "description": "Deal pure DMG and gain HP.",
+      "image": ""
+    },
+    {
+      "id": 41,
+      "name": "Limit",
+      "type": "Card Property",
+      "description": "Only a set number of copies of this card can be played each turn. Once the limit is reached, other copies will be disabled until the end of turn.",
+      "image": ""
+    },
+    {
+      "id": 42,
+      "name": "Unstable",
+      "type": "Card Property",
+      "description": "After usage, the card disappears, and a Confused card will be shuffled into your Discard pile. If contacts with Banish, Banish will override Unstable.",
+      "image": ""
+    },
+    {
+      "id": 43,
+      "name": "Exile",
+      "type": "Card Property",
+      "description": "After usage, the card disappear (not going to the Banish Pile) for the rest of the battle.",
       "image": ""
     }
   ],
@@ -7780,7 +7801,7 @@
       "name": "Little Robin",
       "class": "Bird",
       "hp": 18,
-      "effect": "Attacks of allies deal 16 more damage. Lose 8 HP when your turn ends."
+      "effect": "Teammate's non-Multihit deal 12 bonus DMG, Multihit deal 6 bonus DMG. Loses 8 HP when your turn ends."
     },
     {
       "id": 2,
@@ -7807,11 +7828,11 @@
       "id": 5,
       "name": "Trunk",
       "class": "Plant",
-      "hp": 60,
+      "hp": 75,
       "effect": "Taunt. The target is always targeted by enemy's attack abilities."
     }
   ],
-  "cardImageUrl": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/",
+  "cardImageUrl": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/",
   "runeImageUrl": "https://www.axie.tech/images/templates/rune/art/",
   "charmImageUrl": "https://www.axie.tech/images/templates/charm/art/"
 }
