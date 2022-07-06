@@ -1308,7 +1308,7 @@
         "effect": null
       },
       "cardImage": "beast-mouth-01.png",
-      "cardText": "<Retain>. Gain 1 {Rage}. If Retained, +1 {Rage} when played (cap:3 rounds).",
+      "cardText": "<Retain>. Gain 1 {Rage}. If Retained, +1 {Rage} when played (cap: 3 rounds).",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -4472,7 +4472,7 @@
         "effect": null
       },
       "cardImage": "plant-horn-03.png",
-      "cardText": "<Innate>. Add 2 [Mandarine]s to your hand.",
+      "cardText": "<Innate>. Add 2 Mandarines to your hand.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -6008,12 +6008,12 @@
     {
       "id": 14,
       "name": "Forest Wrath",
-      "cardDamage": 30,
+      "cardDamage": 0,
       "cardShield": 0,
       "cardHeal": 0,
-      "cardEnergy": "1",
-      "description": "Attack all enemies. Deal 10 bonus pure DMG per debuffed allies.",
-      "tags": "attack",
+      "cardEnergy": "0",
+      "description": "<Retain>. Target any ally. Next turn, reflect 25 DMG for the next attack against the target. <Banish>.",
+      "tags": "secret",
       "cardImage": "tool-forestwrath-02.png"
     },
     {
@@ -6045,7 +6045,7 @@
       "cardShield": 0,
       "cardHeal": 60,
       "cardEnergy": "0",
-      "description": "<Retain>. Target any ally. <Banish>.",
+      "description": "<Retain>. Target any ally. <Unstable>.",
       "tags": "skill,retain_effect,banish",
       "cardImage": "tool-strawberry-02.png"
     }
@@ -6441,7 +6441,7 @@
       "class": "Neutral",
       "isBlockchain": 0,
       "rarity": "Common",
-      "effect": "Summoned units have +10 max HP. Deal +2 DMG per Summon to all Enemies at the beginning of your turn.",
+      "effect": "Deal 5 DMG per Summon to all Enemies at the beginning of your turn.",
       "image": "rune_neutral_hybrid_1.png"
     },
     {
@@ -6513,7 +6513,7 @@
       "class": "Aquatic",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "{Solo}. Increase all Axies' HP by 50.",
+      "effect": "{Solo}. When your turn starts, this Axie gains 1 {Bubble}. Bubble Bomb detonated by this Axie deal double DMG.",
       "image": "rune_aquatic_utility_1.png"
     },
     {
@@ -6522,7 +6522,7 @@
       "class": "Aquatic",
       "isBlockchain": 1,
       "rarity": "Rare",
-      "effect": "Axie HP +30\nAt the beginning of your turn, gain Shield equal to 3% of max HP.",
+      "effect": "At the beginning of your turn, gain Shield equal to 4% of max HP.",
       "image": "rune_aquatic_defensive_1.png"
     },
     {
@@ -6531,7 +6531,7 @@
       "class": "Aquatic",
       "isBlockchain": 1,
       "rarity": "Rare",
-      "effect": "Axie max HP +30\nAttack cards deal bonus DMG equal to 3% of remaining HP.",
+      "effect": "Non-Multihit attack deal bonus DMG equal to 5% of remaining HP. Multihit attack deal bonus DMG equal 3% of remaining HP.",
       "image": "rune_aquatic_offensive_1.png"
     },
     {
@@ -6558,7 +6558,7 @@
       "class": "Beast",
       "isBlockchain": 1,
       "rarity": "Rare",
-      "effect": "Cannot gain Shield. Take 25% less DMG.",
+      "effect": "Cannot gain Shield. Take 15% less DMG.",
       "image": "rune_beast_defensive_1.png"
     },
     {
@@ -6585,7 +6585,7 @@
       "class": "Bird",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "{Solo}. When your turn starts, grant 2 {Feather} to your team. This Axie gains back half of the Feather stacks consumed when doing a non-multihit attack.",
+      "effect": "{Solo}. When your turn starts, this Axie gains 2 {Feather}. This Axie gains back half of the Feather stack consumed when doing a non-multihit attack.",
       "image": "rune_bird_utility_1.png"
     },
     {
@@ -6594,16 +6594,16 @@
       "class": "Bird",
       "isBlockchain": 1,
       "rarity": "Rare",
-      "effect": "Attack cards also deal 5 DMG per Energy Cost to all Enemies.",
+      "effect": "Attack cards also deal 8 DMG per Energy Cost to all Enemies.",
       "image": "rune_bird_offensive_1.png"
     },
     {
       "id": 28,
-      "name": "Venom Born",
+      "name": "The Incubator",
       "class": "Bird",
       "isBlockchain": 1,
       "rarity": "Rare",
-      "effect": "{Poison} on this Axie grants \"Healing 1 HP per stack\" instead of HP loss.",
+      "effect": "Summons summoned by this Axie gain 14 bonus max HP.",
       "image": "rune_bird_defensive_1.png"
     },
     {
@@ -6611,8 +6611,8 @@
       "name": "Collect And Protect",
       "class": "Bug",
       "isBlockchain": 1,
-      "rarity": "Epic",
-      "effect": "In odd Rounds, draw 1 Additional Card when your turn starts. In even Rounds, gain 30 Shield when your turn starts.",
+      "rarity": "Mystic",
+      "effect": "{Solo}. In odd Rounds, draw 1 Additional Card when your turn starts. In even Rounds, gain 50 Shield when your turn starts.",
       "image": "rune_bug_utility_1.png"
     },
     {
@@ -6620,8 +6620,8 @@
       "name": "Sturdy Fighter",
       "class": "Bug",
       "isBlockchain": 1,
-      "rarity": "Mystic",
-      "effect": "{Solo}. Non-Multihit Attack cards deal bonus DMG equal to current Shield.",
+      "rarity": "Epic",
+      "effect": "Single Attack consumes 50% of current Shield and deal bonus DMG equal to 1.5 times that amount.",
       "image": "rune_bug_offensive_1.png"
     },
     {
@@ -6657,7 +6657,7 @@
       "class": "Dawn",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "{Solo}. When your turn starts, remove 2 Curses in your {Deck}. Heal 10 HP and grant 1 DMG boost to all teammates when successfully removing a Curse this way.",
+      "effect": "{Solo}. When your turn starts, remove 1 Curse in your {Deck}. Heal all teammates for 10 HP and grant all teammate 1 DMG Boost when successfully removing a Curse this way.",
       "image": "rune_dawn_utility_1.png"
     },
     {
@@ -6684,7 +6684,7 @@
       "class": "Dusk",
       "isBlockchain": 1,
       "rarity": "Epic",
-      "effect": "Deal 10% more DMG against debuffed Enemies. Take 20% less DMG from debuffed Enemies",
+      "effect": "Deal 15% more DMG against debuffed Enemies. Take 15% less DMG from debuffed Enemies.",
       "image": "rune_dusk_hybrid_1.png"
     },
     {
@@ -6756,7 +6756,7 @@
       "class": "Plant",
       "isBlockchain": 1,
       "rarity": "Epic",
-      "effect": "Add [Forest Breath] and [Forest Wrath] to your deck.",
+      "effect": "Solo. Shielding cards of this Axie also restore HP equal to 100% of Shield gained but grant 25% less Shield.",
       "image": "rune_plant_hybrid_1.png"
     },
     {
@@ -6765,7 +6765,7 @@
       "class": "Plant",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "{Solo}. Shield cards also restore HP equal to 100% of shield gained but grant 25% less shield.",
+      "effect": "{Solo}. Increase all ally Axies' max HP by 50.",
       "image": "rune_plant_defensive_1.png"
     },
     {
@@ -6792,7 +6792,7 @@
       "class": "Reptile",
       "isBlockchain": 1,
       "rarity": "Epic",
-      "effect": "Apply 1 {Poison} to Attacker. Take 20% less DMG from poisoned enemies.",
+      "effect": "Apply 1 {Poison} to Attacker. Take 2% less DMG per Poison stack on the attacking enemy. Max at 20%.",
       "image": "rune_reptile_hybrid_1.png"
     },
     {
@@ -7066,7 +7066,7 @@
     },
     {
       "id": 44,
-      "name": "Aquatic Talisman of Power V",
+      "name": "Aquatic's Charm of Power V",
       "class": "Aquatic",
       "isBlockchain": 1,
       "rarity": "Epic",
@@ -7076,7 +7076,7 @@
     },
     {
       "id": 42,
-      "name": "Aquatic Talisman of Vitality V",
+      "name": "Aquatic's Charm of Vitality V",
       "class": "Aquatic",
       "isBlockchain": 1,
       "rarity": "Epic",
@@ -7090,7 +7090,7 @@
       "class": "Aquatic",
       "isBlockchain": 1,
       "rarity": "Epic",
-      "effect": "(Enhance Skill cards)\nAll teammates gain 1 {Bubble}.",
+      "effect": "(Enhance any Attack card)\nAll teammates gain 1 {Bubble}.",
       "potentialCost": 4,
       "image": "bubble-paste.png"
     },
@@ -7126,7 +7126,7 @@
     },
     {
       "id": 43,
-      "name": "Aquatic Talisman of Power IV",
+      "name": "Aquatic's Charm of Power IV",
       "class": "Aquatic",
       "isBlockchain": 1,
       "rarity": "Rare",
@@ -7136,7 +7136,7 @@
     },
     {
       "id": 41,
-      "name": "Aquatic Talisman of Vitality IV",
+      "name": "Aquatic's Charm of Vitality IV",
       "class": "Aquatic",
       "isBlockchain": 1,
       "rarity": "Rare",
@@ -7146,7 +7146,7 @@
     },
     {
       "id": 34,
-      "name": "Beast Talisman of Power V",
+      "name": "Beast's Charm of Power V",
       "class": "Beast",
       "isBlockchain": 1,
       "rarity": "Epic",
@@ -7156,7 +7156,7 @@
     },
     {
       "id": 36,
-      "name": "Beast Talisman of Vitality V",
+      "name": "Beast's Charm of Vitality V",
       "class": "Beast",
       "isBlockchain": 1,
       "rarity": "Epic",
@@ -7206,7 +7206,7 @@
     },
     {
       "id": 33,
-      "name": "Beast Talisman of Power IV",
+      "name": "Beast's Charm of Power IV",
       "class": "Beast",
       "isBlockchain": 1,
       "rarity": "Rare",
@@ -7216,7 +7216,7 @@
     },
     {
       "id": 35,
-      "name": "Beast Talisman of Vitality IV",
+      "name": "Beast's Charm of Vitality IV",
       "class": "Beast",
       "isBlockchain": 1,
       "rarity": "Rare",
@@ -7226,7 +7226,7 @@
     },
     {
       "id": 60,
-      "name": "Bird Talisman of Focus V",
+      "name": "Bird's Charm of Focus V",
       "class": "Bird",
       "isBlockchain": 1,
       "rarity": "Epic",
@@ -7236,7 +7236,7 @@
     },
     {
       "id": 58,
-      "name": "Bird Talisman of Power V",
+      "name": "Bird's Charm of Power V",
       "class": "Bird",
       "isBlockchain": 1,
       "rarity": "Epic",
@@ -7286,7 +7286,7 @@
     },
     {
       "id": 59,
-      "name": "Bird Talisman of Focus IV",
+      "name": "Bird's Charm of Focus IV",
       "class": "Bird",
       "isBlockchain": 1,
       "rarity": "Rare",
@@ -7296,7 +7296,7 @@
     },
     {
       "id": 57,
-      "name": "Bird Talisman of Power IV",
+      "name": "Bird's Charm of Power IV",
       "class": "Bird",
       "isBlockchain": 1,
       "rarity": "Rare",
@@ -7306,7 +7306,7 @@
     },
     {
       "id": 50,
-      "name": "Bug Talisman of Endurance V",
+      "name": "Bug's Charm of Endurance V",
       "class": "Bug",
       "isBlockchain": 1,
       "rarity": "Epic",
@@ -7316,7 +7316,7 @@
     },
     {
       "id": 52,
-      "name": "Bug Talisman of Power V",
+      "name": "Bug's Charm of Power V",
       "class": "Bug",
       "isBlockchain": 1,
       "rarity": "Epic",
@@ -7366,7 +7366,7 @@
     },
     {
       "id": 49,
-      "name": "Bug Talisman of Endurance IV",
+      "name": "Bug's Charm of Endurance IV",
       "class": "Bug",
       "isBlockchain": 1,
       "rarity": "Rare",
@@ -7376,7 +7376,7 @@
     },
     {
       "id": 51,
-      "name": "Bug Talisman of Power IV",
+      "name": "Bug's Charm of Power IV",
       "class": "Bug",
       "isBlockchain": 1,
       "rarity": "Rare",
@@ -7386,7 +7386,7 @@
     },
     {
       "id": 84,
-      "name": "Dawn Talisman of Faith V",
+      "name": "Dawn's Charm of Faith V",
       "class": "Dawn",
       "isBlockchain": 1,
       "rarity": "Epic",
@@ -7396,7 +7396,7 @@
     },
     {
       "id": 82,
-      "name": "Dawn Talisman of Focus V",
+      "name": "Dawn's Charm of Focus V",
       "class": "Dawn",
       "isBlockchain": 1,
       "rarity": "Epic",
@@ -7446,7 +7446,7 @@
     },
     {
       "id": 83,
-      "name": "Dawn Talisman of Faith IV",
+      "name": "Dawn's Charm of Faith IV",
       "class": "Dawn",
       "isBlockchain": 1,
       "rarity": "Rare",
@@ -7456,7 +7456,7 @@
     },
     {
       "id": 81,
-      "name": "Dawn Talisman of Focus IV",
+      "name": "Dawn's Charm of Focus IV",
       "class": "Dawn",
       "isBlockchain": 1,
       "rarity": "Rare",
@@ -7466,7 +7466,7 @@
     },
     {
       "id": 92,
-      "name": "Dusk Talisman of Focus V",
+      "name": "Dusk's Charm of Focus V",
       "class": "Dusk",
       "isBlockchain": 1,
       "rarity": "Epic",
@@ -7476,7 +7476,7 @@
     },
     {
       "id": 90,
-      "name": "Dusk Talisman of Power V",
+      "name": "Dusk's Charm of Power V",
       "class": "Dusk",
       "isBlockchain": 1,
       "rarity": "Epic",
@@ -7526,7 +7526,7 @@
     },
     {
       "id": 91,
-      "name": "Dusk Talisman of Focus IV",
+      "name": "Dusk's Charm of Focus IV",
       "class": "Dusk",
       "isBlockchain": 1,
       "rarity": "Rare",
@@ -7536,7 +7536,7 @@
     },
     {
       "id": 89,
-      "name": "Dusk Talisman of Power IV",
+      "name": "Dusk's Charm of Power IV",
       "class": "Dusk",
       "isBlockchain": 1,
       "rarity": "Rare",
@@ -7626,17 +7626,17 @@
     },
     {
       "id": 26,
-      "name": "Plant Talisman of Endurance V",
+      "name": "Plant's Charm of Vitality II",
       "class": "Plant",
       "isBlockchain": 1,
       "rarity": "Epic",
-      "effect": "(Enhance any Shielding card)\nShield Stat +10",
+      "effect": "(Enhance any card)\nAxie's max HP +18",
       "potentialCost": 3,
       "image": "plant-talisman-endurance-5.png"
     },
     {
       "id": 28,
-      "name": "Plant Talisman of Faith V",
+      "name": "Plant's Charm of Faith V",
       "class": "Plant",
       "isBlockchain": 1,
       "rarity": "Epic",
@@ -7696,17 +7696,17 @@
     },
     {
       "id": 25,
-      "name": "Plant Talisman of Endurance IV",
+      "name": "Plant's Charm of Vitality I",
       "class": "Plant",
       "isBlockchain": 1,
       "rarity": "Rare",
-      "effect": "(Enhance any Shielding card)\nShield Stat +6",
+      "effect": "(Enhance any card)\nAxie's max HP +12",
       "potentialCost": 2,
       "image": "plant-talisman-endurance-4.png"
     },
     {
       "id": 27,
-      "name": "Plant Talisman of Faith IV",
+      "name": "Plant's Charm of Faith IV",
       "class": "Plant",
       "isBlockchain": 1,
       "rarity": "Rare",
@@ -7716,17 +7716,17 @@
     },
     {
       "id": 68,
-      "name": "Reptile Talisman of Faith V",
+      "name": "Reptile's Charm of Endurance II",
       "class": "Reptile",
       "isBlockchain": 1,
       "rarity": "Epic",
-      "effect": "(Enhance a Healing card)\nHeal Stat +10",
+      "effect": "(Enhance any Shielding card)\nShield Stat +10",
       "potentialCost": 3,
       "image": "reptile-talisman-faith-5.png"
     },
     {
       "id": 66,
-      "name": "Reptile Talisman of Vitality V",
+      "name": "Reptile's Charm of Vitality V",
       "class": "Reptile",
       "isBlockchain": 1,
       "rarity": "Epic",
@@ -7776,17 +7776,17 @@
     },
     {
       "id": 67,
-      "name": "Reptile Talisman of Faith IV",
+      "name": "Reptile's Charm of Endurance I",
       "class": "Reptile",
       "isBlockchain": 1,
       "rarity": "Rare",
-      "effect": "(Enhance a Healing card)\nHeal Stat +6",
+      "effect": "(Enhance any Shielding card)\nShield Stat +6",
       "potentialCost": 2,
       "image": "reptile-talisman-faith-4.png"
     },
     {
       "id": 65,
-      "name": "Reptile Talisman of Vitality IV",
+      "name": "Reptile's Charm of Vitality IV",
       "class": "Reptile",
       "isBlockchain": 1,
       "rarity": "Rare",
