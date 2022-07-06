@@ -67,8 +67,8 @@
       "cardDamage": 0,
       "cardShield": 0,
       "cardHeal": 0,
-      "cardEnergy": "2",
-      "tags": "power",
+      "cardEnergy": "1",
+      "tags": "power,innate",
       "summon": {
         "name": null,
         "class": null,
@@ -76,7 +76,7 @@
         "effect": null
       },
       "cardImage": "aquatic-eyes-01.png",
-      "cardText": "Attacks deal 33 bonus DMG if HP is above 66%",
+      "cardText": "<Innate>. Attacks deal 22 bonus DMG if HP is above 66%. <Exile>",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -120,7 +120,7 @@
       "partType": "back",
       "cardName": "Blue Moon",
       "cardType": "attack",
-      "cardDamage": 55,
+      "cardDamage": 60,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -132,7 +132,7 @@
         "effect": null
       },
       "cardImage": "aquatic-back-04.png",
-      "cardText": "If <Initial>, draw a card.",
+      "cardText": "<Limit>: 1. Draw 1 card.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -428,7 +428,7 @@
       "partType": "tail",
       "cardName": "Koi",
       "cardType": "attack",
-      "cardDamage": 95,
+      "cardDamage": 105,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "2",
@@ -440,7 +440,7 @@
         "effect": null
       },
       "cardImage": "aquatic-tail-02.png",
-      "cardText": "Deal 15 bonus DMG per Aquatic Ally.",
+      "cardText": "Deal 15 bonus DMG per alive Aquatic teammate. (not counting summon)",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -512,7 +512,7 @@
       "partType": "tail",
       "cardName": "Navaga",
       "cardType": "attack",
-      "cardDamage": 65,
+      "cardDamage": 70,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -524,7 +524,7 @@
         "effect": null
       },
       "cardImage": "aquatic-tail-10.png",
-      "cardText": "If <Initial>, deal 15 more DMG.",
+      "cardText": "If <Initial>, apply {Stealth} to the target for 2 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -544,7 +544,7 @@
       "cardShield": 0,
       "cardHeal": 15,
       "cardEnergy": "0",
-      "tags": "skill,energy,banish",
+      "tags": "skill,energy",
       "summon": {
         "name": null,
         "class": null,
@@ -552,7 +552,7 @@
         "effect": null
       },
       "cardImage": "aquatic-tail-04.png",
-      "cardText": "Gain 1 Energy. <Banish>.",
+      "cardText": "Heal any ally. Gain 1 Energy. <Unstable>.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -596,7 +596,7 @@
       "partType": "horn",
       "cardName": "Oranda",
       "cardType": "attack",
-      "cardDamage": 120,
+      "cardDamage": 110,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "2",
@@ -736,7 +736,7 @@
       "partType": "mouth",
       "cardName": "Risky Fish",
       "cardType": "attack",
-      "cardDamage": 80,
+      "cardDamage": 70,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -748,7 +748,7 @@
         "effect": null
       },
       "cardImage": "aquatic-mouth-08.png",
-      "cardText": "Apply {Weak} to this Axie for 2 turns.",
+      "cardText": "If <Initial>, deal 20 more DMG and apply {Fear} to self for 2 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -820,7 +820,7 @@
       "partType": "tail",
       "cardName": "Shrimp",
       "cardType": "attack",
-      "cardDamage": 65,
+      "cardDamage": 40,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -832,7 +832,7 @@
         "effect": null
       },
       "cardImage": "aquatic-tail-12.png",
-      "cardText": "If <Initial>, this attack targets the furthest enemy.",
+      "cardText": "Target any enemy. Apply Taunt to the target and to self for 2 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -944,7 +944,7 @@
         "effect": null
       },
       "cardImage": "aquatic-horn-04.png",
-      "cardText": "Targeted Ally gains 20 shield for each card played this turn.",
+      "cardText": "Target any ally. That ally gains 20 Shield for each card played before it this turn.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -972,7 +972,7 @@
         "effect": null
       },
       "cardImage": "aquatic-eyes-10.png",
-      "cardText": "Put 1 Aquatic card from your draw pile into your hand. <Banish>.",
+      "cardText": "Take 1 Aquatic card from your draw pile and push it to the top of draw pile.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -1016,7 +1016,7 @@
       "partType": "horn",
       "cardName": "Arco",
       "cardType": "attack",
-      "cardDamage": 65,
+      "cardDamage": 55,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -1028,7 +1028,7 @@
         "effect": null
       },
       "cardImage": "beast-horn-12.png",
-      "cardText": "This does not trigger Secrets.",
+      "cardText": "Remove up to 2 Secret on the target.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -1188,7 +1188,7 @@
       "cardShield": 0,
       "cardHeal": 15,
       "cardEnergy": "0",
-      "tags": "skill,heal,energy,banish",
+      "tags": "skill,heal,energy",
       "summon": {
         "name": null,
         "class": null,
@@ -1196,7 +1196,7 @@
         "effect": null
       },
       "cardImage": "beast-tail-02.png",
-      "cardText": "Heal any ally. Gain 1 Energy. <Banish>",
+      "cardText": "Heal any ally. Gain 1 Energy. <Unstable>.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -1308,7 +1308,7 @@
         "effect": null
       },
       "cardImage": "beast-mouth-01.png",
-      "cardText": "<Retain>. Gain 1 {Rage}. If Retained, +1 {Rage} when played (cap:3 rounds).",
+      "cardText": "<Retain>. Gain 1 {Rage}. If Retained, +1 {Rage} when played (cap: 3 rounds).",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -1352,7 +1352,7 @@
       "partType": "tail",
       "cardName": "Gerbil",
       "cardType": "attack",
-      "cardDamage": 65,
+      "cardDamage": 60,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -1364,7 +1364,7 @@
         "effect": null
       },
       "cardImage": "beast-tail-12.png",
-      "cardText": "If <Initial>, this attack targets the second-frontmost enemy.",
+      "cardText": "Targets the second-closest enemy.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -1380,7 +1380,7 @@
       "partType": "mouth",
       "cardName": "Goda",
       "cardType": "attack",
-      "cardDamage": 40,
+      "cardDamage": 50,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -1392,7 +1392,7 @@
         "effect": null
       },
       "cardImage": "beast-mouth-04.png",
-      "cardText": "Shuffle 1 [Void] into your opponent's discard pile. <Banish>.",
+      "cardText": "Shuffle 1 [Void] into your opponent's discard pile. <Unstable>.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -1436,7 +1436,7 @@
       "partType": "back",
       "cardName": "Hero",
       "cardType": "attack",
-      "cardDamage": 55,
+      "cardDamage": 60,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -1448,7 +1448,7 @@
         "effect": null
       },
       "cardImage": "beast-back-04.png",
-      "cardText": "If <Initial>, draw 1 card.",
+      "cardText": "<Limit>: 1. Draw 1 card.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -1464,7 +1464,7 @@
       "partType": "horn",
       "cardName": "Imp",
       "cardType": "attack",
-      "cardDamage": 70,
+      "cardDamage": 60,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -1496,7 +1496,7 @@
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "skill,card,banish",
+      "tags": "skill,card,banish,innate",
       "summon": {
         "name": null,
         "class": null,
@@ -1504,7 +1504,7 @@
         "effect": null
       },
       "cardImage": "beast-ears-06.png",
-      "cardText": "<Innate>. Select one of this Axie's skill cards and add a copy of it to your hand. <Banish>.",
+      "cardText": "<Innate>. Select one of this Axie's skill card and add a copy of it to your hand. <Unstable>.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -1744,7 +1744,7 @@
       "partType": "horn",
       "cardName": "Pocky",
       "cardType": "attack",
-      "cardDamage": 65,
+      "cardDamage": 70,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -1840,7 +1840,7 @@
         "effect": null
       },
       "cardImage": "beast-eyes-08.png",
-      "cardText": "Put 1 Beast card from your discard pile into your hand. <Banish>.",
+      "cardText": "Take 1 Beast card from your discard pile and push it to the top of draw pile.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -1884,7 +1884,7 @@
       "partType": "back",
       "cardName": "Risky Beast",
       "cardType": "attack",
-      "cardDamage": 80,
+      "cardDamage": 70,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -1896,7 +1896,7 @@
         "effect": null
       },
       "cardImage": "beast-back-08.png",
-      "cardText": "Apply {Weak} to this Axie for 2 turns.",
+      "cardText": "If <Initial>, deal 20 more DMG and apply {Death Mark} to self for 2 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -2036,7 +2036,7 @@
         "effect": null
       },
       "cardImage": "beast-eyes-02.png",
-      "cardText": "Put 1 Beast card from your draw pile into your hand. <Banish>.",
+      "cardText": "Take 1 Beast card from your draw pile and push it to the top of draw pile.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -2260,7 +2260,7 @@
         "effect": null
       },
       "cardImage": "bird-ears-04.png",
-      "cardText": "If <Initial>, draw 1 card.",
+      "cardText": "<Limit>: 1. Draw 1 card.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -2364,7 +2364,7 @@
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "attack,non_multihit,area,debuff",
+      "tags": "attack,non_multihit,area,debuff,innate",
       "summon": {
         "name": null,
         "class": null,
@@ -2388,7 +2388,7 @@
       "partType": "mouth",
       "cardName": "Hungry Bird",
       "cardType": "attack",
-      "cardDamage": 65,
+      "cardDamage": 60,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -2400,7 +2400,7 @@
         "effect": null
       },
       "cardImage": "bird-mouth-08.png",
-      "cardText": "If <Initial>, heal 15 HP.",
+      "cardText": "If <Initial>, {Steal} 20 HP and apply {Heal Block} to self for 2 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -2456,7 +2456,7 @@
         "effect": null
       },
       "cardImage": "bird-back-10.png",
-      "cardText": "Target any ally. Next attack against the target is reflected for 85 DMG.",
+      "cardText": "<Limit>: 1. Target any ally. Reflect 85 DMG for the next attack against the target.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -2540,7 +2540,7 @@
         "effect": null
       },
       "cardImage": "bird-eyes-04.png",
-      "cardText": "Put 1 Bird card from your draw pile into your hand. <Banish>.",
+      "cardText": "Take 1 Bird card from your draw pile and push it to the top of draw pile.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -2780,7 +2780,7 @@
       "partType": "ears",
       "cardName": "Risky Bird",
       "cardType": "attack",
-      "cardDamage": 80,
+      "cardDamage": 70,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -2792,7 +2792,7 @@
         "effect": null
       },
       "cardImage": "bird-ears-12.png",
-      "cardText": "Apply {Weak} to this Axie for 2 turns.",
+      "cardText": "If <Initial>, deal 20 more DMG and apply {Bleed} to self for 2 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -2848,7 +2848,7 @@
         "effect": null
       },
       "cardImage": "bird-tail-02.png",
-      "cardText": "If <Initial>, deal 15 more DMG.",
+      "cardText": "If <Initial>, lose 20 HP and destroy up to 120 Shield of the target.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -2904,7 +2904,7 @@
         "effect": null
       },
       "cardImage": "bird-back-12.png",
-      "cardText": "Attack all enemies.",
+      "cardText": "Attack all enemies. Apply {Doubt} for 2 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -2948,11 +2948,11 @@
       "partType": "horn",
       "cardName": "Wing Horn",
       "cardType": "attack",
-      "cardDamage": 65,
+      "cardDamage": 33,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "attack,non_multihit,single_attack,buff",
+      "tags": "attack,multihit,single_attack,buff",
       "summon": {
         "name": null,
         "class": null,
@@ -2960,7 +2960,7 @@
         "effect": null
       },
       "cardImage": "bird-horn-10.png",
-      "cardText": "If <Initial>, this attack targets the second-frontmost enemy.",
+      "cardText": "Deal 2 hits. Gain 2 {Feather} to self.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -3072,7 +3072,7 @@
         "effect": null
       },
       "cardImage": "bug-eyes-02.png",
-      "cardText": "Put 1 Bug card from your draw pile into your hand. <Banish>.",
+      "cardText": "Take 1 Bug card from your draw pile and push it to the top of draw pile.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -3483,7 +3483,7 @@
       "cardDamage": 0,
       "cardShield": 0,
       "cardHeal": 0,
-      "cardEnergy": "1",
+      "cardEnergy": "0",
       "tags": "skill,card,banish",
       "summon": {
         "name": null,
@@ -3492,7 +3492,7 @@
         "effect": null
       },
       "cardImage": "bug-eyes-04.png",
-      "cardText": "<Retain>. Look at the top 4 cards of your opponent's draw pile. <Banish>.",
+      "cardText": "Look at the top 4 cards of your opponent's draw pile. <Banish>.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -3676,7 +3676,7 @@
       "partType": "back",
       "cardName": "Scarab",
       "cardType": "attack",
-      "cardDamage": 30,
+      "cardDamage": 60,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -3688,7 +3688,7 @@
         "effect": null
       },
       "cardImage": "bug-back-10.png",
-      "cardText": "Gain 40 Shield. Apply {Doubt} for 4 turns.",
+      "cardText": "Target any enemy. Apply {Doubt} for 4 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -4012,7 +4012,7 @@
       "partType": "mouth",
       "cardName": "Beetroot",
       "cardType": "attack",
-      "cardDamage": 55,
+      "cardDamage": 60,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -4024,7 +4024,7 @@
         "effect": null
       },
       "cardImage": "plant-mouth-01.png",
-      "cardText": "If <Initial>, draw a card.",
+      "cardText": "<Limit>: 1. Draw 1 card.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -4080,7 +4080,7 @@
         "effect": null
       },
       "cardImage": "plant-eyes-10.png",
-      "cardText": "Put 1 Plant card from your draw pile into your hand. <Banish>.",
+      "cardText": "Take 1 Plant card from your draw pile and push it to the top of draw pile.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -4108,7 +4108,7 @@
         "effect": null
       },
       "cardImage": "plant-horn-10.png",
-      "cardText": "If <Initial>, deal 15 more DMG.",
+      "cardText": "If <Initial>, deal 15 more DMG and apply {Taunt} to self for 2 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -4404,7 +4404,7 @@
       "partType": "ears",
       "cardName": "Leafy",
       "cardType": "attack",
-      "cardDamage": 15,
+      "cardDamage": 20,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -4464,7 +4464,7 @@
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "skill,card",
+      "tags": "skill,card,innate",
       "summon": {
         "name": null,
         "class": null,
@@ -4472,7 +4472,7 @@
         "effect": null
       },
       "cardImage": "plant-horn-03.png",
-      "cardText": "<Innate>. Add 2 [Mandarine]s to your hand.",
+      "cardText": "<Innate>. Add 2 Mandarines to your hand.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -4715,8 +4715,8 @@
       "cardDamage": 0,
       "cardShield": 0,
       "cardHeal": 0,
-      "cardEnergy": "2",
-      "tags": "power",
+      "cardEnergy": "1",
+      "tags": "power,innate",
       "summon": {
         "name": null,
         "class": null,
@@ -4724,7 +4724,7 @@
         "effect": null
       },
       "cardImage": "plant-ears-08.png",
-      "cardText": "Target any ally. Whenever you play a card this battle, heal this Axie 10 HP.",
+      "cardText": "<Innate>. Target any ally. Whenever you play a card this battle, restore 7 HP to this ally. <Exile>",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -4740,7 +4740,7 @@
       "partType": "mouth",
       "cardName": "Serious",
       "cardType": "attack",
-      "cardDamage": 80,
+      "cardDamage": 70,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -4752,7 +4752,7 @@
         "effect": null
       },
       "cardImage": "plant-mouth-02.png",
-      "cardText": "Discard 1 card from your hand.",
+      "cardText": "If <Initial>, deal 20 more DMG and apply {Disarm} to self for 2 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -4798,7 +4798,7 @@
       "cardType": "skill",
       "cardDamage": 0,
       "cardShield": 0,
-      "cardHeal": 65,
+      "cardHeal": 50,
       "cardEnergy": "1",
       "tags": "skill,heal",
       "summon": {
@@ -4808,7 +4808,7 @@
         "effect": null
       },
       "cardImage": "plant-mouth-10.png",
-      "cardText": "Target any ally.",
+      "cardText": "Target any ally. {Poison} on this Axie heal 1 HP per stack instead of HP loss for 6 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -4992,7 +4992,7 @@
       "partType": "tail",
       "cardName": "Yam",
       "cardType": "attack",
-      "cardDamage": 15,
+      "cardDamage": 20,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -5079,8 +5079,8 @@
       "cardDamage": 0,
       "cardShield": 0,
       "cardHeal": 0,
-      "cardEnergy": "2",
-      "tags": "power",
+      "cardEnergy": "1",
+      "tags": "power,innate",
       "summon": {
         "name": null,
         "class": null,
@@ -5088,7 +5088,7 @@
         "effect": null
       },
       "cardImage": "reptile-horn-12.png",
-      "cardText": "<Innate>. Whenever you play a card this battle, this Axie gains 10 Shield.",
+      "cardText": "<Innate>. Whenever you play a card this battle, this Axie gains 7 Shield. <Exile>",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -5116,7 +5116,7 @@
         "effect": null
       },
       "cardImage": "reptile-horn-06.png",
-      "cardText": "Target any ally. Next attack against the target is reflected for 85 DMG.",
+      "cardText": "<Limit>: 1. Target any ally. Reflect 85 DMG for the next attack against the target.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -5332,7 +5332,7 @@
       "cardShield": 60,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "skill,shield,no_effect",
+      "tags": "skill,shield,no_effect,innate",
       "summon": {
         "name": null,
         "class": null,
@@ -5424,7 +5424,7 @@
         "effect": null
       },
       "cardImage": "reptile-back-08.png",
-      "cardText": "Target any ally. Next turn, after the target is attacked, reflect 25% of Shield lost.",
+      "cardText": "Target any ally. Next turn, after the target is attacked, reflect 50% of Shield lost.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -5592,7 +5592,7 @@
         "effect": null
       },
       "cardImage": "reptile-horn-08.png",
-      "cardText": "Target any ally. Next turn, after the target is attacked, reflect 25% of Shield lost.",
+      "cardText": "Target any ally. Next turn, after the target is attacked, reflect 50% of Shield lost.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -5620,7 +5620,7 @@
         "effect": null
       },
       "cardImage": "reptile-eyes-08.png",
-      "cardText": "Put 1 Reptile card from your draw pile into your hand. <Banish>.",
+      "cardText": "Take 1 Reptile card from your draw pile and push it to the top of draw pile.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -5804,7 +5804,7 @@
       "partType": "mouth",
       "cardName": "Tiny Turtle",
       "cardType": "attack",
-      "cardDamage": 50,
+      "cardDamage": 55,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -5816,7 +5816,7 @@
         "effect": null
       },
       "cardImage": "reptile-mouth-10.png",
-      "cardText": "Target any enemy. Apply {Stunned} for 2 turns if this attack breaks target's Shield.",
+      "cardText": "If <Initial>, apply Stunned to the target and to self for 2 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -5832,7 +5832,7 @@
       "partType": "mouth",
       "cardName": "Toothless Bite",
       "cardType": "attack",
-      "cardDamage": 65,
+      "cardDamage": 60,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -5844,7 +5844,7 @@
         "effect": null
       },
       "cardImage": "reptile-mouth-02.png",
-      "cardText": "If <Initial>, this attack targets the furthest enemy.",
+      "cardText": "Targets the furthest enemy.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -5860,7 +5860,7 @@
       "partType": "eyes",
       "cardName": "Topaz",
       "cardType": "attack",
-      "cardDamage": 5,
+      "cardDamage": 25,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -5872,7 +5872,7 @@
         "effect": null
       },
       "cardImage": "reptile-eyes-10.png",
-      "cardText": "Deal 10 bonus DMG for each of your banished cards. (Cap at 150 bonus DMG)",
+      "cardText": "Deal 10 bonus DMG for each of your banished cards. (Cap at 120 bonus DMG)",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -6008,12 +6008,12 @@
     {
       "id": 14,
       "name": "Forest Wrath",
-      "cardDamage": 30,
+      "cardDamage": 0,
       "cardShield": 0,
       "cardHeal": 0,
-      "cardEnergy": "1",
-      "description": "Attack all enemies. Deal 10 bonus pure DMG per debuffed allies.",
-      "tags": "attack",
+      "cardEnergy": "0",
+      "description": "<Retain>. Target any ally. Next turn, reflect 25 DMG for the next attack against the target. <Banish>.",
+      "tags": "secret",
       "cardImage": "tool-forestwrath-02.png"
     },
     {
@@ -6045,7 +6045,7 @@
       "cardShield": 0,
       "cardHeal": 60,
       "cardEnergy": "0",
-      "description": "<Retain>. Target any ally. <Banish>.",
+      "description": "<Retain>. Target any ally. <Unstable>.",
       "tags": "skill,retain_effect,banish",
       "cardImage": "tool-strawberry-02.png"
     }
@@ -6134,7 +6134,7 @@
       "id": 4,
       "name": "Bubble",
       "type": "Buff",
-      "description": "Block 5 DMG/stack. Max: 3 stack. Turn into Bubble Bomb upon reaching 3 stacks.",
+      "description": "Single attack and AoE deal bonus DMG equal to 2% of the target current HP per stack. Turn into Bubble Bomb upon reaching 3 stacks.",
       "image": "buff_bubble.png"
     },
     {
@@ -6190,7 +6190,7 @@
       "id": 1,
       "name": "Rage",
       "type": "Buff",
-      "description": "DMG is increases by 2 per Rage stack. Transform into Fury Form when reaches 10 Rage stack.",
+      "description": "Single and AoE attack deal 2 bonus DMG per stack, but this unit also suffer 1 extra DMG from direct attacks. Enter Fury Form at 10 stacks.",
       "image": "buff_rage.png"
     },
     {
@@ -6295,7 +6295,7 @@
       "id": 15,
       "name": "Death Mark",
       "type": "Debuff",
-      "description": "Whenever opponent plays an Attack Card, the target take 13 DMG per Energy spent.",
+      "description": "Whenever your opponent plays an Attack Card, the target take 15 DMG per Energy spent.",
       "image": "debuff_death_mark.png"
     },
     {
@@ -6402,6 +6402,27 @@
       "type": "Buff",
       "description": "Deal pure DMG and gain HP.",
       "image": ""
+    },
+    {
+      "id": 41,
+      "name": "Limit",
+      "type": "Card Property",
+      "description": "Only a set number of copies of this card can be played each turn. Once the limit is reached, other copies will be disabled until the end of turn.",
+      "image": ""
+    },
+    {
+      "id": 42,
+      "name": "Unstable",
+      "type": "Card Property",
+      "description": "After usage, the card disappears, and a Confused card will be shuffled into your Discard pile. If contacts with Banish, Banish will override Unstable.",
+      "image": ""
+    },
+    {
+      "id": 43,
+      "name": "Exile",
+      "type": "Card Property",
+      "description": "After usage, the card disappear (not going to the Banish Pile) for the rest of the battle.",
+      "image": ""
     }
   ],
   "runes": [
@@ -6420,7 +6441,7 @@
       "class": "Neutral",
       "isBlockchain": 0,
       "rarity": "Common",
-      "effect": "Summoned units have +10 max HP. Deal +2 DMG per Summon to all Enemies at the beginning of your turn.",
+      "effect": "Deal 5 DMG per Summon to all Enemies at the beginning of your turn.",
       "image": "rune_neutral_hybrid_1.png"
     },
     {
@@ -6492,7 +6513,7 @@
       "class": "Aquatic",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "{Solo}. Increase all Axies' HP by 50.",
+      "effect": "{Solo}. When your turn starts, this Axie gains 1 {Bubble}. Bubble Bomb detonated by this Axie deal double DMG.",
       "image": "rune_aquatic_utility_1.png"
     },
     {
@@ -6501,7 +6522,7 @@
       "class": "Aquatic",
       "isBlockchain": 1,
       "rarity": "Rare",
-      "effect": "Axie HP +30\nAt the beginning of your turn, gain Shield equal to 3% of max HP.",
+      "effect": "At the beginning of your turn, gain Shield equal to 4% of max HP.",
       "image": "rune_aquatic_defensive_1.png"
     },
     {
@@ -6510,7 +6531,7 @@
       "class": "Aquatic",
       "isBlockchain": 1,
       "rarity": "Rare",
-      "effect": "Axie max HP +30\nAttack cards deal bonus DMG equal to 3% of remaining HP.",
+      "effect": "Non-Multihit attack deal bonus DMG equal to 5% of remaining HP. Multihit attack deal bonus DMG equal 3% of remaining HP.",
       "image": "rune_aquatic_offensive_1.png"
     },
     {
@@ -6537,7 +6558,7 @@
       "class": "Beast",
       "isBlockchain": 1,
       "rarity": "Rare",
-      "effect": "Cannot gain Shield. Take 25% less DMG.",
+      "effect": "Cannot gain Shield. Take 15% less DMG.",
       "image": "rune_beast_defensive_1.png"
     },
     {
@@ -6564,7 +6585,7 @@
       "class": "Bird",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "{Solo}. When your turn starts, grant 2 {Feather} to your team. This Axie gains back half of the Feather stacks consumed when doing a non-multihit attack.",
+      "effect": "{Solo}. When your turn starts, this Axie gains 2 {Feather}. This Axie gains back half of the Feather stack consumed when doing a non-multihit attack.",
       "image": "rune_bird_utility_1.png"
     },
     {
@@ -6573,16 +6594,16 @@
       "class": "Bird",
       "isBlockchain": 1,
       "rarity": "Rare",
-      "effect": "Attack cards also deal 5 DMG per Energy Cost to all Enemies.",
+      "effect": "Attack cards also deal 8 DMG per Energy Cost to all Enemies.",
       "image": "rune_bird_offensive_1.png"
     },
     {
       "id": 28,
-      "name": "Venom Born",
+      "name": "The Incubator",
       "class": "Bird",
       "isBlockchain": 1,
       "rarity": "Rare",
-      "effect": "{Poison} on this Axie grants \"Healing 1 HP per stack\" instead of HP loss.",
+      "effect": "Summons summoned by this Axie gain 14 bonus max HP.",
       "image": "rune_bird_defensive_1.png"
     },
     {
@@ -6590,8 +6611,8 @@
       "name": "Collect And Protect",
       "class": "Bug",
       "isBlockchain": 1,
-      "rarity": "Epic",
-      "effect": "In odd Rounds, draw 1 Additional Card when your turn starts. In even Rounds, gain 30 Shield when your turn starts.",
+      "rarity": "Mystic",
+      "effect": "{Solo}. In odd Rounds, draw 1 Additional Card when your turn starts. In even Rounds, gain 50 Shield when your turn starts.",
       "image": "rune_bug_utility_1.png"
     },
     {
@@ -6599,8 +6620,8 @@
       "name": "Sturdy Fighter",
       "class": "Bug",
       "isBlockchain": 1,
-      "rarity": "Mystic",
-      "effect": "{Solo}. Non-Multihit Attack cards deal bonus DMG equal to current Shield.",
+      "rarity": "Epic",
+      "effect": "Single Attack consumes 50% of current Shield and deal bonus DMG equal to 1.5 times that amount.",
       "image": "rune_bug_offensive_1.png"
     },
     {
@@ -6636,7 +6657,7 @@
       "class": "Dawn",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "{Solo}. When your turn starts, remove 2 Curses in your {Deck}. Heal 10 HP and grant 1 DMG boost to all teammates when successfully removing a Curse this way.",
+      "effect": "{Solo}. When your turn starts, remove 1 Curse in your {Deck}. Heal all teammates for 10 HP and grant all teammate 1 DMG Boost when successfully removing a Curse this way.",
       "image": "rune_dawn_utility_1.png"
     },
     {
@@ -6663,7 +6684,7 @@
       "class": "Dusk",
       "isBlockchain": 1,
       "rarity": "Epic",
-      "effect": "Deal 10% more DMG against debuffed Enemies. Take 20% less DMG from debuffed Enemies",
+      "effect": "Deal 15% more DMG against debuffed Enemies. Take 15% less DMG from debuffed Enemies.",
       "image": "rune_dusk_hybrid_1.png"
     },
     {
@@ -6735,7 +6756,7 @@
       "class": "Plant",
       "isBlockchain": 1,
       "rarity": "Epic",
-      "effect": "Add [Forest Breath] and [Forest Wrath] to your deck.",
+      "effect": "Solo. Shielding cards of this Axie also restore HP equal to 100% of Shield gained but grant 25% less Shield.",
       "image": "rune_plant_hybrid_1.png"
     },
     {
@@ -6744,7 +6765,7 @@
       "class": "Plant",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "{Solo}. Shield cards also restore HP equal to 100% of shield gained but grant 25% less shield.",
+      "effect": "{Solo}. Increase all ally Axies' max HP by 50.",
       "image": "rune_plant_defensive_1.png"
     },
     {
@@ -6771,7 +6792,7 @@
       "class": "Reptile",
       "isBlockchain": 1,
       "rarity": "Epic",
-      "effect": "Apply 1 {Poison} to Attacker. Take 20% less DMG from poisoned enemies.",
+      "effect": "Apply 1 {Poison} to Attacker. Take 2% less DMG per Poison stack on the attacking enemy. Max at 20%.",
       "image": "rune_reptile_hybrid_1.png"
     },
     {
@@ -6809,7 +6830,7 @@
       "class": "Neutral",
       "isBlockchain": 0,
       "rarity": "Common",
-      "effect": "(Enhance a Shielding card)\nShield Stat +2",
+      "effect": "(Enhance a Shielding card) Shield Stat +2",
       "potentialCost": 1,
       "image": "endurance-1.png"
     },
@@ -6819,7 +6840,7 @@
       "class": "Neutral",
       "isBlockchain": 0,
       "rarity": "Common",
-      "effect": "(Enhance a Healing card)\nHeal Stat +2",
+      "effect": "(Enhance a Healing card) Heal Stat +2",
       "potentialCost": 1,
       "image": "faith-1.png"
     },
@@ -6829,7 +6850,7 @@
       "class": "Neutral",
       "isBlockchain": 0,
       "rarity": "Common",
-      "effect": "(Enhance a Multihit Attack card)\nATK +1",
+      "effect": "(Enhance a Multihit Attack card) ATK +1",
       "potentialCost": 1,
       "image": "focus-1.png"
     },
@@ -6849,7 +6870,7 @@
       "class": "Neutral",
       "isBlockchain": 0,
       "rarity": "Common",
-      "effect": "Axie's HP +4",
+      "effect": "(Enhance any card)\nAxie's max HP +4",
       "potentialCost": 1,
       "image": "vitality-1.png"
     },
@@ -6859,7 +6880,7 @@
       "class": "Neutral",
       "isBlockchain": 0,
       "rarity": "Epic",
-      "effect": "(Enhance a Shielding card)\nShield stat +7",
+      "effect": "(Enhance a Shielding card) Shield Stat +7",
       "potentialCost": 3,
       "image": "endurance-3.png"
     },
@@ -6869,7 +6890,7 @@
       "class": "Neutral",
       "isBlockchain": 0,
       "rarity": "Epic",
-      "effect": "(Enhance a Healing card)\nHeal stat +7",
+      "effect": "(Enhance a Healing card) Heal Stat +7",
       "potentialCost": 3,
       "image": "faith-3.png"
     },
@@ -6899,7 +6920,7 @@
       "class": "Neutral",
       "isBlockchain": 0,
       "rarity": "Epic",
-      "effect": "(Enhance any card)\nAxie's HP +12",
+      "effect": "(Enhance any card)\nAxie's max HP +12",
       "potentialCost": 3,
       "image": "vitality-3.png"
     },
@@ -6909,7 +6930,7 @@
       "class": "Neutral",
       "isBlockchain": 0,
       "rarity": "Epic",
-      "effect": "(Enhance Single Target Attack Abilities)\r\nChange ability target to the second frontmost one.",
+      "effect": "(Enhance Single Target Attack cards)\nThis card targets the second closest enemy. Card's base stat -10%.",
       "potentialCost": 4,
       "image": "moon-stamp.png"
     },
@@ -6919,19 +6940,9 @@
       "class": "Neutral",
       "isBlockchain": 0,
       "rarity": "Epic",
-      "effect": "(Enhance single-target attack cards)\nThis card targets the furthest enemy.",
+      "effect": "(Enhance Single Target Attack cards)\nThis card targets the furthest enemy. Card's base stat -10%.",
       "potentialCost": 4,
       "image": "sun-stamp.png"
-    },
-    {
-      "id": 20,
-      "name": "Discount Coupon",
-      "class": "Neutral",
-      "isBlockchain": 0,
-      "rarity": "Mystic",
-      "effect": "(Enhance any card)\n-1 energy cost. Card's base stat -40%.",
-      "potentialCost": 5,
-      "image": "discount-coupon.png"
     },
     {
       "id": 23,
@@ -6939,7 +6950,7 @@
       "class": "Neutral",
       "isBlockchain": 0,
       "rarity": "Mystic",
-      "effect": "(Enhance any card)\nAdd {Banish}.",
+      "effect": "(Enhance any card)\nAdd <Banish>.",
       "potentialCost": 5,
       "image": "energy-drink-m.png"
     },
@@ -6949,7 +6960,7 @@
       "class": "Neutral",
       "isBlockchain": 0,
       "rarity": "Mystic",
-      "effect": "(Enhance any card)\nAdd {Ethereal}.",
+      "effect": "(Enhance any card)\nAdd <Ethereal>.",
       "potentialCost": 5,
       "image": "energy-drink-s.png"
     },
@@ -6959,7 +6970,7 @@
       "class": "Neutral",
       "isBlockchain": 0,
       "rarity": "Mystic",
-      "effect": "(Enhance any card)\nAdd {Innate}.",
+      "effect": "(Enhance any card)\nAdd <Innate>. Card's base stat -10%.",
       "potentialCost": 5,
       "image": "pre-order-tag.png"
     },
@@ -6969,7 +6980,7 @@
       "class": "Neutral",
       "isBlockchain": 0,
       "rarity": "Mystic",
-      "effect": "(Enhance single-target attack cards)\nThis card can target any enemy.",
+      "effect": "(Enhance Single Target Attack cards)\nThis card can target any enemy. Card's base stat -15%.",
       "potentialCost": 5,
       "image": "rocket-stamp.png"
     },
@@ -6979,7 +6990,7 @@
       "class": "Neutral",
       "isBlockchain": 0,
       "rarity": "Mystic",
-      "effect": "(Enhance any card)\nAdd {Retain}.",
+      "effect": "(Enhance any card)\nAdd <Retain>. Card's base stat -10%.",
       "potentialCost": 5,
       "image": "scotch-tape.png"
     },
@@ -6989,7 +7000,7 @@
       "class": "Neutral",
       "isBlockchain": 0,
       "rarity": "Rare",
-      "effect": "(Enhance a Shielding card)\nShield Stat +4",
+      "effect": "(Enhance a Shielding card) Shield Stat +4",
       "potentialCost": 2,
       "image": "endurance-2.png"
     },
@@ -6999,7 +7010,7 @@
       "class": "Neutral",
       "isBlockchain": 0,
       "rarity": "Rare",
-      "effect": "(Enhance a Healing card)\nHeal Stat +4",
+      "effect": "(Enhance a Healing card) Heal Stat +4",
       "potentialCost": 2,
       "image": "faith-2.png"
     },
@@ -7029,7 +7040,7 @@
       "class": "Neutral",
       "isBlockchain": 0,
       "rarity": "Rare",
-      "effect": "Axie's HP +8",
+      "effect": "(Enhance any card)\nAxie's max HP +8",
       "potentialCost": 2,
       "image": "vitality-2.png"
     },
@@ -7039,13 +7050,13 @@
       "class": "Neutral",
       "isBlockchain": 0,
       "rarity": "Rare",
-      "effect": "(Enhance Single Target Attack Abilities)\nChange ability target to the frontmost one.",
+      "effect": "(Enhance Single Target Attack cards)\nThis card targets the closest enemy.",
       "potentialCost": 3,
       "image": "earth-stamp.png"
     },
     {
       "id": 44,
-      "name": "Aquatic Talisman of Power V",
+      "name": "Aquatic's Charm of Power II",
       "class": "Aquatic",
       "isBlockchain": 1,
       "rarity": "Epic",
@@ -7055,7 +7066,7 @@
     },
     {
       "id": 42,
-      "name": "Aquatic Talisman of Vitality V",
+      "name": "Aquatic's Charm of Vitality II",
       "class": "Aquatic",
       "isBlockchain": 1,
       "rarity": "Epic",
@@ -7069,7 +7080,7 @@
       "class": "Aquatic",
       "isBlockchain": 1,
       "rarity": "Epic",
-      "effect": "(Enhance Skill cards)\nAll teammates gain 1 {Bubble}.",
+      "effect": "(Enhance any Attack card)\nAll teammates gain 1 {Bubble}.",
       "potentialCost": 4,
       "image": "bubble-paste.png"
     },
@@ -7079,7 +7090,7 @@
       "class": "Aquatic",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance any card)\nAdd {Ethereal}.",
+      "effect": "(Enhance any card)\nAdd <Ethereal>.",
       "potentialCost": 4,
       "image": "aquatic-energy-drink-s.png"
     },
@@ -7089,7 +7100,7 @@
       "class": "Aquatic",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance any card)\nAdd {Retain}.",
+      "effect": "(Enhance any card)\nAdd <Retain>. Card's base stat -10%.",
       "potentialCost": 4,
       "image": "sticky-octopus.png"
     },
@@ -7105,7 +7116,7 @@
     },
     {
       "id": 43,
-      "name": "Aquatic Talisman of Power IV",
+      "name": "Aquatic's Charm of Power I",
       "class": "Aquatic",
       "isBlockchain": 1,
       "rarity": "Rare",
@@ -7115,7 +7126,7 @@
     },
     {
       "id": 41,
-      "name": "Aquatic Talisman of Vitality IV",
+      "name": "Aquatic's Charm of Vitality I",
       "class": "Aquatic",
       "isBlockchain": 1,
       "rarity": "Rare",
@@ -7125,7 +7136,7 @@
     },
     {
       "id": 34,
-      "name": "Beast Talisman of Power V",
+      "name": "Beast's Charm of Power II",
       "class": "Beast",
       "isBlockchain": 1,
       "rarity": "Epic",
@@ -7135,7 +7146,7 @@
     },
     {
       "id": 36,
-      "name": "Beast Talisman of Vitality V",
+      "name": "Beast's Charm of Vitality II",
       "class": "Beast",
       "isBlockchain": 1,
       "rarity": "Epic",
@@ -7149,7 +7160,7 @@
       "class": "Beast",
       "isBlockchain": 1,
       "rarity": "Epic",
-      "effect": "(Enhance Attack cards)\nAll teammates gain 1 {Rage}.",
+      "effect": "(Enhance any Attack card)\nAll teammates gain 1 {Rage}.",
       "potentialCost": 4,
       "image": "mask-of-frenzy.png"
     },
@@ -7159,7 +7170,7 @@
       "class": "Beast",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance any card)\nAdd {Banish}.",
+      "effect": "(Enhance any card)\nAdd <Banish>.",
       "potentialCost": 4,
       "image": "beast-energy-drink-m.png"
     },
@@ -7169,7 +7180,7 @@
       "class": "Beast",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance any card)\nAdd {Ethereal}.",
+      "effect": "(Enhance any cards)\nAdd <Ethereal>.",
       "potentialCost": 4,
       "image": "beast-energy-drink-s.png"
     },
@@ -7179,23 +7190,23 @@
       "class": "Beast",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance Attack Abilities)\nAttack applies {Bleed} for 4 turns.",
+      "effect": "(Enhance an Attack card)\nAttacks apply {Bleed} for 4 turns.",
       "potentialCost": 5,
       "image": "hidden-razor.png"
     },
     {
       "id": 33,
-      "name": "Beast Talisman of Power IV",
+      "name": "Beast's Charm of Power I",
       "class": "Beast",
       "isBlockchain": 1,
       "rarity": "Rare",
-      "effect": "(Enhance a Non-Multihit Attack card)\nATK +6",
+      "effect": "(Enhance a Non-Multihit Attack card) ATK +6",
       "potentialCost": 2,
       "image": "beast-talisman-power-4.png"
     },
     {
       "id": 35,
-      "name": "Beast Talisman of Vitality IV",
+      "name": "Beast's Charm of Vitality I",
       "class": "Beast",
       "isBlockchain": 1,
       "rarity": "Rare",
@@ -7205,21 +7216,21 @@
     },
     {
       "id": 60,
-      "name": "Bird Talisman of Focus V",
+      "name": "Bird's Charm of Focus II",
       "class": "Bird",
       "isBlockchain": 1,
       "rarity": "Epic",
-      "effect": "(Enhance Multihit Attack Ability)\r\nATK +4",
+      "effect": "(Enhance a Multihit Attack card)\nATK +4",
       "potentialCost": 3,
       "image": "bird-talisman-focus-5.png"
     },
     {
       "id": 58,
-      "name": "Bird Talisman of Power V",
+      "name": "Bird's Charm of Power II",
       "class": "Bird",
       "isBlockchain": 1,
       "rarity": "Epic",
-      "effect": "(Enhance Non-Multihit Attack Ability)\r\nATK +10",
+      "effect": "(Enhance a Non-Multihit Attack card)\nATK +10",
       "potentialCost": 3,
       "image": "bird-talisman-power-5.png"
     },
@@ -7229,7 +7240,7 @@
       "class": "Bird",
       "isBlockchain": 1,
       "rarity": "Epic",
-      "effect": "(Enhance Attack cards)\nAll teammates gain 1 Feather.",
+      "effect": "(Enhance any Attack card)\nAll teammates gain 1 {Feather}.",
       "potentialCost": 4,
       "image": "feather-fan.png"
     },
@@ -7239,7 +7250,7 @@
       "class": "Bird",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance any Abilities)\r\nAdd {Ethereal}.",
+      "effect": "(Enhance any card)\nAdd <Ethereal>.",
       "potentialCost": 4,
       "image": "bird-energy-drink-s.png"
     },
@@ -7249,7 +7260,7 @@
       "class": "Bird",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance any Abilities)\r\nAdd Innate.",
+      "effect": "(Enhance any card)\nAdd <Innate>. Card's base stat -10%.",
       "potentialCost": 4,
       "image": "secret-egg.png"
     },
@@ -7259,33 +7270,33 @@
       "class": "Bird",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance Attack Abilities)\nAttack applies {Fragile} for 4 turns.",
+      "effect": "(Enhance an Attack card)\nAttack applies {Fragile} for 4 turns.",
       "potentialCost": 5,
       "image": "flamingo-hammer.png"
     },
     {
       "id": 59,
-      "name": "Bird Talisman of Focus IV",
+      "name": "Bird's Charm of Focus I",
       "class": "Bird",
       "isBlockchain": 1,
       "rarity": "Rare",
-      "effect": "(Enhance Multihit Attack Ability)\r\nATK +3",
+      "effect": "(Enhance a Multihit Attack card)\nATK +3",
       "potentialCost": 2,
       "image": "bird-talisman-focus-4.png"
     },
     {
       "id": 57,
-      "name": "Bird Talisman of Power IV",
+      "name": "Bird's Charm of Power I",
       "class": "Bird",
       "isBlockchain": 1,
       "rarity": "Rare",
-      "effect": "(Enhance Non-Multihit Attack Ability)\r\nATK +6",
+      "effect": "(Enhance a Non-Multihit Attack card)\nATK +6",
       "potentialCost": 2,
       "image": "bird-talisman-power-4.png"
     },
     {
       "id": 50,
-      "name": "Bug Talisman of Endurance V",
+      "name": "Bug's Charm of Endurance II",
       "class": "Bug",
       "isBlockchain": 1,
       "rarity": "Epic",
@@ -7295,7 +7306,7 @@
     },
     {
       "id": 52,
-      "name": "Bug Talisman of Power V",
+      "name": "Bug's Charm of Power II",
       "class": "Bug",
       "isBlockchain": 1,
       "rarity": "Epic",
@@ -7309,7 +7320,7 @@
       "class": "Bug",
       "isBlockchain": 1,
       "rarity": "Epic",
-      "effect": "(Enhance Skill cards)\nDraw 1 Card",
+      "effect": "(Enhance any Skill or Secret card)\nDraw 1 Card",
       "potentialCost": 4,
       "image": "tricksters-card.png"
     },
@@ -7319,7 +7330,7 @@
       "class": "Bug",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance any card)\nAdd {Banish}.",
+      "effect": "(Enhance any card)\nAdd <Banish>.",
       "potentialCost": 4,
       "image": "bug-energy-drink-m.png"
     },
@@ -7329,7 +7340,7 @@
       "class": "Bug",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance any card)\nAdd {Innate}.",
+      "effect": "(Enhance any card)\nAdd <Innate>.",
       "potentialCost": 4,
       "image": "secret-cocoon.png"
     },
@@ -7339,13 +7350,13 @@
       "class": "Bug",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance Attack Abilities)\nAttack applies {Weak} for 4 turns.",
+      "effect": "(Enhance an Attack card)\nAttack applies {Weak} for 4 turns.",
       "potentialCost": 5,
       "image": "lazy-snail.png"
     },
     {
       "id": 49,
-      "name": "Bug Talisman of Endurance IV",
+      "name": "Bug's Charm of Endurance I",
       "class": "Bug",
       "isBlockchain": 1,
       "rarity": "Rare",
@@ -7355,7 +7366,7 @@
     },
     {
       "id": 51,
-      "name": "Bug Talisman of Power IV",
+      "name": "Bug's Charm of Power I",
       "class": "Bug",
       "isBlockchain": 1,
       "rarity": "Rare",
@@ -7365,7 +7376,7 @@
     },
     {
       "id": 84,
-      "name": "Dawn Talisman of Faith V",
+      "name": "Dawn's Charm of Faith II",
       "class": "Dawn",
       "isBlockchain": 1,
       "rarity": "Epic",
@@ -7375,7 +7386,7 @@
     },
     {
       "id": 82,
-      "name": "Dawn Talisman of Focus V",
+      "name": "Dawn's Charm of Focus II",
       "class": "Dawn",
       "isBlockchain": 1,
       "rarity": "Epic",
@@ -7399,7 +7410,7 @@
       "class": "Dawn",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance any card)\nAdd {Ethereal}. Card's base stat +10%.",
+      "effect": "(Enhance any card)\nAdd <Ethereal>. Card's base stat +10%.",
       "potentialCost": 4,
       "image": "dawn-energy-drink-s.png"
     },
@@ -7409,7 +7420,7 @@
       "class": "Dawn",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance any card)\nAdd {Retain}.",
+      "effect": "(Enhance any card)\nAdd <Retain>.",
       "potentialCost": 4,
       "image": "wooden-idol.png"
     },
@@ -7419,13 +7430,13 @@
       "class": "Dawn",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance any Attack card)\nAttack applies {Silence} for 2 turns to the frontmost enemy.",
+      "effect": "(Enhance an Attack card)\nApply {Silence} for 2 turns to the closest enemy.",
       "potentialCost": 5,
       "image": "silent-incense.png"
     },
     {
       "id": 83,
-      "name": "Dawn Talisman of Faith IV",
+      "name": "Dawn's Charm of Faith I",
       "class": "Dawn",
       "isBlockchain": 1,
       "rarity": "Rare",
@@ -7435,7 +7446,7 @@
     },
     {
       "id": 81,
-      "name": "Dawn Talisman of Focus IV",
+      "name": "Dawn's Charm of Focus I",
       "class": "Dawn",
       "isBlockchain": 1,
       "rarity": "Rare",
@@ -7445,7 +7456,7 @@
     },
     {
       "id": 92,
-      "name": "Dusk Talisman of Focus V",
+      "name": "Dusk's Charm of Focus II",
       "class": "Dusk",
       "isBlockchain": 1,
       "rarity": "Epic",
@@ -7455,7 +7466,7 @@
     },
     {
       "id": 90,
-      "name": "Dusk Talisman of Power V",
+      "name": "Dusk's Charm of Power II",
       "class": "Dusk",
       "isBlockchain": 1,
       "rarity": "Epic",
@@ -7489,7 +7500,7 @@
       "class": "Dusk",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance any card)\nAdd {Banish}. Card's base stat +20%.",
+      "effect": "(Enhance any card)\nAdd <Banish>. Card's base stat +20%.",
       "potentialCost": 4,
       "image": "dusk-energy-drink-m.png"
     },
@@ -7499,13 +7510,13 @@
       "class": "Dusk",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance any Attack card)\nAttack applies {Doubt} for 2 turns.",
+      "effect": "(Enhance an Attack card)\nApply {Doubt} for 2 turns.",
       "potentialCost": 5,
       "image": "arid-spell.png"
     },
     {
       "id": 91,
-      "name": "Dusk Talisman of Focus IV",
+      "name": "Dusk's Charm of Focus I",
       "class": "Dusk",
       "isBlockchain": 1,
       "rarity": "Rare",
@@ -7515,7 +7526,7 @@
     },
     {
       "id": 89,
-      "name": "Dusk Talisman of Power IV",
+      "name": "Dusk's Charm of Power I",
       "class": "Dusk",
       "isBlockchain": 1,
       "rarity": "Rare",
@@ -7525,7 +7536,7 @@
     },
     {
       "id": 76,
-      "name": "Mech Talisman of Endurance V",
+      "name": "Mech's Charm of Endurance II",
       "class": "Mech",
       "isBlockchain": 1,
       "rarity": "Epic",
@@ -7535,7 +7546,7 @@
     },
     {
       "id": 74,
-      "name": "Mech Talisman of Power V",
+      "name": "Mech's Charm of Power II",
       "class": "Mech",
       "isBlockchain": 1,
       "rarity": "Epic",
@@ -7569,7 +7580,7 @@
       "class": "Mech",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance any card)\nAdd {Innate}.",
+      "effect": "(Enhance any card)\nAdd <Innate>.",
       "potentialCost": 4,
       "image": "secret-chip.png"
     },
@@ -7579,13 +7590,13 @@
       "class": "Mech",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance any Attack card)\nAttack applies {Disarmed} for 2 turns to the frontmost enemy.",
+      "effect": "(Enhance an Attack card)\nAttack applies {Disarmed} for 2 turns to the closest enemy.",
       "potentialCost": 5,
       "image": "hackers-drive.png"
     },
     {
       "id": 75,
-      "name": "Mech Talisman of Endurance IV",
+      "name": "Mech's Charm of Endurance I",
       "class": "Mech",
       "isBlockchain": 1,
       "rarity": "Rare",
@@ -7595,7 +7606,7 @@
     },
     {
       "id": 73,
-      "name": "Mech Talisman of Power IV",
+      "name": "Mech's Charm of Power I",
       "class": "Mech",
       "isBlockchain": 1,
       "rarity": "Rare",
@@ -7604,18 +7615,8 @@
       "image": "mech-talisman-power-4.png"
     },
     {
-      "id": 26,
-      "name": "Plant Talisman of Endurance V",
-      "class": "Plant",
-      "isBlockchain": 1,
-      "rarity": "Epic",
-      "effect": "(Enhance any Shielding card)\nShield Stat +10",
-      "potentialCost": 3,
-      "image": "plant-talisman-endurance-5.png"
-    },
-    {
       "id": 28,
-      "name": "Plant Talisman of Faith V",
+      "name": "Plant's Charm of Faith II",
       "class": "Plant",
       "isBlockchain": 1,
       "rarity": "Epic",
@@ -7624,12 +7625,22 @@
       "image": "plant-talisman-faith-5.png"
     },
     {
+      "id": 26,
+      "name": "Plant's Charm of Vitality II",
+      "class": "Plant",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "(Enhance any card)\nAxie's max HP +18",
+      "potentialCost": 3,
+      "image": "plant-talisman-endurance-5.png"
+    },
+    {
       "id": 31,
       "name": "Leafy Pot",
       "class": "Plant",
       "isBlockchain": 1,
       "rarity": "Epic",
-      "effect": "(Enhance Skill cards)\nAll teammates gain 1 {Leaf}.",
+      "effect": "(Enhance any Skill or Secret card)\nAll teammates gain 1 {Leaf}.",
       "potentialCost": 4,
       "image": "leafy-pot.png"
     },
@@ -7639,7 +7650,7 @@
       "class": "Plant",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance any card)\nAdd {Retain}.",
+      "effect": "(Enhance any card)\nAdd <Retain>. Card's base stat -10%.",
       "potentialCost": 4,
       "image": "ancient-root.png"
     },
@@ -7649,7 +7660,7 @@
       "class": "Plant",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance any card)\nAdd {Innate}.",
+      "effect": "(Enhance any card)\nAdd <Innate>. Card's base stat -10%.",
       "potentialCost": 4,
       "image": "secret-sprout.png"
     },
@@ -7659,7 +7670,7 @@
       "class": "Plant",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance shield and healing cards)\r\nAdd {Cleanse}.",
+      "effect": "(Enhance Shield and Healing cards)\nAdd <Cleanse>.",
       "potentialCost": 5,
       "image": "red-sage.png"
     },
@@ -7669,23 +7680,13 @@
       "class": "Plant",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance shield and healing cards)\nAdd {Cleanse}. Card's base stat -100%.",
+      "effect": "(Enhance Shield and Healing cards)\nAdd <Cleanse>. Card's base stat -100%.",
       "potentialCost": 5,
       "image": "white-sage.png"
     },
     {
-      "id": 25,
-      "name": "Plant Talisman of Endurance IV",
-      "class": "Plant",
-      "isBlockchain": 1,
-      "rarity": "Rare",
-      "effect": "(Enhance any Shielding card)\nShield Stat +6",
-      "potentialCost": 2,
-      "image": "plant-talisman-endurance-4.png"
-    },
-    {
       "id": 27,
-      "name": "Plant Talisman of Faith IV",
+      "name": "Plant's Charm of Faith I",
       "class": "Plant",
       "isBlockchain": 1,
       "rarity": "Rare",
@@ -7694,22 +7695,32 @@
       "image": "plant-talisman-faith-4.png"
     },
     {
+      "id": 25,
+      "name": "Plant's Charm of Vitality I",
+      "class": "Plant",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "(Enhance any card)\nAxie's max HP +12",
+      "potentialCost": 2,
+      "image": "plant-talisman-endurance-4.png"
+    },
+    {
       "id": 68,
-      "name": "Reptile Talisman of Faith V",
+      "name": "Reptile's Charm of Endurance II",
       "class": "Reptile",
       "isBlockchain": 1,
       "rarity": "Epic",
-      "effect": "(Enhance a Healing card)\nHeal Stat +10",
+      "effect": "(Enhance any Shielding card)\nShield Stat +10",
       "potentialCost": 3,
       "image": "reptile-talisman-faith-5.png"
     },
     {
       "id": 66,
-      "name": "Reptile Talisman of Vitality V",
+      "name": "Reptile's Charm of Vitality II",
       "class": "Reptile",
       "isBlockchain": 1,
       "rarity": "Epic",
-      "effect": "(Enhance any card)\nAxie's HP +18",
+      "effect": "(Enhance any card)\nAxie's Max HP +18",
       "potentialCost": 3,
       "image": "reptile-talisman-vitality-5.png"
     },
@@ -7719,7 +7730,7 @@
       "class": "Reptile",
       "isBlockchain": 1,
       "rarity": "Epic",
-      "effect": "(Enhance any Abilities)\n{Taunt} all Enemies for 4 turns.",
+      "effect": "(Enhance any Attack card)\nApply {Taunt} to this Axie for 4 turns.",
       "potentialCost": 4,
       "image": "gecko-mask.png"
     },
@@ -7729,7 +7740,7 @@
       "class": "Reptile",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance any card)\nAdd {Banish}.",
+      "effect": "(Enhance any card)\nAdd <Banish>.",
       "potentialCost": 4,
       "image": "reptile-energy-drink-m.png"
     },
@@ -7739,7 +7750,7 @@
       "class": "Reptile",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance any card)\nAdd {Retain}.",
+      "effect": "(Enhance any card)\nAdd <Retain>. Card's base stat -10%.",
       "potentialCost": 4,
       "image": "sticky-lizard.png"
     },
@@ -7749,27 +7760,27 @@
       "class": "Reptile",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "(Enhance any Attack card)\nAttack applies 2 {Poison}.",
+      "effect": "(Enhance an Attack card)\nAttack applies 2 {Poison}.",
       "potentialCost": 5,
       "image": "vipers-venom.png"
     },
     {
       "id": 67,
-      "name": "Reptile Talisman of Faith IV",
+      "name": "Reptile's Charm of Endurance I",
       "class": "Reptile",
       "isBlockchain": 1,
       "rarity": "Rare",
-      "effect": "(Enhance a Healing card)\nHeal Stat +6",
+      "effect": "(Enhance any Shielding card)\nShield Stat +6",
       "potentialCost": 2,
       "image": "reptile-talisman-faith-4.png"
     },
     {
       "id": 65,
-      "name": "Reptile Talisman of Vitality IV",
+      "name": "Reptile's Charm of Vitality I",
       "class": "Reptile",
       "isBlockchain": 1,
       "rarity": "Rare",
-      "effect": "(Enhance any card)\nAxie's HP +12",
+      "effect": "(Enhance any card)\nAxie's Max HP +12",
       "potentialCost": 2,
       "image": "reptile-talisman-vitality-4.png"
     }
@@ -7780,7 +7791,7 @@
       "name": "Little Robin",
       "class": "Bird",
       "hp": 18,
-      "effect": "Attacks of allies deal 16 more damage. Lose 8 HP when your turn ends."
+      "effect": "Teammate's non-Multihit deal 12 bonus DMG, Multihit deal 6 bonus DMG. Loses 8 HP when your turn ends."
     },
     {
       "id": 2,
@@ -7807,11 +7818,11 @@
       "id": 5,
       "name": "Trunk",
       "class": "Plant",
-      "hp": 60,
+      "hp": 75,
       "effect": "Taunt. The target is always targeted by enemy's attack abilities."
     }
   ],
-  "cardImageUrl": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220527/",
+  "cardImageUrl": "https://cdn.axieinfinity.com/game/origin-cards/base/version-20220630-2/",
   "runeImageUrl": "https://www.axie.tech/images/templates/rune/art/",
   "charmImageUrl": "https://www.axie.tech/images/templates/charm/art/"
 }
