@@ -2108,7 +2108,7 @@
       "partType": "tail",
       "cardName": "Cloud",
       "cardType": "attack",
-      "cardDamage": 70,
+      "cardDamage": 60,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -2120,7 +2120,7 @@
         "effect": null
       },
       "cardImage": "bird-tail-08.png",
-      "cardText": "This attack targets the frontmost non-summoned enemy.",
+      "cardText": "If Initial, apply {Silence} for 2 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -2204,7 +2204,7 @@
         "effect": null
       },
       "cardImage": "bird-ears-10.png",
-      "cardText": "Deal 25% more DMG to shield.",
+      "cardText": "Deal Pure DMG.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -2904,7 +2904,7 @@
         "effect": null
       },
       "cardImage": "bird-back-12.png",
-      "cardText": "Attack all enemies. Apply {Doubt} for 2 turns.",
+      "cardText": "Attack all enemies. Apply {Doubt} for 4 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -3604,7 +3604,7 @@
         "effect": null
       },
       "cardImage": "bug-horn-08.png",
-      "cardText": "Deal 25% more DMG to shield.",
+      "cardText": "Deal Pure DMG.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -3688,7 +3688,7 @@
         "effect": null
       },
       "cardImage": "bug-back-10.png",
-      "cardText": "Target any enemy. Apply {Doubt} for 4 turns.",
+      "cardText": "Target any enemy. Apply Heal Block for 2 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -4248,7 +4248,7 @@
         "effect": null
       },
       "cardImage": "plant-eyes-08.png",
-      "cardText": "Heal your team and apply 3 {Healing Boost}.",
+      "cardText": "Heal your team and apply 2 {Healing Boost}. <Banish>.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -5272,7 +5272,7 @@
       "partType": "tail",
       "cardName": "Grass Snake",
       "cardType": "attack",
-      "cardDamage": 60,
+      "cardDamage": 65,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -5413,7 +5413,7 @@
       "cardName": "Indian Star",
       "cardType": "secret",
       "cardDamage": 0,
-      "cardShield": 70,
+      "cardShield": 65,
       "cardHeal": 0,
       "cardEnergy": "1",
       "tags": "skill,secret,shield,counter",
@@ -5424,7 +5424,7 @@
         "effect": null
       },
       "cardImage": "reptile-back-08.png",
-      "cardText": "Target any ally. Next turn, after the target is attacked, reflect 50% of Shield lost.",
+      "cardText": "Target any ally. Next turn, for each hit that ally receives, reflect 40% of Shield lost. <Limit> 1.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -5581,7 +5581,7 @@
       "cardName": "Scaly Spoon",
       "cardType": "secret",
       "cardDamage": 0,
-      "cardShield": 70,
+      "cardShield": 65,
       "cardHeal": 0,
       "cardEnergy": "1",
       "tags": "skill,secret,shield,counter",
@@ -5592,7 +5592,7 @@
         "effect": null
       },
       "cardImage": "reptile-horn-08.png",
-      "cardText": "Target any ally. Next turn, after the target is attacked, reflect 50% of Shield lost.",
+      "cardText": "Target any ally. Next turn, for each hit that ally receives, reflect 40% of Shield lost. <Limit> 1.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -6023,7 +6023,7 @@
       "cardShield": 12,
       "cardHeal": 0,
       "cardEnergy": "0",
-      "description": "<Retain>. Target any ally. <Banish>.",
+      "description": "<Retain>. Target any ally. <Banish>. <Limit> 3",
       "tags": "skill,retain_effect,banish",
       "cardImage": "tool-lumbershield-02.png"
     },
@@ -6034,7 +6034,7 @@
       "cardShield": 0,
       "cardHeal": 6,
       "cardEnergy": "0",
-      "description": "<Retain>. Target any ally. <Banish>.",
+      "description": "<Retain>. Target any ally. <Banish>. <Limit> 3",
       "tags": "skill,retain_effect,banish",
       "cardImage": "tool-purewater-02.png"
     },
@@ -6134,7 +6134,7 @@
       "id": 4,
       "name": "Bubble",
       "type": "Buff",
-      "description": "Single attack and AoE deal bonus DMG equal to 2% of the target current HP per stack. Turn into Bubble Bomb upon reaching 3 stacks.",
+      "description": "Single and AoE attacks deal bonus DMG equal to 1.4% of target's current HP per stack. Turn into Bubble Bomb upon reaching 4 stacks.",
       "image": "buff_bubble.png"
     },
     {
@@ -6477,7 +6477,7 @@
       "class": "Neutral",
       "isBlockchain": 0,
       "rarity": "Mystic",
-      "effect": "{Solo}. +1 energy on even numbered turns.\nAdd 3 [Daze] to your deck.",
+      "effect": "{Solo}. Energy +1 in Even Rounds.\nAdd 2 [Daze] to your deck.",
       "image": "rune_neutral_utility_2.png"
     },
     {
@@ -6513,7 +6513,7 @@
       "class": "Aquatic",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "{Solo}. When your turn starts, this Axie gains 1 {Bubble}. Bubble Bomb detonated by this Axie deal double DMG.",
+      "effect": "{Solo}. When your turn starts, this Axie gains 1 {Bubble}. Bubble Bomb detonated by this Axie deal x1.5 DMG.",
       "image": "rune_aquatic_utility_1.png"
     },
     {
@@ -6729,7 +6729,7 @@
       "class": "Mech",
       "isBlockchain": 1,
       "rarity": "Mystic",
-      "effect": "{Solo}. This Axie's Shield isn't removed when your enemy's turn ends.\nShield can absorb 50% more DMG.",
+      "effect": "{Solo}. Increase Shield card's effect by 15%. This Axie's Shield isn't removed when your enemy's turn ends.",
       "image": "rune_mech_utility_1.png"
     },
     {
@@ -6756,7 +6756,7 @@
       "class": "Plant",
       "isBlockchain": 1,
       "rarity": "Epic",
-      "effect": "Solo. Shielding cards of this Axie also restore HP equal to 100% of Shield gained but grant 25% less Shield.",
+      "effect": "Solo. Shielding cards of this Axie also restore HP equal to 100% of Shield gained but grant 35% less Shield.",
       "image": "rune_plant_hybrid_1.png"
     },
     {
