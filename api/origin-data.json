@@ -3688,7 +3688,7 @@
         "effect": null
       },
       "cardImage": "bug-back-10.png",
-      "cardText": "Target any enemy. Apply Heal Block for 2 turns.",
+      "cardText": "Target any enemy. Apply {Heal Block} for 2 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
