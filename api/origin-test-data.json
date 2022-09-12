@@ -2108,7 +2108,7 @@
       "partType": "tail",
       "cardName": "Cloud",
       "cardType": "attack",
-      "cardDamage": 70,
+      "cardDamage": 60,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -2120,7 +2120,7 @@
         "effect": null
       },
       "cardImage": "bird-tail-08.png",
-      "cardText": "This attack targets the frontmost non-summoned enemy.",
+      "cardText": "If Initial, apply {Silence} for 2 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -2204,7 +2204,7 @@
         "effect": null
       },
       "cardImage": "bird-ears-10.png",
-      "cardText": "Deal 25% more DMG to shield.",
+      "cardText": "Deal Pure DMG.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -2904,7 +2904,7 @@
         "effect": null
       },
       "cardImage": "bird-back-12.png",
-      "cardText": "Attack all enemies. Apply {Doubt} for 2 turns.",
+      "cardText": "Attack all enemies. Apply {Doubt} for 4 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -3604,7 +3604,7 @@
         "effect": null
       },
       "cardImage": "bug-horn-08.png",
-      "cardText": "Deal 25% more DMG to shield.",
+      "cardText": "Deal Pure DMG.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -3688,7 +3688,7 @@
         "effect": null
       },
       "cardImage": "bug-back-10.png",
-      "cardText": "Target any enemy. Apply {Doubt} for 4 turns.",
+      "cardText": "Target any enemy. Apply {Heal Block} for 2 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -4248,7 +4248,7 @@
         "effect": null
       },
       "cardImage": "plant-eyes-08.png",
-      "cardText": "Heal your team and apply 3 {Healing Boost}.",
+      "cardText": "Heal your team and apply 2 {Healing Boost}. <Banish>.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -5272,7 +5272,7 @@
       "partType": "tail",
       "cardName": "Grass Snake",
       "cardType": "attack",
-      "cardDamage": 60,
+      "cardDamage": 65,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -5413,7 +5413,7 @@
       "cardName": "Indian Star",
       "cardType": "secret",
       "cardDamage": 0,
-      "cardShield": 70,
+      "cardShield": 65,
       "cardHeal": 0,
       "cardEnergy": "1",
       "tags": "skill,secret,shield,counter",
@@ -5424,7 +5424,7 @@
         "effect": null
       },
       "cardImage": "reptile-back-08.png",
-      "cardText": "Target any ally. Next turn, after the target is attacked, reflect 50% of Shield lost.",
+      "cardText": "Target any ally. Next turn, for each hit that ally receives, reflect 40% of Shield lost. <Limit> 1.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -5581,7 +5581,7 @@
       "cardName": "Scaly Spoon",
       "cardType": "secret",
       "cardDamage": 0,
-      "cardShield": 70,
+      "cardShield": 65,
       "cardHeal": 0,
       "cardEnergy": "1",
       "tags": "skill,secret,shield,counter",
@@ -5592,7 +5592,7 @@
         "effect": null
       },
       "cardImage": "reptile-horn-08.png",
-      "cardText": "Target any ally. Next turn, after the target is attacked, reflect 50% of Shield lost.",
+      "cardText": "Target any ally. Next turn, for each hit that ally receives, reflect 40% of Shield lost. <Limit> 1.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
