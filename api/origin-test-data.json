@@ -6439,30 +6439,6 @@
       "season": "Season 0"
     },
     {
-      "id": 26,
-      "tokenId": 0,
-      "itemId": "rune_aquatic_hybrid_1",
-      "name": "Bloodlust",
-      "class": "Aquatic",
-      "isBlockchain": 0,
-      "rarity": "Epic",
-      "effect": "Non-Multihit Attacks {Steal} 12 HP. Multihit Attacks {Steal} 3 HP per hit.",
-      "image": "rune_aquatic_hybrid_1.png",
-      "season": "Season Alpha"
-    },
-    {
-      "id": 71,
-      "tokenId": 0,
-      "itemId": "rune_aquatic_utility_1",
-      "name": "Heart of Ocean",
-      "class": "Aquatic",
-      "isBlockchain": 0,
-      "rarity": "Mystic",
-      "effect": "{Solo}. When your turn starts, this Axie gains 1 {Bubble}. {Bubble Bomb} detonated by this Axie deal double DMG.",
-      "image": "rune_aquatic_utility_1.png",
-      "season": "Season Alpha"
-    },
-    {
       "id": 88,
       "tokenId": 0,
       "itemId": "rune_aquatic_4001_s0",
@@ -6485,30 +6461,6 @@
       "effect": "At the beginning of your turn, gain Shield equal to 4% of max HP.",
       "image": "rune_aquatic_defensive_1.png",
       "season": "Season 0"
-    },
-    {
-      "id": 117,
-      "tokenId": 0,
-      "itemId": "rune_aquatic_defensive_1",
-      "name": "Calcium Armor",
-      "class": "Aquatic",
-      "isBlockchain": 0,
-      "rarity": "Rare",
-      "effect": "At the beginning of your turn, gain Shield equal to 4% of max HP.",
-      "image": "rune_aquatic_defensive_1.png",
-      "season": "Season Alpha"
-    },
-    {
-      "id": 12,
-      "tokenId": 0,
-      "itemId": "rune_aquatic_offensive_1",
-      "name": "Hearty Warrior",
-      "class": "Aquatic",
-      "isBlockchain": 0,
-      "rarity": "Rare",
-      "effect": "Non-Multihit attack deal bonus DMG equal to 5% of remaining HP. Multihit attack deal bonus DMG equal to 3% of remaining HP.",
-      "image": "rune_aquatic_offensive_1.png",
-      "season": "Season Alpha"
     },
     {
       "id": 65,
@@ -6535,18 +6487,6 @@
       "season": "Season 0"
     },
     {
-      "id": 24,
-      "tokenId": 0,
-      "itemId": "rune_beast_hybrid_1",
-      "name": "Dominant Predator",
-      "class": "Beast",
-      "isBlockchain": 0,
-      "rarity": "Epic",
-      "effect": "Deal 20% more DMG against Bleeding Enemies\nTake 10% less DMG from Bleeding Enemies",
-      "image": "rune_beast_hybrid_1.png",
-      "season": "Season Alpha"
-    },
-    {
       "id": 53,
       "tokenId": 0,
       "itemId": "rune_beast_4001_s0",
@@ -6557,30 +6497,6 @@
       "effect": "{Solo}. Gain 2 {Rage} when your turn starts. {Rage} now grant 3 bonus DMG.",
       "image": "rune_beast_utility_1.png",
       "season": "Season 0"
-    },
-    {
-      "id": 70,
-      "tokenId": 0,
-      "itemId": "rune_beast_utility_1",
-      "name": "Endless Anger",
-      "class": "Beast",
-      "isBlockchain": 0,
-      "rarity": "Mystic",
-      "effect": "{Solo}. Gain 2 {Rage} when your turn starts. {Rage} now grant 3 bonus DMG.",
-      "image": "rune_beast_utility_1.png",
-      "season": "Season Alpha"
-    },
-    {
-      "id": 105,
-      "tokenId": 0,
-      "itemId": "rune_beast_defensive_1",
-      "name": "Pangolin Scale",
-      "class": "Beast",
-      "isBlockchain": 0,
-      "rarity": "Rare",
-      "effect": "Cannot gain Shield. Take 15% less DMG.",
-      "image": "rune_beast_defensive_1.png",
-      "season": "Season Alpha"
     },
     {
       "id": 108,
@@ -6607,18 +6523,6 @@
       "season": "Season 0"
     },
     {
-      "id": 91,
-      "tokenId": 0,
-      "itemId": "rune_beast_offensive_1",
-      "name": "Reckless Hunter",
-      "class": "Beast",
-      "isBlockchain": 0,
-      "rarity": "Rare",
-      "effect": "Deal 20% more DMG.\nTake 10% more DMG.",
-      "image": "rune_beast_offensive_1.png",
-      "season": "Season Alpha"
-    },
-    {
       "id": 87,
       "tokenId": 0,
       "itemId": "rune_bird_3001_s0",
@@ -6631,18 +6535,6 @@
       "season": "Season 0"
     },
     {
-      "id": 99,
-      "tokenId": 0,
-      "itemId": "rune_bird_hybrid_1",
-      "name": "Raven's Tactic",
-      "class": "Bird",
-      "isBlockchain": 0,
-      "rarity": "Epic",
-      "effect": "Deal 20% bonus DMG if HP is above 50%. Take 20% less DMG if HP is below 50%.",
-      "image": "rune_bird_hybrid_1.png",
-      "season": "Season Alpha"
-    },
-    {
       "id": 1,
       "tokenId": 0,
       "itemId": "rune_bird_4001_s0",
@@ -6653,30 +6545,6 @@
       "effect": "{Solo}. When your turn starts, this Axie gain 2 {Feather}, another random ally (not summon) gain 2 {Feather}. This Axie gains back half of the Feather stack consumed.",
       "image": "rune_bird_utility_1.png",
       "season": "Season 0"
-    },
-    {
-      "id": 58,
-      "tokenId": 0,
-      "itemId": "rune_bird_utility_1",
-      "name": "Feather Descend",
-      "class": "Bird",
-      "isBlockchain": 0,
-      "rarity": "Mystic",
-      "effect": "{Solo}. When your turn starts, this Axie gain 2 {Feather}, another random ally (not summon) gain 2 {Feather}. This Axie gains back half of the Feather stack consumed.",
-      "image": "rune_bird_utility_1.png",
-      "season": "Season Alpha"
-    },
-    {
-      "id": 40,
-      "tokenId": 0,
-      "itemId": "rune_bird_offensive_1",
-      "name": "Energy Guru",
-      "class": "Bird",
-      "isBlockchain": 0,
-      "rarity": "Rare",
-      "effect": "Attack cards also deal 8 DMG per Energy cost to all enemies.",
-      "image": "rune_bird_offensive_1.png",
-      "season": "Season Alpha"
     },
     {
       "id": 48,
@@ -6701,18 +6569,6 @@
       "effect": "Summons summoned by this Axie gain 14 bonus max HP.",
       "image": "rune_bird_defensive_1.png",
       "season": "Season 0"
-    },
-    {
-      "id": 124,
-      "tokenId": 0,
-      "itemId": "rune_bird_defensive_1",
-      "name": "The Incubator",
-      "class": "Bird",
-      "isBlockchain": 0,
-      "rarity": "Rare",
-      "effect": "Summons summoned by this Axie gain 14 bonus max HP.",
-      "image": "rune_bird_defensive_1.png",
-      "season": "Season Alpha"
     },
     {
       "id": 18,
