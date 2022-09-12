@@ -6832,7 +6832,7 @@
       "rarity": "Common",
       "effect": "(Enhance a Shielding card) Shield Stat +2",
       "potentialCost": 1,
-      "image": "ecard_neutral_1004-1.png"
+      "image": "ecard_bug_4001.png"
     },
     {
       "id": 13,
@@ -6842,7 +6842,7 @@
       "rarity": "Common",
       "effect": "(Enhance a Healing card) Heal Stat +2",
       "potentialCost": 1,
-      "image": "ecard_neutral_1005-1.png"
+      "image": "ecard_neutral_1005.png"
     },
     {
       "id": 7,
@@ -7142,7 +7142,7 @@
       "rarity": "Epic",
       "effect": "(Enhance a Non-Multihit Attack card)\nATK +10",
       "potentialCost": 3,
-      "image": "beast-talisman-power-5.png"
+      "image": "ecard_beast_5001.png"
     },
     {
       "id": 36,
