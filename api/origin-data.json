@@ -542,7 +542,7 @@
       "cardType": "skill",
       "cardDamage": 0,
       "cardShield": 0,
-      "cardHeal": 15,
+      "cardHeal": 5,
       "cardEnergy": "0",
       "tags": "skill,energy",
       "summon": {
@@ -552,7 +552,7 @@
         "effect": null
       },
       "cardImage": "aquatic-tail-04.png",
-      "cardText": "Heal any ally. Gain 1 Energy. <Unstable>.",
+      "cardText": "Target any ally. Gain 1 Energy. <Unstable>.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -1186,7 +1186,7 @@
       "cardType": "skill",
       "cardDamage": 0,
       "cardShield": 0,
-      "cardHeal": 15,
+      "cardHeal": 5,
       "cardEnergy": "0",
       "tags": "skill,heal,energy",
       "summon": {
@@ -1196,7 +1196,7 @@
         "effect": null
       },
       "cardImage": "beast-tail-02.png",
-      "cardText": "Heal any ally. Gain 1 Energy. <Unstable>.",
+      "cardText": "Target any ally. Gain 1 Energy. <Unstable>.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -1352,7 +1352,7 @@
       "partType": "tail",
       "cardName": "Gerbil",
       "cardType": "attack",
-      "cardDamage": 60,
+      "cardDamage": 70,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -2948,7 +2948,7 @@
       "partType": "horn",
       "cardName": "Wing Horn",
       "cardType": "attack",
-      "cardDamage": 33,
+      "cardDamage": 35,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -3744,7 +3744,7 @@
         "effect": null
       },
       "cardImage": "bug-back-12.png",
-      "cardText": "Deal 25% more DMG to shield.",
+      "cardText": "Deal pure DMG.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -5832,7 +5832,7 @@
       "partType": "mouth",
       "cardName": "Toothless Bite",
       "cardType": "attack",
-      "cardDamage": 60,
+      "cardDamage": 70,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -7822,7 +7822,7 @@
       "effect": "Taunt. The target is always targeted by enemy's attack abilities."
     }
   ],
-  "cardImageUrl": "https://cdn.axieinfinity.com/game/origin-cards/base/origin-cards-20220826a/",
+  "cardImageUrl": "https://cdn.axieinfinity.com/game/origin-cards/base/origin-cards-20220928/",
   "runeImageUrl": "https://storage.googleapis.com/origin-production/assets/item/",
   "charmImageUrl": "https://storage.googleapis.com/origin-production/assets/item/"
 }
