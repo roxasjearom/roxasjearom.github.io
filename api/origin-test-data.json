@@ -20,7 +20,7 @@
         "effect": null
       },
       "cardImage": "aquatic-back-10.png",
-      "cardText": "Whenever this is drawn, heal 20 HP.",
+      "cardText": "Whenever this Axie draws Anemone restore 20 HP.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -48,7 +48,7 @@
         "effect": null
       },
       "cardImage": "aquatic-horn-08.png",
-      "cardText": "Whenever this is drawn, heal 20 HP.",
+      "cardText": "Whenever this Axie draws Anenome, restore 20 HP.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -76,7 +76,7 @@
         "effect": null
       },
       "cardImage": "aquatic-eyes-01.png",
-      "cardText": "<Innate>. Attacks deal 22 bonus DMG if HP is above 66%. <Exile>",
+      "cardText": "<Innate>. Attacks deal 20% bonus DMG if HP is above 75% (cannot stack). <Exile>.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -160,7 +160,7 @@
         "effect": null
       },
       "cardImage": "aquatic-ears-06.png",
-      "cardText": "Target any ally. Target gains 2 {Bubble}.",
+      "cardText": "Target any ally. This ally gains 2 {Bubble}.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -188,7 +188,7 @@
         "effect": null
       },
       "cardImage": "aquatic-mouth-04.png",
-      "cardText": "Heal HP equal to 50% of unblocked DMG.",
+      "cardText": "Restore HP equal to 50% of unblocked DMG.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -348,7 +348,7 @@
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "skill,secret,block",
+      "tags": "secret,block",
       "summon": {
         "name": null,
         "class": null,
@@ -356,7 +356,7 @@
         "effect": null
       },
       "cardImage": "aquatic-back-02.png",
-      "cardText": "Target any ally. Negate 1 next attack on targeted ally.",
+      "cardText": "Target any ally. Negate the next attack on this ally.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -428,7 +428,7 @@
       "partType": "tail",
       "cardName": "Koi",
       "cardType": "attack",
-      "cardDamage": 105,
+      "cardDamage": 110,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "2",
@@ -440,7 +440,7 @@
         "effect": null
       },
       "cardImage": "aquatic-tail-02.png",
-      "cardText": "Deal 15 bonus DMG per alive Aquatic teammate. (not counting summon)",
+      "cardText": "Deal 15 bonus DMG per alive Aquatic teammate (not counting Summons).",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -484,11 +484,11 @@
       "partType": "ears",
       "cardName": "Little Crab",
       "cardType": "attack",
-      "cardDamage": 80,
+      "cardDamage": 70,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "attack,non_multihit,single_attack",
+      "tags": "attack,non_multihit,single_attack,ethereal",
       "summon": {
         "name": null,
         "class": null,
@@ -542,7 +542,7 @@
       "cardType": "skill",
       "cardDamage": 0,
       "cardShield": 0,
-      "cardHeal": 15,
+      "cardHeal": 5,
       "cardEnergy": "0",
       "tags": "skill,energy",
       "summon": {
@@ -552,7 +552,7 @@
         "effect": null
       },
       "cardImage": "aquatic-tail-04.png",
-      "cardText": "Heal any ally. Gain 1 Energy. <Unstable>.",
+      "cardText": "Target any ally. Gain 1 Energy. <Unstable>.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -572,7 +572,7 @@
       "cardShield": 0,
       "cardHeal": 40,
       "cardEnergy": "0",
-      "tags": "skill,heal,energy",
+      "tags": "skill,heal,banish",
       "summon": {
         "name": null,
         "class": null,
@@ -608,7 +608,7 @@
         "effect": null
       },
       "cardImage": "aquatic-horn-10.png",
-      "cardText": "<Dispel> up to 2 buffs on target.",
+      "cardText": "<Dispel> 2 times on target.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -680,11 +680,11 @@
       "partType": "tail",
       "cardName": "Puff",
       "cardType": "attack",
-      "cardDamage": 66,
+      "cardDamage": 63,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "X",
-      "tags": "attack,multihit,retain_effect",
+      "tags": "attack,multihit",
       "summon": {
         "name": null,
         "class": null,
@@ -692,7 +692,7 @@
         "effect": null
       },
       "cardImage": "aquatic-tail-01.png",
-      "cardText": "<Retain>. Randomly deal X hits.",
+      "cardText": "Consume all available Energy, randomly deal hits equal to the consumed Energy.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -764,7 +764,7 @@
       "partType": "ears",
       "cardName": "Seaslug",
       "cardType": "attack",
-      "cardDamage": 110,
+      "cardDamage": 120,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "2",
@@ -776,7 +776,7 @@
         "effect": null
       },
       "cardImage": "aquatic-ears-12.png",
-      "cardText": "<Cleanse> 2 debuffs. Gain 2 {Cleanser}.",
+      "cardText": "<Cleanse> 2 times. Gain 2 {Cleanser}.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -832,7 +832,7 @@
         "effect": null
       },
       "cardImage": "aquatic-tail-12.png",
-      "cardText": "Target any enemy. Apply Taunt to the target and to self for 2 turns.",
+      "cardText": "Target any enemy. If <Initial>, apply {Taunt} to the target and to self for 2 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -880,7 +880,7 @@
       "cardShield": 70,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "skill,secret,shield",
+      "tags": "secret,shield",
       "summon": {
         "name": null,
         "class": null,
@@ -888,7 +888,7 @@
         "effect": null
       },
       "cardImage": "aquatic-back-08.png",
-      "cardText": "Target any ally. Next turn, apply 5 {Damage Boost} to shielded target if its shield is broken.",
+      "cardText": "Target any ally. Next turn, apply 3 {Damage Boost} to other allies if its shield is broken.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -936,7 +936,7 @@
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "skill,secret,shield",
+      "tags": "secret,shield",
       "summon": {
         "name": null,
         "class": null,
@@ -972,7 +972,7 @@
         "effect": null
       },
       "cardImage": "aquatic-eyes-10.png",
-      "cardText": "Take 1 Aquatic card from your draw pile and push it to the top of draw pile.",
+      "cardText": "Take 1 Aquatic card from your draw pile and push it to the top of draw pile. <Banish>.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -992,7 +992,7 @@
       "cardShield": 0,
       "cardHeal": 35,
       "cardEnergy": "0",
-      "tags": "skill,card,draw,buff",
+      "tags": "skill,card,draw,buff,banish",
       "summon": {
         "name": null,
         "class": null,
@@ -1016,7 +1016,7 @@
       "partType": "horn",
       "cardName": "Arco",
       "cardType": "attack",
-      "cardDamage": 55,
+      "cardDamage": 65,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -1056,7 +1056,7 @@
         "effect": null
       },
       "cardImage": "beast-mouth-08.png",
-      "cardText": "Target any Enemy. Apply {Death Mark} for 4 turns if this Axie's HP is below 50%.",
+      "cardText": "Target any enemy. Apply {Death Mark} for 4 turns if this Axie's HP is below 50%.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -1084,7 +1084,7 @@
         "effect": null
       },
       "cardImage": "beast-ears-12.png",
-      "cardText": "Randomly deal 3 hits. Gain 1 {Rage} per Enemy hit.",
+      "cardText": "Randomly deal 3 hits. Gain {Rage} stacks per each unique enemy hit.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -1168,7 +1168,7 @@
         "effect": null
       },
       "cardImage": "beast-mouth-10.png",
-      "cardText": "Target any ally. <Cleanse> 1 debuff and grant 2 {Rage}.",
+      "cardText": "Target any ally. <Cleanse> 1 time and grant 2 {Rage}.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -1186,7 +1186,7 @@
       "cardType": "skill",
       "cardDamage": 0,
       "cardShield": 0,
-      "cardHeal": 15,
+      "cardHeal": 5,
       "cardEnergy": "0",
       "tags": "skill,heal,energy",
       "summon": {
@@ -1196,7 +1196,7 @@
         "effect": null
       },
       "cardImage": "beast-tail-02.png",
-      "cardText": "Heal any ally. Gain 1 Energy. <Unstable>.",
+      "cardText": "Target any ally. Gain 1 Energy. <Unstable>",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -1308,7 +1308,7 @@
         "effect": null
       },
       "cardImage": "beast-mouth-01.png",
-      "cardText": "<Retain>. Gain 1 {Rage}. If Retained, +1 {Rage} when played (cap: 3 rounds).",
+      "cardText": "<Retain>. Gain 1 {Rage}. If Retained, +1 {Rage} when played (cap:3 rounds).",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -1352,7 +1352,7 @@
       "partType": "tail",
       "cardName": "Gerbil",
       "cardType": "attack",
-      "cardDamage": 60,
+      "cardDamage": 70,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -1384,7 +1384,7 @@
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "attack,non_multihit,single_attack,curse,banish",
+      "tags": "attack,non_multihit,single_attack,curse",
       "summon": {
         "name": null,
         "class": null,
@@ -1408,7 +1408,7 @@
       "partType": "tail",
       "cardName": "Hare",
       "cardType": "attack",
-      "cardDamage": 60,
+      "cardDamage": 70,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -1476,7 +1476,7 @@
         "effect": null
       },
       "cardImage": "beast-horn-04.png",
-      "cardText": "Cost 0 Energy in {Fury} Form.",
+      "cardText": "Costs 0 Energy in {Fury} Form.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -1495,8 +1495,8 @@
       "cardDamage": 0,
       "cardShield": 0,
       "cardHeal": 0,
-      "cardEnergy": "1",
-      "tags": "skill,card,banish,innate",
+      "cardEnergy": "0",
+      "tags": "skill,card,banish",
       "summon": {
         "name": null,
         "class": null,
@@ -1504,7 +1504,7 @@
         "effect": null
       },
       "cardImage": "beast-ears-06.png",
-      "cardText": "<Innate>. Select one of this Axie's skill card and add a copy of it to your hand. <Unstable>.",
+      "cardText": "Select one of this Axie's skill cards and add a copy of it to your hand. <Banish>.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -1560,7 +1560,7 @@
         "effect": null
       },
       "cardImage": "beast-horn-02.png",
-      "cardText": "Gain 1 {Rage} per 1 alive Ally (including Summons).",
+      "cardText": "Gain 1 {Rage} per living ally (including Summons).",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -1616,7 +1616,7 @@
         "effect": null
       },
       "cardImage": "beast-horn-06.png",
-      "cardText": "Target any ally.",
+      "cardText": "Target any ally. If <Initial>, shield the whole team 50% of the base stat instead.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -1644,7 +1644,7 @@
         "effect": null
       },
       "cardImage": "beast-mouth-02.png",
-      "cardText": "All Nut Cracker cards of this Axie gain 6 DMG this battle.",
+      "cardText": "When played, this Axie's Nut Cracker cards gain 6 DMG this battle. (Cap at 90 bonus DMG)",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -1672,7 +1672,7 @@
         "effect": null
       },
       "cardImage": "beast-tail-10.png",
-      "cardText": "All Nut Cracker cards of this Axie gain 6 DMG this battle.",
+      "cardText": "When played, this Axie's Nut Cracker cards gain 6 DMG this battle. (Cap at 90 bonus DMG)",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -1700,7 +1700,7 @@
         "effect": null
       },
       "cardImage": "beast-ears-04.png",
-      "cardText": "All Nut Cracker cards of this Axie gain 6 DMG this battle.",
+      "cardText": "When played, this Axie's Nut Cracker cards gain 6 DMG this battle. (Cap at 90 bonus DMG)",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -1728,7 +1728,7 @@
         "effect": null
       },
       "cardImage": "beast-ears-02.png",
-      "cardText": "Deal 15 bonus DMG against Bleeding Enemy.",
+      "cardText": "Deal 15 bonus DMG against Bleeding targets.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -1803,7 +1803,7 @@
       "cardDamage": 0,
       "cardShield": 0,
       "cardHeal": 25,
-      "cardEnergy": "0",
+      "cardEnergy": "1",
       "tags": "skill,heal,cure",
       "summon": {
         "name": null,
@@ -1812,7 +1812,7 @@
         "effect": null
       },
       "cardImage": "beast-ears-10.png",
-      "cardText": "Heal your team. If <Initial>, remove 1 Curse Card from your deck.",
+      "cardText": "Heal your team. Remove 1 Curse Card from your deck.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -1840,7 +1840,7 @@
         "effect": null
       },
       "cardImage": "beast-eyes-08.png",
-      "cardText": "Take 1 Beast card from your discard pile and push it to the top of draw pile.",
+      "cardText": "Take 1 Beast card from your discard pile and push it to the top of draw pile. <Banish>.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -1924,7 +1924,7 @@
         "effect": null
       },
       "cardImage": "beast-back-02.png",
-      "cardText": "Deal 50% more DMG per Energy spent this turn.",
+      "cardText": "Deal bonus DMG equal to 50% of the card's base DMG x Energy spent this turn.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -1952,7 +1952,7 @@
         "effect": null
       },
       "cardImage": "beast-tail-06.png",
-      "cardText": "Your team gains 3 {Rage} if this Axie's HP is below 50%.",
+      "cardText": "Your team gains 4 {Rage} if this Axie's HP is below 75%.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -2008,7 +2008,7 @@
         "effect": null
       },
       "cardImage": "beast-back-10.png",
-      "cardText": "Target any ally. Next turn, after an ally is attacked, add 1 [Lumber Shield] to your hand.",
+      "cardText": "Target any ally. Next turn, after any ally is attacked, add 1 [Lumber Shield] to your hand.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -2036,7 +2036,7 @@
         "effect": null
       },
       "cardImage": "beast-eyes-02.png",
-      "cardText": "Take 1 Beast card from your draw pile and push it to the top of draw pile.",
+      "cardText": "Take 1 Beast card from your draw pile and push it to the top of draw pile. <Banish>.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -2064,7 +2064,7 @@
         "effect": null
       },
       "cardImage": "beast-ears-08.png",
-      "cardText": "If Initial, this Axie {Meditate}s.",
+      "cardText": "If <Initial>, this Axie {Meditate}s.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -2120,7 +2120,7 @@
         "effect": null
       },
       "cardImage": "bird-tail-08.png",
-      "cardText": "If Initial, apply {Silence} for 2 turns.",
+      "cardText": "If <Initial>, apply {Silence} for 2 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -2139,7 +2139,7 @@
       "cardDamage": 0,
       "cardShield": 0,
       "cardHeal": 0,
-      "cardEnergy": "0",
+      "cardEnergy": "1",
       "tags": "skill,buff",
       "summon": {
         "name": null,
@@ -2148,7 +2148,7 @@
         "effect": null
       },
       "cardImage": "bird-horn-04.png",
-      "cardText": "Target an ally. Remove {Sleep}. The next attack of the target this turn deals 50 more DMG.",
+      "cardText": "Target an ally. Remove {Sleep}. The target's next Single attack this turn deals 65 more DMG.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -2204,7 +2204,7 @@
         "effect": null
       },
       "cardImage": "bird-ears-10.png",
-      "cardText": "Deal Pure DMG.",
+      "cardText": "Deal <Pure DMG>.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -2316,7 +2316,7 @@
         "effect": null
       },
       "cardImage": "bird-tail-04.png",
-      "cardText": "Randomly deal 4 hits. Your team gains 1 {Feather} per enemy hit.",
+      "cardText": "Randomly deal 4 hits. Your team gain 1 {Feather} per enemy hit.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -2332,7 +2332,7 @@
       "partType": "horn",
       "cardName": "Feather Spear",
       "cardType": "attack",
-      "cardDamage": 65,
+      "cardDamage": 60,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -2344,7 +2344,7 @@
         "effect": null
       },
       "cardImage": "bird-horn-12.png",
-      "cardText": "Deal 20 more DMG for each Spear card used this turn.",
+      "cardText": "When played, all Spear cards gain 6 DMG this battle. (Cap at 90 bonus DMG)",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -2360,11 +2360,11 @@
       "partType": "tail",
       "cardName": "Granma's Fan",
       "cardType": "attack",
-      "cardDamage": 15,
+      "cardDamage": 20,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "attack,non_multihit,area,debuff,innate",
+      "tags": "attack,non_multihit,area,debuff",
       "summon": {
         "name": null,
         "class": null,
@@ -2372,7 +2372,7 @@
         "effect": null
       },
       "cardImage": "bird-tail-10.png",
-      "cardText": "<Innate>. Attack all enemies. Apply {Vulnerable} for 4 turns.",
+      "cardText": "Attack all enemies. Apply {Vulnerable} for 4 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -2428,7 +2428,7 @@
         "effect": null
       },
       "cardImage": "bird-horn-08.png",
-      "cardText": "If {Initial}, apply {Disarmed} for 2 turns.",
+      "cardText": "If <Initial>, apply {Disarmed} for 2 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -2448,7 +2448,7 @@
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "skill,secret,counter",
+      "tags": "secret,counter",
       "summon": {
         "name": null,
         "class": null,
@@ -2456,7 +2456,7 @@
         "effect": null
       },
       "cardImage": "bird-back-10.png",
-      "cardText": "<Limit>: 1. Target any ally. Reflect 85 DMG for the next attack against the target.",
+      "cardText": "<Limit>: 1. Target any ally. Reflect 85 DMG for the next attack against the target",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -2484,7 +2484,7 @@
         "effect": null
       },
       "cardImage": "bird-mouth-10.png",
-      "cardText": "All Little Owl cards of this Axie gain 6 DMG this battle.",
+      "cardText": "When played, this Axie's Little Owl cards gain 6 DMG this battle. (Cap at 90 bonus DMG)",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -2512,7 +2512,7 @@
         "effect": null
       },
       "cardImage": "bird-eyes-08.png",
-      "cardText": "All Little Owl cards of this Axie gain 6 DMG this battle.",
+      "cardText": "When played, this Axie's Little Owl cards gain 6 DMG this battle. (Cap at 90 bonus DMG)",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -2540,7 +2540,7 @@
         "effect": null
       },
       "cardImage": "bird-eyes-04.png",
-      "cardText": "Take 1 Bird card from your draw pile and push it to the top of draw pile.",
+      "cardText": "Take 1 Bird card from your draw pile and push it to the top of draw pile. <Banish>.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -2565,7 +2565,7 @@
         "name": "Mavis",
         "class": "Bird",
         "hp": 18,
-        "effect": "When your turn starts (after card drawing), {Mavis} reduces 1 Energy of a random Attack card."
+        "effect": "When your turn starts (after card drawing), <Mavis> reduces 1 Energy of a random Attack card. Lose 8 HP when your turn ends."
       },
       "cardImage": "bird-eyes-02.png",
       "cardText": "Summon 1 <Mavis>.",
@@ -2596,7 +2596,7 @@
         "effect": null
       },
       "cardImage": "bird-ears-06.png",
-      "cardText": "All Little Owl cards of this Axie gain 6 DMG this battle.",
+      "cardText": "When played, this Axie's Little Owl cards gain 6 DMG this battle. (Cap at 90 bonus DMG)",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -2624,7 +2624,7 @@
         "effect": null
       },
       "cardImage": "bird-mouth-04.png",
-      "cardText": "Apply {Weak} for 2 turns. If target previously has {Weak}, deal 15 more DMG.",
+      "cardText": "Apply {Weak} for 2 turns. If target already has {Weak}, deal 15 more DMG.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -2652,7 +2652,7 @@
         "effect": null
       },
       "cardImage": "bird-ears-08.png",
-      "cardText": "Apply {Weak} for 2 turns. If target previously has {Weak}, deal 15 more DMG.",
+      "cardText": "Apply {Weak} for 2 turns. If target already has {Weak}, deal 15 more DMG.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -2680,7 +2680,7 @@
         "effect": null
       },
       "cardImage": "bird-back-08.png",
-      "cardText": "Add 1 [Blackmail] to Opponent's hand.",
+      "cardText": "Add 1 [Blackmail] to your Opponent's hand.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -2817,7 +2817,7 @@
         "name": "Little Robin",
         "class": "Bird",
         "hp": 18,
-        "effect": "Attacks of allies deal 16 more damage. At end of turn, this Little Robin loses 8 HP."
+        "effect": "Teammate's non-Multihit attacks deal 12 bonus DMG, Multihit attacks deal 6 bonus DMG. Loses 8 HP when your turn ends."
       },
       "cardImage": "bird-eyes-10.png",
       "cardText": "Summon a <Little Robin>.",
@@ -2876,7 +2876,7 @@
         "effect": null
       },
       "cardImage": "bird-tail-06.png",
-      "cardText": "Deal 20 more DMG if this is the only card in your hand.",
+      "cardText": "Deal 20 bonus DMG if this is the only Attack card in your hand.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -2920,7 +2920,7 @@
       "partType": "horn",
       "cardName": "Trump",
       "cardType": "attack",
-      "cardDamage": 65,
+      "cardDamage": 60,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -2932,7 +2932,7 @@
         "effect": null
       },
       "cardImage": "bird-horn-06.png",
-      "cardText": "Deal 20 more DMG for each Trump card used this turn.",
+      "cardText": "When played, all Trump cardc gain 6 DMG this battle. (Cap at 90 bonus DMG)",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -2948,11 +2948,11 @@
       "partType": "horn",
       "cardName": "Wing Horn",
       "cardType": "attack",
-      "cardDamage": 33,
+      "cardDamage": 35,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "attack,multihit,single_attack,buff",
+      "tags": "attack,non_multihit,single_attack,buff",
       "summon": {
         "name": null,
         "class": null,
@@ -3044,7 +3044,7 @@
         "effect": null
       },
       "cardImage": "bug-ears-04.png",
-      "cardText": "Deal pure DMG. Apply {Bleed} for 4 turns.",
+      "cardText": "Deal <Pure DMG>. Apply {Bleed} for 4 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -3072,7 +3072,7 @@
         "effect": null
       },
       "cardImage": "bug-eyes-02.png",
-      "cardText": "Take 1 Bug card from your draw pile and push it to the top of draw pile.",
+      "cardText": "Take 1 Bug card from your draw pile and push it to the top of draw pile. <Banish>.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -3232,7 +3232,7 @@
       "cardShield": 70,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "skill,secret,shield",
+      "tags": "secret,shield",
       "summon": {
         "name": null,
         "class": null,
@@ -3240,7 +3240,7 @@
         "effect": null
       },
       "cardImage": "bug-tail-06.png",
-      "cardText": "Target any ally. Next turn, after the target is attacked, apply {Weak} to the Attacker for 4 turns.",
+      "cardText": "Target any ally. Next turn, if targeted ally is attacked, apply {Weak} to the attacker for 4 turns",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -3268,7 +3268,7 @@
         "effect": null
       },
       "cardImage": "bug-back-04.png",
-      "cardText": "Apply 2 {Poison} per Attack Card played this turn.",
+      "cardText": "Apply 2 {Poison}. Add 2 more {Poison} per Attack Card played this turn.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -3288,7 +3288,7 @@
       "cardShield": 70,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "skill,secret,shield",
+      "tags": "secret,shield",
       "summon": {
         "name": null,
         "class": null,
@@ -3296,7 +3296,7 @@
         "effect": null
       },
       "cardImage": "bug-tail-08.png",
-      "cardText": "Target any ally. Next turn, after the target is attacked, apply {Fear} to the Attacker for 4 turns.",
+      "cardText": "Target any ally. Next turn, if targeted ally is attacked, apply {Fear} to the attacker for 4 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -3372,7 +3372,7 @@
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "0",
-      "tags": "skill,scry,energy",
+      "tags": "skill,scry,energy,banish",
       "summon": {
         "name": null,
         "class": null,
@@ -3380,7 +3380,7 @@
         "effect": null
       },
       "cardImage": "bug-ears-02.png",
-      "cardText": "<Scry> 2 cards. Gain 1 Energy if you discard a skill card upon scrying. <Banish>",
+      "cardText": "<Scry> 2 cards. Gain 1 Energy if you discard a skill card upon scrying. <Banish>.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -3464,7 +3464,7 @@
         "effect": null
       },
       "cardImage": "bug-mouth-02.png",
-      "cardText": "Heal HP equal to 50% of unblocked DMG.",
+      "cardText": "Restore HP equal to 50% of unblocked DMG.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -3604,7 +3604,7 @@
         "effect": null
       },
       "cardImage": "bug-horn-08.png",
-      "cardText": "Deal Pure DMG.",
+      "cardText": "Deal <Pure DMG>.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -3624,7 +3624,7 @@
       "cardShield": 70,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "skill,secret,shield",
+      "tags": "secret,shield",
       "summon": {
         "name": null,
         "class": null,
@@ -3632,7 +3632,7 @@
         "effect": null
       },
       "cardImage": "bug-tail-10.png",
-      "cardText": "Target any ally. Next turn, after the target is attacked, it gains 2 {Damage Boost}",
+      "cardText": "Target any ally. Next turn, if targeted ally is attacked, other allies gain 1 {Damage Boost}.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -3648,7 +3648,7 @@
       "partType": "back",
       "cardName": "Sandal",
       "cardType": "attack",
-      "cardDamage": 100,
+      "cardDamage": 105,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "2",
@@ -3660,7 +3660,7 @@
         "effect": null
       },
       "cardImage": "bug-back-08.png",
-      "cardText": "Apply {Fear} for 2 turns. If target previously has Fear, deal 50% more DMG.",
+      "cardText": "Apply {Fear} for 2 turns. If target already has {Fear}, deal 50% more DMG.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -3708,7 +3708,7 @@
       "cardShield": 70,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "skill,secret,shield",
+      "tags": "secret,shield",
       "summon": {
         "name": null,
         "class": null,
@@ -3744,7 +3744,7 @@
         "effect": null
       },
       "cardImage": "bug-back-12.png",
-      "cardText": "Deal 25% more DMG to shield.",
+      "cardText": "Deal <Pure DMG>.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -3772,7 +3772,7 @@
         "effect": null
       },
       "cardImage": "bug-mouth-10.png",
-      "cardText": "If <Initial>, deal bonus DMG equal to current Shield.",
+      "cardText": "Consume current Shields and convert them into bonus DMG. (Cap at 100 Shield)",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -3790,7 +3790,7 @@
       "cardType": "skill",
       "cardDamage": 0,
       "cardShield": 0,
-      "cardHeal": 10,
+      "cardHeal": 20,
       "cardEnergy": "1",
       "tags": "skill,heal",
       "summon": {
@@ -3800,7 +3800,7 @@
         "effect": null
       },
       "cardImage": "bug-ears-10.png",
-      "cardText": "Heal your team. Heal for 4 bonus HP per Card in your hand.",
+      "cardText": "Heal your team. Restore 4 bonus HP per Card in your hand.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -3816,7 +3816,7 @@
       "partType": "tail",
       "cardName": "Thorny Caterpillar",
       "cardType": "attack",
-      "cardDamage": 100,
+      "cardDamage": 105,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "2",
@@ -3873,7 +3873,7 @@
       "cardName": "Aegis Talisman",
       "cardType": "skill",
       "cardDamage": 0,
-      "cardShield": 65,
+      "cardShield": 80,
       "cardHeal": 0,
       "cardEnergy": "1",
       "tags": "skill,shield",
@@ -3904,7 +3904,7 @@
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "2",
-      "tags": "skill,card,copy,banish,retain_effect",
+      "tags": "skill,card,copy,banish",
       "summon": {
         "name": null,
         "class": null,
@@ -3912,7 +3912,7 @@
         "effect": null
       },
       "cardImage": "dawn-back-03.png",
-      "cardText": "<Retain>. Pick a Skill or Secret card. Next turn, add 2 copies of it to your hand. <Banish>.",
+      "cardText": "Pick a Skill or Secret card in your hand. Next turn, add 2 copies of it to your hand. <Banish>.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -3956,7 +3956,7 @@
       "partType": "horn",
       "cardName": "Bamboo Shoot",
       "cardType": "attack",
-      "cardDamage": 65,
+      "cardDamage": 60,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -3968,7 +3968,7 @@
         "effect": null
       },
       "cardImage": "plant-horn-02.png",
-      "cardText": "Deal 20 more DMG for each Bamboo card used this turn.",
+      "cardText": "When played, all Bamboo cards gain 6 DMG this battle. (Cap at 90 bonus DMG)",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -4044,7 +4044,7 @@
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "skill,cleanse",
+      "tags": "skill,cleanse,retain_effect",
       "summon": {
         "name": null,
         "class": null,
@@ -4052,7 +4052,7 @@
         "effect": null
       },
       "cardImage": "plant-back-06.png",
-      "cardText": "Target any Ally. Remove all debuffs on target.",
+      "cardText": "<Retain>. Target any ally. Remove all debuffs on that ally.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -4080,7 +4080,7 @@
         "effect": null
       },
       "cardImage": "plant-eyes-10.png",
-      "cardText": "Take 1 Plant card from your draw pile and push it to the top of draw pile.",
+      "cardText": "Take 1 Plant card from your draw pile and push it to the top of draw pile. <Banish>.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -4128,7 +4128,7 @@
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "attack,non_multihit,single_attack,energy",
+      "tags": "attack,non_multihit,single_attack,energy,banish",
       "summon": {
         "name": null,
         "class": null,
@@ -4136,7 +4136,7 @@
         "effect": null
       },
       "cardImage": "plant-tail-02.png",
-      "cardText": "Gain 1 Energy if this Attack causes HP loss to target.",
+      "cardText": "Gain 1 Energy if this Attack causes HP loss to target. <Banish>",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -4189,7 +4189,7 @@
         "name": "Clover",
         "class": "Plant",
         "hp": 35,
-        "effect": "When your turn starts, randomly grants 1~2 Leafs to your Axies. Has 4 Leafs and dissappears after granting its last Leaf."
+        "effect": "When your turn starts, randomly grant 1~2 Leafs to your Axies. Clover disappears after 4 leafs are granted."
       },
       "cardImage": "plant-ears-04.png",
       "cardText": "Summon 1 <Clover>.",
@@ -4203,10 +4203,10 @@
     {
       "id": 456,
       "partId": "eyes-confused",
-      "partName": "Confused",
+      "partName": "Confusion",
       "class": "Plant",
       "partType": "eyes",
-      "cardName": "Confused",
+      "cardName": "Confusion",
       "cardType": "attack",
       "cardDamage": 60,
       "cardShield": 0,
@@ -4238,7 +4238,7 @@
       "cardType": "skill",
       "cardDamage": 0,
       "cardShield": 0,
-      "cardHeal": 45,
+      "cardHeal": 40,
       "cardEnergy": "2",
       "tags": "skill,heal,on_draw",
       "summon": {
@@ -4296,7 +4296,7 @@
       "cardShield": 70,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "skill,secret,shield,counter",
+      "tags": "secret,shield,counter",
       "summon": {
         "name": null,
         "class": null,
@@ -4304,7 +4304,7 @@
         "effect": null
       },
       "cardImage": "plant-tail-06.png",
-      "cardText": "Target any ally. Next turn, after the target is attacked, apply {Fear} to the attacker for 4 turns.",
+      "cardText": "Target any ally. Next turn, if targeted ally is attacked, apply {Fear} to the attacker for 4 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -4332,7 +4332,7 @@
         "effect": null
       },
       "cardImage": "plant-mouth-08.png",
-      "cardText": "If <Initial>, heal 15 HP.",
+      "cardText": "If <Initial>, restore 15 HP.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -4388,7 +4388,7 @@
         "effect": null
       },
       "cardImage": "plant-tail-12.png",
-      "cardText": "Shuffle 3 [Burn]s into your opponent's discard pile.",
+      "cardText": "Gain 25 Shield to self. Shuffle 2 [Burn]s into your opponent's discard pile.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -4472,7 +4472,7 @@
         "effect": null
       },
       "cardImage": "plant-horn-03.png",
-      "cardText": "<Innate>. Add 2 Mandarines to your hand.",
+      "cardText": "<Innate>. Add 2 [Mandarine]s to your hand.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -4528,7 +4528,7 @@
         "effect": null
       },
       "cardImage": "plant-eyes-02.png",
-      "cardText": "Target any ally. Whenever this is drawn, heal 20 HP.",
+      "cardText": "Target any ally. Whenever this is drawn, restore 20 HP.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -4556,7 +4556,7 @@
         "effect": null
       },
       "cardImage": "plant-horn-01.png",
-      "cardText": "Target any Enemy.",
+      "cardText": "Target any enemy.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -4604,7 +4604,7 @@
       "cardShield": 70,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "skill,secret,shield",
+      "tags": "secret,shield",
       "summon": {
         "name": null,
         "class": null,
@@ -4612,7 +4612,7 @@
         "effect": null
       },
       "cardImage": "plant-back-12.png",
-      "cardText": "Target any ally. Next turn, after the target is attacked, draw 1 card.",
+      "cardText": "Target any ally. Next turn, after the ally is attacked, draw 1 card.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -4656,7 +4656,7 @@
       "partType": "ears",
       "cardName": "Rosa",
       "cardType": "attack",
-      "cardDamage": 40,
+      "cardDamage": 45,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -4668,7 +4668,7 @@
         "effect": null
       },
       "cardImage": "plant-ears-06.png",
-      "cardText": "Apply 2 {Poison} and {Sleep} for 2 turns to a random enemy. <Banish>.",
+      "cardText": "<Banish>. If Initial, apply 2 Poison and Sleep for 2 turns to a random enemy.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -4686,7 +4686,7 @@
       "cardType": "skill",
       "cardDamage": 0,
       "cardShield": 0,
-      "cardHeal": 70,
+      "cardHeal": 60,
       "cardEnergy": "1",
       "tags": "skill,heal,no_effect",
       "summon": {
@@ -4696,7 +4696,7 @@
         "effect": null
       },
       "cardImage": "plant-horn-06.png",
-      "cardText": "",
+      "cardText": "Target any ally. Apply 1 {Cleanser}.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -4724,7 +4724,7 @@
         "effect": null
       },
       "cardImage": "plant-ears-08.png",
-      "cardText": "<Innate>. Target any ally. Whenever you play a card this battle, restore 7 HP to this ally. <Exile>",
+      "cardText": "<Innate>. Target any ally. Whenever you play a card this battle, restore 7 HP to this ally (cannot stack). <Exile>.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -4752,7 +4752,7 @@
         "effect": null
       },
       "cardImage": "plant-mouth-02.png",
-      "cardText": "If <Initial>, deal 20 more DMG and apply {Disarm} to self for 2 turns.",
+      "cardText": "If <Initial>, deal 20 more DMG and apply Disarm to self for 2 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -4881,7 +4881,7 @@
       "cardName": "Succulent",
       "cardType": "skill",
       "cardDamage": 0,
-      "cardShield": 40,
+      "cardShield": 50,
       "cardHeal": 0,
       "cardEnergy": "0",
       "tags": "skill,shield,banish",
@@ -4940,7 +4940,7 @@
       "cardShield": 70,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "skill,secret,shield",
+      "tags": "secret,shield",
       "summon": {
         "name": null,
         "class": null,
@@ -4948,7 +4948,7 @@
         "effect": null
       },
       "cardImage": "plant-back-08.png",
-      "cardText": "Target any ally. Next turn, after an ally is attacked, add 1 [Pure Water] to your hand.",
+      "cardText": "Target any ally. Next turn, after any ally is attacked, add 1 [Pure Water] to your hand.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -4976,7 +4976,7 @@
         "effect": null
       },
       "cardImage": "plant-horn-12.png",
-      "cardText": "Whenever this is drawn, heal 20 HP.",
+      "cardText": "Whenever this is drawn, restore 20 HP.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -5032,7 +5032,7 @@
         "effect": null
       },
       "cardImage": "plant-mouth-04.png",
-      "cardText": "Heal HP equal to 50% of unblocked DMG.",
+      "cardText": "Restore HP equal to 50% of unblocked DMG.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -5052,7 +5052,7 @@
       "cardShield": 70,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "skill,secret,shield",
+      "tags": "secret,shield",
       "summon": {
         "name": null,
         "class": null,
@@ -5088,7 +5088,7 @@
         "effect": null
       },
       "cardImage": "reptile-horn-12.png",
-      "cardText": "<Innate>. Whenever you play a card this battle, this Axie gains 7 Shield. <Exile>",
+      "cardText": "<Innate>. Whenever you play a card this battle, gain 7 Shield to this ally (cannot stack). <Exile>.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -5108,7 +5108,7 @@
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "skill,secret,counter",
+      "tags": "secret,counter",
       "summon": {
         "name": null,
         "class": null,
@@ -5116,7 +5116,7 @@
         "effect": null
       },
       "cardImage": "reptile-horn-06.png",
-      "cardText": "<Limit>: 1. Target any ally. Reflect 85 DMG for the next attack against the target.",
+      "cardText": "<Limit>: 1. Target any ally. Reflect 85 DMG for the next attack against the target",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -5136,7 +5136,7 @@
       "cardShield": 70,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "skill,secret,shield",
+      "tags": "secret,shield",
       "summon": {
         "name": null,
         "class": null,
@@ -5164,7 +5164,7 @@
       "cardShield": 70,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "skill,secret,shield",
+      "tags": "secret,shield",
       "summon": {
         "name": null,
         "class": null,
@@ -5172,7 +5172,7 @@
         "effect": null
       },
       "cardImage": "reptile-ears-06.png",
-      "cardText": "Target any ally. Next turn, after the target is attacked, apply {Bleed} to the attacker for 4 turns.",
+      "cardText": "Target any ally. Next turn, if targeted ally is attacked, apply {Bleed} to the attacker for 4 turns.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -5228,7 +5228,7 @@
         "effect": null
       },
       "cardImage": "reptile-eyes-02.png",
-      "cardText": "This Axie loses 50 HP. Heal and <Cleanse> 1 debuff on other allies.",
+      "cardText": "This Axie loses 50 HP. Heal and <Cleanse> 1 time on all other allies.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -5312,7 +5312,7 @@
         "effect": null
       },
       "cardImage": "reptile-back-06.png",
-      "cardText": "Apply 2 Poison x 5 times to random targets. Heal this Axie for 20 HP.",
+      "cardText": "Apply 2 {Poison} 5 times to random targets. Restore 20 HP to this Axie.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -5416,7 +5416,7 @@
       "cardShield": 65,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "skill,secret,shield,counter",
+      "tags": "secret,shield,counter",
       "summon": {
         "name": null,
         "class": null,
@@ -5424,7 +5424,7 @@
         "effect": null
       },
       "cardImage": "reptile-back-08.png",
-      "cardText": "Target any ally. Next turn, for each hit that ally receives, reflect 40% of Shield lost. <Limit> 1.",
+      "cardText": "Target any ally. Next turn, after the target is attacked, reflect 40% of Shield lost. <Limit>: 1.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -5452,7 +5452,7 @@
         "effect": null
       },
       "cardImage": "reptile-mouth-04.png",
-      "cardText": "Deal 2 hits to random Enemies. Gain 1 Energy if hit at least 2 Enemies.",
+      "cardText": "Deal 2 hits to random Enemies. Gain 1 Energy if at least 2 Enemies are hit.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -5508,7 +5508,7 @@
         "effect": null
       },
       "cardImage": "reptile-mouth-08.png",
-      "cardText": "Heal HP equal to 50% of unblocked DMG.",
+      "cardText": "Restore HP equal to 50% of unblocked DMG.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -5536,7 +5536,7 @@
         "effect": null
       },
       "cardImage": "reptile-back-10.png",
-      "cardText": "Target any ally.",
+      "cardText": "Target any ally. If <Initial>, shield the whole team 50% of the base stat instead.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -5552,7 +5552,7 @@
       "partType": "horn",
       "cardName": "Scaly Spear",
       "cardType": "attack",
-      "cardDamage": 65,
+      "cardDamage": 60,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -5564,7 +5564,7 @@
         "effect": null
       },
       "cardImage": "reptile-horn-04.png",
-      "cardText": "Deal 20 more DMG for each Spear card used this turn.",
+      "cardText": "When played, all Spear cards gain 6 DMG this battle. (Cap at 90 bonus DMG)",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -5584,7 +5584,7 @@
       "cardShield": 65,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "skill,secret,shield,counter",
+      "tags": "secret,shield,counter",
       "summon": {
         "name": null,
         "class": null,
@@ -5592,7 +5592,7 @@
         "effect": null
       },
       "cardImage": "reptile-horn-08.png",
-      "cardText": "Target any ally. Next turn, for each hit that ally receives, reflect 40% of Shield lost. <Limit> 1.",
+      "cardText": "Target any ally. Next turn, after the target is attacked, reflect 40% of Shield lost. <Limit>: 1.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -5620,7 +5620,7 @@
         "effect": null
       },
       "cardImage": "reptile-eyes-08.png",
-      "cardText": "Take 1 Reptile card from your draw pile and push it to the top of draw pile.",
+      "cardText": "Take 1 Reptile card from your draw pile and push it to the top of draw pile. <Banish>.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -5648,7 +5648,7 @@
         "effect": null
       },
       "cardImage": "reptile-ears-12.png",
-      "cardText": "Apply 2 {Poison} and {Bleed} for 4 turns to a random Enemy.",
+      "cardText": "Apply 2 {Poison} stacks and {Bleed} for 4 turns to a random Enemy.",
       "specialGenes": null,
       "classification": {
         "role": "Damage Dealer",
@@ -5676,7 +5676,7 @@
         "effect": null
       },
       "cardImage": "reptile-ears-08.png",
-      "cardText": "Apply 3 {Poison} to all Enemies. Heal this Axie for 30 HP.",
+      "cardText": "Apply 3 {Poison} to all Enemies. Restore 30 HP to this Axie.",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -5696,7 +5696,7 @@
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
-      "tags": "skill,secret,block",
+      "tags": "secret,block",
       "summon": {
         "name": null,
         "class": null,
@@ -5732,7 +5732,7 @@
         "effect": null
       },
       "cardImage": "reptile-ears-10.png",
-      "cardText": "Shuffle 3 [Confused] into your opponent's discard pile.",
+      "cardText": "Heal 30 HP to self. Shuffle 2 [Confused] into your opponent's discard pile.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -5804,7 +5804,7 @@
       "partType": "mouth",
       "cardName": "Tiny Turtle",
       "cardType": "attack",
-      "cardDamage": 55,
+      "cardDamage": 60,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -5832,7 +5832,7 @@
       "partType": "mouth",
       "cardName": "Toothless Bite",
       "cardType": "attack",
-      "cardDamage": 60,
+      "cardDamage": 70,
       "cardShield": 0,
       "cardHeal": 0,
       "cardEnergy": "1",
@@ -5928,7 +5928,7 @@
         "effect": null
       },
       "cardImage": "reptile-eyes-04.png",
-      "cardText": "If <Initial>, swap this card with 1 selected Card in your Banish Pile.",
+      "cardText": "If <Initial>, swap this card with 1 Card in your Banish Pile.",
       "specialGenes": null,
       "classification": {
         "role": "Support",
@@ -5984,7 +5984,7 @@
         "effect": null
       },
       "cardImage": "reptile-tail-02.png",
-      "cardText": "This Axie loses 50 HP and takes 30% less DMG for 4 turns. (Stack by turn)",
+      "cardText": "This Axie loses 50 HP and takes 25% less DMG for 4 turns. (Stack by turn)",
       "specialGenes": null,
       "classification": {
         "role": "Defender",
@@ -5995,35 +5995,13 @@
   ],
   "toolCards": [
     {
-      "id": 13,
-      "name": "Forest Breath",
-      "cardDamage": 0,
-      "cardShield": 0,
-      "cardHeal": 50,
-      "cardEnergy": "1",
-      "description": "<Retain>.Target an ally. <Cleanse>.",
-      "tags": "skill,retain_effect",
-      "cardImage": "tool-forestbreath-02.png"
-    },
-    {
-      "id": 14,
-      "name": "Forest Wrath",
-      "cardDamage": 0,
-      "cardShield": 0,
-      "cardHeal": 0,
-      "cardEnergy": "0",
-      "description": "<Retain>. Target any ally. Next turn, reflect 25 DMG for the next attack against the target. <Banish>.",
-      "tags": "secret",
-      "cardImage": "tool-forestwrath-02.png"
-    },
-    {
       "id": 1,
       "name": "Lumber Shield",
       "cardDamage": 0,
       "cardShield": 12,
       "cardHeal": 0,
       "cardEnergy": "0",
-      "description": "<Retain>. Target any ally. <Banish>.",
+      "description": "<Retain>. Target any ally. <Banish>. <Limit>: 3.",
       "tags": "skill,retain_effect,banish",
       "cardImage": "tool-lumbershield-02.png"
     },
@@ -6034,7 +6012,7 @@
       "cardShield": 0,
       "cardHeal": 6,
       "cardEnergy": "0",
-      "description": "<Retain>. Target any ally. <Banish>.",
+      "description": "<Retain>. Target any ally. <Banish>. <Limit>: 3.",
       "tags": "skill,retain_effect,banish",
       "cardImage": "tool-purewater-02.png"
     },
@@ -6046,7 +6024,7 @@
       "cardHeal": 60,
       "cardEnergy": "0",
       "description": "<Retain>. Target any ally. <Unstable>.",
-      "tags": "skill,retain_effect,banish",
+      "tags": "skill,retain_effect",
       "cardImage": "tool-strawberry-02.png"
     }
   ],
@@ -6093,7 +6071,7 @@
       "cardEnergy": "X",
       "description": "<Unplayable>.",
       "tags": "unplayable",
-      "cardImage": "tool-dazed-02.png"
+      "cardImage": "tool-daze-02.png"
     },
     {
       "id": 6,
@@ -6129,26 +6107,138 @@
       "cardImage": "tool-void-02.png"
     }
   ],
+  "revengeCards": [
+    {
+      "id": 19,
+      "name": "The Fallen's Axe",
+      "cardDamage": 100,
+      "cardShield": 0,
+      "cardHeal": 0,
+      "cardEnergy": "2",
+      "description": "<Revenge>. Deal 100 DMG. <Ethereal>. <Banish>.",
+      "tags": "attack,ethereal,banish",
+      "cardImage": "revenge-attack-02.jpg"
+    },
+    {
+      "id": 21,
+      "name": "The Fallen's Gloves",
+      "cardDamage": 0,
+      "cardShield": 15,
+      "cardHeal": 0,
+      "cardEnergy": "0",
+      "description": "<Revenge>. Target any Ally. <Ethereal>. <Banish>.",
+      "tags": "skill,ethereal,banish",
+      "cardImage": "revenge-skill-00.jpg"
+    },
+    {
+      "id": 23,
+      "name": "The Fallen's Helmet",
+      "cardDamage": 0,
+      "cardShield": 100,
+      "cardHeal": 0,
+      "cardEnergy": "2",
+      "description": "<Revenge>. Target any Ally. <Ethereal>. <Banish>.",
+      "tags": "skill,ethereal,banish",
+      "cardImage": "revenge-skill-02.jpg"
+    },
+    {
+      "id": 27,
+      "name": "The Fallen's Hidden Bomb",
+      "cardDamage": 0,
+      "cardShield": 60,
+      "cardHeal": 0,
+      "cardEnergy": "2",
+      "description": "<Revenge>. Target any Ally.  Reflect 40 DMG from the next attack on targeted Ally. <Ethereal>. <Banish>.",
+      "tags": "secret,ethereal,banish",
+      "cardImage": "revenge-secret-02.jpg"
+    },
+    {
+      "id": 26,
+      "name": "The Fallen's Hidden Knife",
+      "cardDamage": 0,
+      "cardShield": 30,
+      "cardHeal": 0,
+      "cardEnergy": "1",
+      "description": "<Revenge>. Target any Ally.  Reflect 20 DMG from the next attack on targeted Ally. <Ethereal>. <Banish>.",
+      "tags": "secret,ethereal,banish",
+      "cardImage": "revenge-secret-01.jpg"
+    },
+    {
+      "id": 18,
+      "name": "The Fallen's Longsword",
+      "cardDamage": 50,
+      "cardShield": 0,
+      "cardHeal": 0,
+      "cardEnergy": "1",
+      "description": "<Revenge>. Deal 50 DMG. <Ethereal>. <Banish>.",
+      "tags": "attack,ethereal,banish",
+      "cardImage": "revenge-attack-01.jpg"
+    },
+    {
+      "id": 22,
+      "name": "The Fallen's Shield",
+      "cardDamage": 0,
+      "cardShield": 50,
+      "cardHeal": 0,
+      "cardEnergy": "1",
+      "description": "<Revenge>. Target any Ally. <Ethereal>. <Banish>.",
+      "tags": "skill,ethereal,banish",
+      "cardImage": "revenge-skill-01.jpg"
+    },
+    {
+      "id": 17,
+      "name": "The Fallen's Shortsword",
+      "cardDamage": 15,
+      "cardShield": 0,
+      "cardHeal": 0,
+      "cardEnergy": "0",
+      "description": "<Revenge>. Deal 15 DMG. <Ethereal>. <Banish>.",
+      "tags": "attack,ethereal,banish",
+      "cardImage": "revenge-attack-00.jpg"
+    },
+    {
+      "id": 29,
+      "name": "The Fallen's Soul",
+      "cardDamage": 0,
+      "cardShield": 0,
+      "cardHeal": 0,
+      "cardEnergy": "2",
+      "description": "<Revenge>. Target any Ally.  Each turn, its first Attack deals 13 bonus DMG per Dead Ally. <Ethereal>. <Banish>.",
+      "tags": "power,ethereal,banish",
+      "cardImage": "revenge-power-02.jpg"
+    },
+    {
+      "id": 25,
+      "name": "The Fallen's Tetsubishi",
+      "cardDamage": 0,
+      "cardShield": 10,
+      "cardHeal": 0,
+      "cardEnergy": "0",
+      "description": "<Revenge>. Target any Ally.  Reflect 5 DMG from the next attack on targeted Ally. <Ethereal>. <Banish>.",
+      "tags": "secret,ethereal,banish",
+      "cardImage": "revenge-secret-00.jpg"
+    }
+  ],
   "abilities": [
     {
       "id": 4,
       "name": "Bubble",
       "type": "Buff",
-      "description": "Single attack and AoE deal bonus DMG equal to 2% of the target current HP per stack. Turn into Bubble Bomb upon reaching 3 stacks.",
+      "description": "Single attacks deal bonus DMG equal to 1.4% of the target's current HP per stack, AoE deals 0.7%. Turn into Bubble Bomb upon reaching 4 stacks.",
       "image": "buff_bubble.png"
     },
     {
       "id": 5,
       "name": "Bubble Bomb",
       "type": "Buff",
-      "description": "Next attack explodes Bubble Bomb and deals 20 DMG to all Enemies.",
+      "description": "The next attack makes Bubble Bomb explode and deal 20 DMG to all Enemies.",
       "image": "buff_bubble_bomb.png"
     },
     {
       "id": 8,
       "name": "Cleanser",
       "type": "Buff",
-      "description": "Each stack negates 1 debuff applied on the target.",
+      "description": "Each stack negates 1 debuff applied to the target.",
       "image": "buff_cleanser.png"
     },
     {
@@ -6162,7 +6252,7 @@
       "id": 6,
       "name": "Feather",
       "type": "Buff",
-      "description": "When Axie does an attack, consume all Feather stacks to deal 2 bonus DMG per stack and heal 2 HP per stack. Max : 10 stack.",
+      "description": "Single or AoE attacks consume all Feather stacks. Each stack deal an attack equal to 8% of the card's base DMG to a random enemy. Max: 10 stacks.",
       "image": "buff_feather.png"
     },
     {
@@ -6176,21 +6266,21 @@
       "id": 3,
       "name": "Leaf",
       "type": "Buff",
-      "description": "Regen 5 HP at the end of your turn. Max stack: 5",
+      "description": "Regen 4 HP at the end of your turn. Max stack: 5",
       "image": "buff_leaf.png"
     },
     {
       "id": 38,
       "name": "Meditate",
       "type": "Buff",
-      "description": "Meditate for 2 turns. If attacked while Meditating, awake and gain 3 Rage. If not, Cleanse 1 debuff and gain 1 Energy after effect ends.",
+      "description": "Meditate for 2  turns. If attacked while Meditating, awake and gain 3 Rage. If not, Cleanse 1 debuff and gain 1 Energy after effect ends.",
       "image": "buff_meditate.png"
     },
     {
       "id": 1,
       "name": "Rage",
       "type": "Buff",
-      "description": "Single and AoE attack deal 2 bonus DMG per stack, but this unit also suffer 1 extra DMG from direct attacks. Enter Fury Form at 10 stacks.",
+      "description": "Single attacks deal 2 bonus DMG per stack. AoE attacks deal half. This unit suffers 1 extra DMG from direct attacks. Enter Fury form at 10 stacks.",
       "image": "buff_rage.png"
     },
     {
@@ -6211,21 +6301,35 @@
       "id": 28,
       "name": "Banish",
       "type": "Card Property",
-      "description": "Remove the card from your deck until the end of battle.",
+      "description": "After usage, move the card to the Banish Pile, removing it from your deck until the end of battle.",
+      "image": ""
+    },
+    {
+      "id": 45,
+      "name": "Class Bonus",
+      "type": "Card Property",
+      "description": "Increase (ATK/Heal/Shield) of this Card if used by an Axie of the same class.",
       "image": ""
     },
     {
       "id": 29,
       "name": "Cleanse",
       "type": "Card Property",
-      "description": "Remove debuffs from target, up to 5 stacks.",
+      "description": "Remove a debuff from target, up to 5 stacks.",
       "image": ""
     },
     {
       "id": 31,
       "name": "Deck",
       "type": "Card Property",
-      "description": "Includes cards in Draw Pile and Discard Pile.",
+      "description": "The combined set of cards in your Draw pile, Discard pile and on your hand.",
+      "image": ""
+    },
+    {
+      "id": 41,
+      "name": "Degrade",
+      "type": "Card Property",
+      "description": "When your turn ends, if the card is still in your hand, the card disappears, and a Confused card will be shuffled into your Discard pile. If contacts with <Ethereal>, <Ethereal> will override <Degrade>.",
       "image": ""
     },
     {
@@ -6239,7 +6343,14 @@
       "id": 32,
       "name": "Ethereal",
       "type": "Card Property",
-      "description": "When your turn ends, if the card is still in your hand, banish it. Banished cards are removed from your deck until the end of battle.",
+      "description": "When your turn ends, if the card is still in your hand, <Banish> it.",
+      "image": ""
+    },
+    {
+      "id": 43,
+      "name": "Exile",
+      "type": "Card Property",
+      "description": "After usage, the card disappears (not going to the Banish Pile) for the rest of the battle.",
       "image": ""
     },
     {
@@ -6257,10 +6368,38 @@
       "image": ""
     },
     {
+      "id": 42,
+      "name": "Limit",
+      "type": "Card Property",
+      "description": "Only a set number of copies of this card can be played each turn. Once the limit is reached, other copies will be disabled till the end of turn.",
+      "image": ""
+    },
+    {
+      "id": 46,
+      "name": "Pure DMG",
+      "type": "Card Property",
+      "description": "Deal DMG that ignores Shield.",
+      "image": ""
+    },
+    {
       "id": 35,
       "name": "Retain",
       "type": "Card Property",
-      "description": "Do not discard the card at the end of your turn.",
+      "description": "This card will not be discarded from your hand at the end of your turn.",
+      "image": ""
+    },
+    {
+      "id": 47,
+      "name": "Revenge",
+      "type": "Card Property",
+      "description": "Transformed from a Dead Axie’s Card based on its Original Type.",
+      "image": ""
+    },
+    {
+      "id": 44,
+      "name": "Round",
+      "type": "Card Property",
+      "description": "1 Round includes 1 of your Turn and 1 of the opponent's Turn.",
       "image": ""
     },
     {
@@ -6281,56 +6420,63 @@
       "id": 36,
       "name": "Unplayable",
       "type": "Card Property",
-      "description": "The card cannot be played.",
+      "description": "This card cannot be played.",
+      "image": ""
+    },
+    {
+      "id": 40,
+      "name": "Unstable",
+      "type": "Card Property",
+      "description": "After usage, the card disappears, and a Confused card will be shuffled into your Discard pile. If contacts with <Banish>, <Banish> will override <Unstable>.",
       "image": ""
     },
     {
       "id": 14,
       "name": "Bleed",
       "type": "Debuff",
-      "description": "Whenever the target uses a card, it loses 15HP.",
+      "description": "Target loses 15 HP when playing a card.",
       "image": "debuff_bleed.png"
     },
     {
       "id": 15,
       "name": "Death Mark",
       "type": "Debuff",
-      "description": "Whenever your opponent plays an Attack Card, the target take 15 DMG per Energy spent.",
+      "description": "Whenever your opponent plays an Attack card, the target takes 15 DMG per Energy spent.",
       "image": "debuff_death_mark.png"
     },
     {
       "id": 23,
       "name": "Disarmed",
       "type": "Debuff",
-      "description": "The target cannot use Attack cards.",
+      "description": "The target cannot use Attack Abilities.",
       "image": "debuff_disarmed.png"
     },
     {
       "id": 25,
       "name": "Doubt",
       "type": "Debuff",
-      "description": "The target gains 20% less HP from Healing.",
+      "description": "The target gains 50% less HP from Healing.",
       "image": "debuff_doubt.png"
     },
     {
       "id": 21,
       "name": "Fear",
       "type": "Debuff",
-      "description": "Whenever the target uses an Attack card, shuffle a Confused into its draw pile.",
+      "description": "Whenever this unit uses an Attack card, shuffle a Confused into its draw pile.",
       "image": "debuff_fear.png"
     },
     {
       "id": 19,
       "name": "Fragile",
       "type": "Debuff",
-      "description": "The target gains 20% less Shield from cards.",
+      "description": "This unit gains 40% less Shield from Abilities.",
       "image": "debuff_fragile.png"
     },
     {
       "id": 26,
       "name": "Heal Block",
       "type": "Debuff",
-      "description": "The target cannot be healed.",
+      "description": "Cannot gain HP.",
       "image": "debuff_heal_block.png"
     },
     {
@@ -6344,85 +6490,57 @@
       "id": 13,
       "name": "Poison",
       "type": "Debuff",
-      "description": "At the start of its turn, the target loses 3 HP per stack and stacks are reduced by 1. Max: 30 stacks.",
+      "description": "The target loses 3 HP per stack at the start of its turn. Stacks are reduced by 1. Cap: 30 stacks.",
       "image": "debuff_poison.png"
     },
     {
       "id": 24,
       "name": "Silence",
       "type": "Debuff",
-      "description": "The target cannot use non-Attack cards.",
+      "description": "The target cannot use non-Attack Abilities.",
       "image": "debuff_silence.png"
     },
     {
       "id": 16,
       "name": "Sleep",
       "type": "Debuff",
-      "description": "The target cannot use cards. If it is attacked, remove Sleep.",
+      "description": "The target cannot use Abilities. If it's attacked, remove Sleep.",
       "image": "debuff_sleep.png"
     },
     {
       "id": 17,
       "name": "Stunned",
       "type": "Debuff",
-      "description": "The target cannot perform any action.",
+      "description": "Target cannot use any abilities.",
       "image": "debuff_stunned.png"
     },
     {
       "id": 18,
       "name": "Vulnerable",
       "type": "Debuff",
-      "description": "The target receives 20% more attack damage.",
+      "description": "The target receives 20% more attack DMG.",
       "image": "debuff_vulnerable.png"
     },
     {
       "id": 20,
       "name": "Weak",
       "type": "Debuff",
-      "description": "The target deals 20% less attack damage.",
+      "description": "The target deals 20% less attack DMG.",
       "image": "debuff_weak.png"
     },
     {
       "id": 27,
       "name": "Taunt",
       "type": "Neutral",
-      "description": "The target is always targeted by enemy's attack abilities.",
+      "description": "The target is always targeted by enemy attack abilities.",
       "image": "neutral_taunt.png"
     },
     {
       "id": 2,
       "name": "Fury",
       "type": "Transform/Buff",
-      "description": "Gain 1 Energy when transforms. Deal double damage and last for 1 turn.",
+      "description": "Gain 1 Energy when transformed. Deal 75% more DMG until end of turn.",
       "image": "buff_fury.png"
-    },
-    {
-      "id": 40,
-      "name": "Steal",
-      "type": "Buff",
-      "description": "Deal pure DMG and gain HP.",
-      "image": ""
-    },
-    {
-      "id": 41,
-      "name": "Limit",
-      "type": "Card Property",
-      "description": "Only a set number of copies of this card can be played each turn. Once the limit is reached, other copies will be disabled until the end of turn.",
-      "image": ""
-    },
-    {
-      "id": 42,
-      "name": "Unstable",
-      "type": "Card Property",
-      "description": "After usage, the card disappears, and a Confused card will be shuffled into your Discard pile. If contacts with Banish, Banish will override Unstable.",
-      "image": ""
-    },
-    {
-      "id": 43,
-      "name": "Exile",
-      "type": "Card Property",
-      "description": "After usage, the card disappear (not going to the Banish Pile) for the rest of the battle.",
-      "image": ""
     }
   ],
   "runes": [
@@ -6439,6 +6557,42 @@
       "season": "Season 0"
     },
     {
+      "id": 26,
+      "tokenId": 0,
+      "itemId": "rune_aquatic_hybrid_1",
+      "name": "Bloodlust",
+      "class": "Aquatic",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "Non-Multihit Attacks {Steal} 12 HP. Multihit Attacks {Steal} 3 HP per hit.",
+      "image": "rune_aquatic_hybrid_1.png",
+      "season": "Season Alpha"
+    },
+    {
+      "id": 151,
+      "tokenId": 0,
+      "itemId": "rune_aquatic_3001_s1",
+      "name": "Bloodlust",
+      "class": "Aquatic",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "Attacks that cause HP loss will {Steal}s HP. Single attacks {Steal}s 12 HP. AoE and Multihit attacks {Steal}s 4 HP per hit.",
+      "image": "rune_aquatic_hybrid_1.png",
+      "season": "Season 1"
+    },
+    {
+      "id": 71,
+      "tokenId": 0,
+      "itemId": "rune_aquatic_utility_1",
+      "name": "Heart of Ocean",
+      "class": "Aquatic",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "{Solo}. When your turn starts, this Axie gains 1 {Bubble}. {Bubble Bomb} detonated by this Axie deal double DMG.",
+      "image": "rune_aquatic_utility_1.png",
+      "season": "Season Alpha"
+    },
+    {
       "id": 88,
       "tokenId": 0,
       "itemId": "rune_aquatic_4001_s0",
@@ -6449,6 +6603,18 @@
       "effect": "{Solo}. When your turn starts, this Axie gains 1 {Bubble}. {Bubble Bomb} detonated by this Axie deal x1.5 DMG.",
       "image": "rune_aquatic_utility_1.png",
       "season": "Season 0"
+    },
+    {
+      "id": 165,
+      "tokenId": 0,
+      "itemId": "rune_aquatic_4001_s1",
+      "name": "Heart of Ocean",
+      "class": "Aquatic",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "{Solo}. When your turn starts, this Axie gains 1 {Bubble}. {Bubble Bomb} detonated by this Axie deal x1.5 DMG.",
+      "image": "rune_aquatic_utility_1.png",
+      "season": "Season 1"
     },
     {
       "id": 51,
@@ -6463,6 +6629,42 @@
       "season": "Season 0"
     },
     {
+      "id": 117,
+      "tokenId": 0,
+      "itemId": "rune_aquatic_defensive_1",
+      "name": "Calcium Armor",
+      "class": "Aquatic",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "At the beginning of your turn, gain Shield equal to 4% of max HP.",
+      "image": "rune_aquatic_defensive_1.png",
+      "season": "Season Alpha"
+    },
+    {
+      "id": 138,
+      "tokenId": 0,
+      "itemId": "rune_aquatic_2001_s1",
+      "name": "Calcium Armor",
+      "class": "Aquatic",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "At the beginning of your turn, gain Shield equal to 4% of max HP.",
+      "image": "rune_aquatic_defensive_1.png",
+      "season": "Season 1"
+    },
+    {
+      "id": 12,
+      "tokenId": 0,
+      "itemId": "rune_aquatic_offensive_1",
+      "name": "Hearty Warrior",
+      "class": "Aquatic",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "Non-Multihit attack deal bonus DMG equal to 5% of remaining HP. Multihit attack deal bonus DMG equal to 3% of remaining HP.",
+      "image": "rune_aquatic_offensive_1.png",
+      "season": "Season Alpha"
+    },
+    {
       "id": 65,
       "tokenId": 0,
       "itemId": "rune_aquatic_2002_s0",
@@ -6473,6 +6675,18 @@
       "effect": "Single attacks attack deal bonus DMG equal to 5% of remaining HP. AoE and multihit attacks deal bonus DMG equal to 3% of remaining HP.",
       "image": "rune_aquatic_offensive_1.png",
       "season": "Season 0"
+    },
+    {
+      "id": 180,
+      "tokenId": 0,
+      "itemId": "rune_aquatic_2002_s1",
+      "name": "Hearty Warrior",
+      "class": "Aquatic",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "Single attacks attack deal bonus DMG equal to 5% of remaining HP. AoE and multihit attacks deal bonus DMG equal to 3% of remaining HP.",
+      "image": "rune_aquatic_offensive_1.png",
+      "season": "Season 1"
     },
     {
       "id": 14,
@@ -6487,6 +6701,30 @@
       "season": "Season 0"
     },
     {
+      "id": 24,
+      "tokenId": 0,
+      "itemId": "rune_beast_hybrid_1",
+      "name": "Dominant Predator",
+      "class": "Beast",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "Deal 20% more DMG against Bleeding Enemies\nTake 10% less DMG from Bleeding Enemies",
+      "image": "rune_beast_hybrid_1.png",
+      "season": "Season Alpha"
+    },
+    {
+      "id": 191,
+      "tokenId": 0,
+      "itemId": "rune_beast_3001_s1",
+      "name": "Dominant Predator",
+      "class": "Beast",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "\"Single attacks apply {Bleed} for 2 turns if target doesn't have {Bleed} and this Axie's HP is above 75%. Deal 20% more DMG against Bleeding Enemies.\nTake 10% less DMG from Bleeding Enemies\"",
+      "image": "rune_beast_hybrid_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 53,
       "tokenId": 0,
       "itemId": "rune_beast_4001_s0",
@@ -6497,6 +6735,42 @@
       "effect": "{Solo}. Gain 2 {Rage} when your turn starts. {Rage} now grant 3 bonus DMG.",
       "image": "rune_beast_utility_1.png",
       "season": "Season 0"
+    },
+    {
+      "id": 70,
+      "tokenId": 0,
+      "itemId": "rune_beast_utility_1",
+      "name": "Endless Anger",
+      "class": "Beast",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "{Solo}. Gain 2 {Rage} when your turn starts. {Rage} now grant 3 bonus DMG.",
+      "image": "rune_beast_utility_1.png",
+      "season": "Season Alpha"
+    },
+    {
+      "id": 147,
+      "tokenId": 0,
+      "itemId": "rune_beast_4001_s1",
+      "name": "Endless Anger",
+      "class": "Beast",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "{Solo}. Gain 2 {Rage} when your turn starts. {Rage} now grant 3 bonus DMG for Single attacks (AoE receives half of that).",
+      "image": "rune_beast_utility_1.png",
+      "season": "Season 1"
+    },
+    {
+      "id": 105,
+      "tokenId": 0,
+      "itemId": "rune_beast_defensive_1",
+      "name": "Pangolin Scale",
+      "class": "Beast",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "Cannot gain Shield. Take 15% less DMG.",
+      "image": "rune_beast_defensive_1.png",
+      "season": "Season Alpha"
     },
     {
       "id": 108,
@@ -6511,6 +6785,18 @@
       "season": "Season 0"
     },
     {
+      "id": 137,
+      "tokenId": 0,
+      "itemId": "rune_beast_2001_s1",
+      "name": "Pangolin Scale",
+      "class": "Beast",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "Cannot gain Shield. Take 15% less DMG.",
+      "image": "rune_beast_defensive_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 35,
       "tokenId": 0,
       "itemId": "rune_beast_2002_s0",
@@ -6521,6 +6807,30 @@
       "effect": "Deal 20% more DMG.\nTake 10% more DMG.",
       "image": "rune_beast_offensive_1.png",
       "season": "Season 0"
+    },
+    {
+      "id": 91,
+      "tokenId": 0,
+      "itemId": "rune_beast_offensive_1",
+      "name": "Reckless Hunter",
+      "class": "Beast",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "Deal 20% more DMG.\nTake 10% more DMG.",
+      "image": "rune_beast_offensive_1.png",
+      "season": "Season Alpha"
+    },
+    {
+      "id": 153,
+      "tokenId": 0,
+      "itemId": "rune_beast_2002_s1",
+      "name": "Reckless Hunter",
+      "class": "Beast",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "Deal 20% more DMG.\nTake 10% more DMG.",
+      "image": "rune_beast_offensive_1.png",
+      "season": "Season 1"
     },
     {
       "id": 87,
@@ -6535,6 +6845,30 @@
       "season": "Season 0"
     },
     {
+      "id": 99,
+      "tokenId": 0,
+      "itemId": "rune_bird_hybrid_1",
+      "name": "Raven's Tactic",
+      "class": "Bird",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "Deal 20% bonus DMG if HP is above 50%. Take 20% less DMG if HP is below 50%.",
+      "image": "rune_bird_hybrid_1.png",
+      "season": "Season Alpha"
+    },
+    {
+      "id": 203,
+      "tokenId": 0,
+      "itemId": "rune_bird_3001_s1",
+      "name": "Raven's Tactic",
+      "class": "Bird",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "Deal 20% bonus DMG if HP is above 50%. Take 20% less DMG if HP is below 50%.",
+      "image": "rune_bird_hybrid_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 1,
       "tokenId": 0,
       "itemId": "rune_bird_4001_s0",
@@ -6545,6 +6879,42 @@
       "effect": "{Solo}. When your turn starts, this Axie gain 2 {Feather}, another random ally (not summon) gain 2 {Feather}. This Axie gains back half of the Feather stack consumed.",
       "image": "rune_bird_utility_1.png",
       "season": "Season 0"
+    },
+    {
+      "id": 58,
+      "tokenId": 0,
+      "itemId": "rune_bird_utility_1",
+      "name": "Feather Descend",
+      "class": "Bird",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "{Solo}. When your turn starts, this Axie gain 2 {Feather}, another random ally (not summon) gain 2 {Feather}. This Axie gains back half of the Feather stack consumed.",
+      "image": "rune_bird_utility_1.png",
+      "season": "Season Alpha"
+    },
+    {
+      "id": 140,
+      "tokenId": 0,
+      "itemId": "rune_bird_4001_s1",
+      "name": "Feather Descend",
+      "class": "Bird",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "{Solo}. When your turn starts, this Axie gain 2 {Feather}, another random ally (not summon) gain 2 {Feather}. This Axie gains back half of the Feather stack consumed.",
+      "image": "rune_bird_utility_1.png",
+      "season": "Season 1"
+    },
+    {
+      "id": 40,
+      "tokenId": 0,
+      "itemId": "rune_bird_offensive_1",
+      "name": "Energy Guru",
+      "class": "Bird",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "Attack cards also deal 8 DMG per Energy cost to all enemies.",
+      "image": "rune_bird_offensive_1.png",
+      "season": "Season Alpha"
     },
     {
       "id": 48,
@@ -6559,6 +6929,18 @@
       "season": "Season 0"
     },
     {
+      "id": 181,
+      "tokenId": 0,
+      "itemId": "rune_bird_2002_s1",
+      "name": "Energy Guru",
+      "class": "Bird",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "Attack cards also deal 6 DMG per Energy cost to all enemies.",
+      "image": "rune_bird_offensive_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 100,
       "tokenId": 0,
       "itemId": "rune_bird_2001_s0",
@@ -6569,6 +6951,30 @@
       "effect": "Summons summoned by this Axie gain 14 bonus max HP.",
       "image": "rune_bird_defensive_1.png",
       "season": "Season 0"
+    },
+    {
+      "id": 124,
+      "tokenId": 0,
+      "itemId": "rune_bird_defensive_1",
+      "name": "The Incubator",
+      "class": "Bird",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "Summons summoned by this Axie gain 14 bonus max HP.",
+      "image": "rune_bird_defensive_1.png",
+      "season": "Season Alpha"
+    },
+    {
+      "id": 154,
+      "tokenId": 0,
+      "itemId": "rune_bird_2001_s1",
+      "name": "The Incubator",
+      "class": "Bird",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "Summons summoned by this Axie gain 14 bonus max HP.",
+      "image": "rune_bird_defensive_1.png",
+      "season": "Season 1"
     },
     {
       "id": 18,
@@ -6595,6 +7001,18 @@
       "season": "Season 0"
     },
     {
+      "id": 169,
+      "tokenId": 0,
+      "itemId": "rune_bug_3001_s1",
+      "name": "Sturdy Fighter",
+      "class": "Bug",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "Single Attack consumes 25% of current Shield and deal bonus DMG equal to 2 times that amount.",
+      "image": "rune_bug_offensive_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 57,
       "tokenId": 0,
       "itemId": "rune_bug_utility_1",
@@ -6617,6 +7035,18 @@
       "effect": "{Solo}. In odd <Round>s, draw 1 additional Card when your turn starts. In even <Round>s, gain 50 Shield when your turn starts.",
       "image": "rune_bug_utility_1.png",
       "season": "Season 0"
+    },
+    {
+      "id": 149,
+      "tokenId": 0,
+      "itemId": "rune_bug_4001_s1",
+      "name": "Collect And Protect",
+      "class": "Bug",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "{Solo}. In odd <Round>s, draw 1 additional Card when your turn starts. In even <Round>s, gain 50 Shield when your turn starts.",
+      "image": "rune_bug_utility_1.png",
+      "season": "Season 1"
     },
     {
       "id": 42,
@@ -6643,6 +7073,18 @@
       "season": "Season 0"
     },
     {
+      "id": 142,
+      "tokenId": 0,
+      "itemId": "rune_bug_2002_s1",
+      "name": "Shield Leecher",
+      "class": "Bug",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "When your turn starts, steal 50% Shield from the Enemy with highest Shield.",
+      "image": "rune_bug_hybrid_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 21,
       "tokenId": 0,
       "itemId": "rune_bug_defensive_1",
@@ -6665,6 +7107,18 @@
       "effect": "When your turn ends, gain Shield equal to (3 x the number of cards in your Discard Pile).",
       "image": "rune_bug_defensive_1.png",
       "season": "Season 0"
+    },
+    {
+      "id": 210,
+      "tokenId": 0,
+      "itemId": "rune_bug_2001_s1",
+      "name": "Vault Builder",
+      "class": "Bug",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "When your turn ends, gain Shield equal to (3 x the number of cards in your Discard Pile).",
+      "image": "rune_bug_defensive_1.png",
+      "season": "Season 1"
     },
     {
       "id": 4,
@@ -6691,6 +7145,18 @@
       "season": "Season Alpha"
     },
     {
+      "id": 158,
+      "tokenId": 0,
+      "itemId": "rune_dawn_3001_s1",
+      "name": "Heaven's Echoes",
+      "class": "Dawn",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "Your allies gain 1 {Damage Boost} whenever this Axie attacks. Your allies gain 15 Shield whenever this Axie uses a Skill.",
+      "image": "rune_dawn_hybrid_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 74,
       "tokenId": 0,
       "itemId": "rune_dawn_4001_s0",
@@ -6713,6 +7179,18 @@
       "effect": "{Solo}. When your turn starts, remove 1 Curse in your deck. Heal all teammates for 10 HP and grant all teammate 1 {Damage Boost} when successfully removing a Curse this way.",
       "image": "rune_dawn_utility_1.png",
       "season": "Season Alpha"
+    },
+    {
+      "id": 186,
+      "tokenId": 0,
+      "itemId": "rune_dawn_4001_s1",
+      "name": "Holy Prayer",
+      "class": "Dawn",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "{Solo}. When your turn starts, remove 1 Curse in your deck. Heal all teammates for 10 HP and grant all teammate 1 {Damage Boost} when successfully removing a Curse this way.",
+      "image": "rune_dawn_utility_1.png",
+      "season": "Season 1"
     },
     {
       "id": 5,
@@ -6739,6 +7217,18 @@
       "season": "Season Alpha"
     },
     {
+      "id": 170,
+      "tokenId": 0,
+      "itemId": "rune_dawn_2001_s1",
+      "name": "Arcane Protection",
+      "class": "Dawn",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "Take 5% less DMG per Buff on this Axie (capped at 20%).",
+      "image": "rune_dawn_defensive_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 39,
       "tokenId": 0,
       "itemId": "rune_dawn_2002_s0",
@@ -6761,6 +7251,18 @@
       "effect": "Deal 5% more DMG per Buff on this Axie (capped at 20%).",
       "image": "rune_dawn_offensive_1.png",
       "season": "Season Alpha"
+    },
+    {
+      "id": 157,
+      "tokenId": 0,
+      "itemId": "rune_dawn_2002_s1",
+      "name": "Celestial Might",
+      "class": "Dawn",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "Deal 5% more DMG per Buff on this Axie (capped at 20%).",
+      "image": "rune_dawn_offensive_1.png",
+      "season": "Season 1"
     },
     {
       "id": 8,
@@ -6787,6 +7289,18 @@
       "season": "Season Alpha"
     },
     {
+      "id": 183,
+      "tokenId": 0,
+      "itemId": "rune_dusk_3001_s1",
+      "name": "Malediction",
+      "class": "Dusk",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "Deal 15% more DMG against debuffed Enemies. Take 15% less DMG from debuffed Enemies",
+      "image": "rune_dusk_hybrid_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 38,
       "tokenId": 0,
       "itemId": "rune_dusk_4001_s0",
@@ -6809,6 +7323,18 @@
       "effect": "{Solo}. In Odd <Round>s, randomly apply {Hex} or {Fear} to all enemies for 2 turns at the start of your turn.",
       "image": "rune_dusk_utility_1.png",
       "season": "Season Alpha"
+    },
+    {
+      "id": 185,
+      "tokenId": 0,
+      "itemId": "rune_dusk_4001_s1",
+      "name": "Gloomy Dice",
+      "class": "Dusk",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "{Solo}. In Odd <Round>s, randomly apply {Hex} or {Fear} to all enemies for 2 turns at the start of your turn.",
+      "image": "rune_dusk_utility_1.png",
+      "season": "Season 1"
     },
     {
       "id": 60,
@@ -6835,6 +7361,18 @@
       "season": "Season 0"
     },
     {
+      "id": 146,
+      "tokenId": 0,
+      "itemId": "rune_dusk_2002_s1",
+      "name": "Cursed Ritual",
+      "class": "Dusk",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "This Axie attacks deal bonus DMG per Curse card in your deck.\nSingle attacks deal 5 bonus DMG per card (cap at 15 DMG).\nAoE and Multihit attack deal 2 bonus DMG per card (cap at 6 DMG).",
+      "image": "rune_dusk_offensive_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 75,
       "tokenId": 0,
       "itemId": "rune_dusk_defensive_1",
@@ -6857,6 +7395,18 @@
       "effect": "Gain 15 Shield whenever you play a card that apply Curse.",
       "image": "rune_dusk_defensive_1.png",
       "season": "Season 0"
+    },
+    {
+      "id": 152,
+      "tokenId": 0,
+      "itemId": "rune_dusk_2001_s1",
+      "name": "Wicked Ward",
+      "class": "Dusk",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "Gain 15 Shield whenever you play a card that apply Curse.",
+      "image": "rune_dusk_defensive_1.png",
+      "season": "Season 1"
     },
     {
       "id": 29,
@@ -6883,6 +7433,18 @@
       "season": "Season Alpha"
     },
     {
+      "id": 182,
+      "tokenId": 0,
+      "itemId": "rune_mech_3001_s1",
+      "name": "Adaptive Program",
+      "class": "Mech",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "Gain 10 bonus Shield from cards. Gain 3 {Damage Boost} whenever using a Shield card.",
+      "image": "rune_mech_hybrid_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 47,
       "tokenId": 0,
       "itemId": "rune_mech_4001_s0",
@@ -6905,6 +7467,18 @@
       "effect": "{Solo}. This Axie's Shield isn't removed when your enemy's turn ends.",
       "image": "rune_mech_utility_1.png",
       "season": "Season Alpha"
+    },
+    {
+      "id": 163,
+      "tokenId": 0,
+      "itemId": "rune_mech_4001_s1",
+      "name": "Shield Backup",
+      "class": "Mech",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "{Solo}. Increase Shield card's effect by 15%. This Axie's Shield isn't removed when your enemy's turn ends.",
+      "image": "rune_mech_utility_1.png",
+      "season": "Season 1"
     },
     {
       "id": 2,
@@ -6931,6 +7505,18 @@
       "season": "Season 0"
     },
     {
+      "id": 176,
+      "tokenId": 0,
+      "itemId": "rune_mech_2001_s1",
+      "name": "Last Stand",
+      "class": "Mech",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "When taking a fatal hit, survive with 1 HP until end of turn (active 1 time per battle). After that, apply an irremovable {Heal Block}.",
+      "image": "rune_mech_defensive_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 34,
       "tokenId": 0,
       "itemId": "rune_mech_2002_s0",
@@ -6953,6 +7539,18 @@
       "effect": "Deal 20% more DMG if this Axie has Shield.",
       "image": "rune_mech_offensive_1.png",
       "season": "Season Alpha"
+    },
+    {
+      "id": 187,
+      "tokenId": 0,
+      "itemId": "rune_mech_2002_s1",
+      "name": "Zap Armor",
+      "class": "Mech",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "Deal 20% more DMG if this Axie has Shield.",
+      "image": "rune_mech_offensive_1.png",
+      "season": "Season 1"
     },
     {
       "id": 63,
@@ -6979,6 +7577,18 @@
       "season": "Season 0"
     },
     {
+      "id": 194,
+      "tokenId": 0,
+      "itemId": "rune_neutral_1001_s1",
+      "name": "Leftover Potion",
+      "class": "Neutral",
+      "isBlockchain": 0,
+      "rarity": "Common",
+      "effect": "Recover 4% of max HP at the end of your turn.",
+      "image": "rune_neutral_utility_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 25,
       "tokenId": 0,
       "itemId": "rune_neutral_hybrid_1",
@@ -7001,6 +7611,18 @@
       "effect": "Deal 5 DMG per summon to all enemies at the beginning of your turn.",
       "image": "rune_neutral_hybrid_1.png",
       "season": "Season 0"
+    },
+    {
+      "id": 139,
+      "tokenId": 0,
+      "itemId": "rune_neutral_1004_s1",
+      "name": "Mini Legion",
+      "class": "Neutral",
+      "isBlockchain": 0,
+      "rarity": "Common",
+      "effect": "Deal 5 DMG per summon to all enemies at the beginning of your turn.",
+      "image": "rune_neutral_hybrid_1.png",
+      "season": "Season 1"
     },
     {
       "id": 9,
@@ -7027,6 +7649,18 @@
       "season": "Season 0"
     },
     {
+      "id": 188,
+      "tokenId": 0,
+      "itemId": "rune_neutral_1003_s1",
+      "name": "Thick Shield",
+      "class": "Neutral",
+      "isBlockchain": 0,
+      "rarity": "Common",
+      "effect": "Gain 10% bonus Shield from cards.",
+      "image": "rune_neutral_defensive_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 107,
       "tokenId": 0,
       "itemId": "rune_neutral_1002_s0",
@@ -7049,6 +7683,18 @@
       "effect": "Non Multihit Attack cards deal 10% bonus DMG.",
       "image": "rune_neutral_offensive_1.png",
       "season": null
+    },
+    {
+      "id": 193,
+      "tokenId": 0,
+      "itemId": "rune_neutral_1002_s1",
+      "name": "Tough Strike",
+      "class": "Neutral",
+      "isBlockchain": 0,
+      "rarity": "Common",
+      "effect": "Non Multihit Attack cards deal 10% bonus DMG.",
+      "image": "rune_neutral_offensive_1.png",
+      "season": "Season 1"
     },
     {
       "id": 82,
@@ -7075,6 +7721,18 @@
       "season": "Season Alpha"
     },
     {
+      "id": 156,
+      "tokenId": 0,
+      "itemId": "rune_neutral_3001_s1",
+      "name": "Pure Instinct",
+      "class": "Neutral",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "All cards gain 15% {Class Bonus}.",
+      "image": "rune_neutral_hybrid_2.png",
+      "season": "Season 1"
+    },
+    {
       "id": 97,
       "tokenId": 0,
       "itemId": "rune_neutral_4001_s0",
@@ -7097,6 +7755,18 @@
       "effect": "{Solo}.Energy +1 in Even <Round>s.\nAdd 2 [Daze] and 1 [Void] to your deck.",
       "image": "rune_neutral_utility_2.png",
       "season": "Season Alpha"
+    },
+    {
+      "id": 208,
+      "tokenId": 0,
+      "itemId": "rune_neutral_4001_s1",
+      "name": "Shady Exchange",
+      "class": "Neutral",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "{Solo}.Energy +1 in Even <Round>s.\nAdd 2 [Daze] to your deck.",
+      "image": "rune_neutral_utility_2.png",
+      "season": "Season 1"
     },
     {
       "id": 7,
@@ -7123,6 +7793,18 @@
       "season": "Season Alpha"
     },
     {
+      "id": 197,
+      "tokenId": 0,
+      "itemId": "rune_neutral_2002_s1",
+      "name": "Pure Power",
+      "class": "Neutral",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "Attack cards gain 15% {Class Bonus}.",
+      "image": "rune_neutral_offensive_2.png",
+      "season": "Season 1"
+    },
+    {
       "id": 93,
       "tokenId": 0,
       "itemId": "rune_neutral_2001_s0",
@@ -7145,6 +7827,18 @@
       "effect": "Healing and Shield cards gain 15% {Class Bonus}.        ",
       "image": "rune_neutral_defensive_2.png",
       "season": "Season Alpha"
+    },
+    {
+      "id": 202,
+      "tokenId": 0,
+      "itemId": "rune_neutral_2001_s1",
+      "name": "Pure Skill",
+      "class": "Neutral",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "Healing and Shield cards gain 15% {Class Bonus}.        ",
+      "image": "rune_neutral_defensive_2.png",
+      "season": "Season 1"
     },
     {
       "id": 36,
@@ -7171,6 +7865,18 @@
       "season": "Season 0"
     },
     {
+      "id": 150,
+      "tokenId": 0,
+      "itemId": "rune_plant_3001_s1",
+      "name": "Rise And Ruin",
+      "class": "Plant",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "{Solo}. Shielding cards of this Axie also restore HP equal to 100% of Shield gained but grant 35% less Shield.",
+      "image": "rune_plant_hybrid_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 45,
       "tokenId": 0,
       "itemId": "rune_plant_defensive_1",
@@ -7193,6 +7899,18 @@
       "effect": "{Solo}. Increase all ally Axies' max HP by 50.",
       "image": "rune_plant_defensive_1.png",
       "season": "Season 0"
+    },
+    {
+      "id": 167,
+      "tokenId": 0,
+      "itemId": "rune_plant_4001_s1",
+      "name": "Gaia's Embrace",
+      "class": "Plant",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "{Solo}. Increase all ally Axies' max HP by 50.",
+      "image": "rune_plant_defensive_1.png",
+      "season": "Season 1"
     },
     {
       "id": 67,
@@ -7219,6 +7937,18 @@
       "season": "Season Alpha"
     },
     {
+      "id": 192,
+      "tokenId": 0,
+      "itemId": "rune_plant_2002_s1",
+      "name": "Healing Pulse",
+      "class": "Plant",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "All teammates regen 4 HP when your turn ends. Increase Healing card effects by 10%.",
+      "image": "rune_plant_utility_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 32,
       "tokenId": 0,
       "itemId": "rune_plant_2001_s0",
@@ -7241,6 +7971,18 @@
       "effect": "Start Battle with 3 {Leaf}. Non-Multihit Attacks consume 1 {Leaf} and deal 15 bonus DMG",
       "image": "rune_plant_offensive_1.png",
       "season": "Season Alpha"
+    },
+    {
+      "id": 205,
+      "tokenId": 0,
+      "itemId": "rune_plant_2001_s1",
+      "name": "Miracle Leaf",
+      "class": "Plant",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "Start Battle with 3 {Leaf}.\nSingle attacks consume 1 {Leaf} and deal 15 bonus DMG.\nAoE attacks consume 1 {Leaf} and deal 6 bonus DMG.",
+      "image": "rune_plant_offensive_1.png",
+      "season": "Season 1"
     },
     {
       "id": 59,
@@ -7267,6 +8009,18 @@
       "season": "Season Alpha"
     },
     {
+      "id": 200,
+      "tokenId": 0,
+      "itemId": "rune_reptile_3001_s1",
+      "name": "Poison Touch",
+      "class": "Reptile",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "{Solo}. Apply 1 {Poison} to Attacker. Take 2% less DMG per {Poison} stack on the attacking enemy. Max at 20%.",
+      "image": "rune_reptile_hybrid_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 120,
       "tokenId": 0,
       "itemId": "rune_reptile_utility_1",
@@ -7289,6 +8043,18 @@
       "effect": "{Solo}. When your turn start, {Cleanse} 2 random debuffs if HP is above 75% or recover 10% of max HP if not.",
       "image": "rune_reptile_utility_1.png",
       "season": "Season 0"
+    },
+    {
+      "id": 161,
+      "tokenId": 0,
+      "itemId": "rune_reptile_4001_s1",
+      "name": "Regenerator",
+      "class": "Reptile",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "{Solo}. When your turn start, {Cleanse} 2 random debuffs if HP is above 75% or recover 10% of max HP if not.",
+      "image": "rune_reptile_utility_1.png",
+      "season": "Season 1"
     },
     {
       "id": 28,
@@ -7315,6 +8081,18 @@
       "season": "Season 0"
     },
     {
+      "id": 174,
+      "tokenId": 0,
+      "itemId": "rune_reptile_2001_s1",
+      "name": "Delayed Protection",
+      "class": "Reptile",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "When your turn starts, gain 12 Shield for each attack this Axie took in the previous turn.",
+      "image": "rune_reptile_defensive_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 17,
       "tokenId": 0,
       "itemId": "rune_reptile_offensive_1",
@@ -7339,6 +8117,18 @@
       "season": "Season 0"
     },
     {
+      "id": 207,
+      "tokenId": 0,
+      "itemId": "rune_reptile_2002_s1",
+      "name": "Venom Master",
+      "class": "Reptile",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "Attack cards apply 1 additional {Poison}.\nNon- Multihit Attacks deal 1 bonus DMG per 2 {Poison} on target.",
+      "image": "rune_reptile_offensive_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 43,
       "tokenId": 1000003,
       "itemId": "rune_aquatic_3001_s0_nft",
@@ -7349,6 +8139,18 @@
       "effect": "Single attacks {Steal} 12 HP. AoE and Multihit attacks {Steal} 3 HP per hit.",
       "image": "rune_aquatic_hybrid_1.png",
       "season": "Season 0"
+    },
+    {
+      "id": 130,
+      "tokenId": 1001003,
+      "itemId": "rune_aquatic_3001_s1_nft",
+      "name": "Bloodlust",
+      "class": "Aquatic",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "Attacks that cause HP loss will {Steal}s HP. Single attacks {Steal}s 12 HP. AoE and Multihit attacks {Steal}s 4 HP per hit.",
+      "image": "rune_aquatic_hybrid_1.png",
+      "season": "Season 1"
     },
     {
       "id": 125,
@@ -7363,6 +8165,18 @@
       "season": "Season 0"
     },
     {
+      "id": 131,
+      "tokenId": 1001004,
+      "itemId": "rune_aquatic_4001_s1_nft",
+      "name": "Heart of Ocean",
+      "class": "Aquatic",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "{Solo}. When your turn starts, this Axie gains 1 {Bubble}. {Bubble Bomb} detonated by this Axie deal x1.5 DMG.",
+      "image": "rune_aquatic_utility_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 16,
       "tokenId": 1000001,
       "itemId": "rune_aquatic_2001_s0_nft",
@@ -7373,6 +8187,18 @@
       "effect": "At the beginning of your turn, gain Shield equal to 4% of max HP.",
       "image": "rune_aquatic_defensive_1.png",
       "season": "Season 0"
+    },
+    {
+      "id": 160,
+      "tokenId": 1001001,
+      "itemId": "rune_aquatic_2001_s1_nft",
+      "name": "Calcium Armor",
+      "class": "Aquatic",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "At the beginning of your turn, gain Shield equal to 4% of max HP.",
+      "image": "rune_aquatic_defensive_1.png",
+      "season": "Season 1"
     },
     {
       "id": 49,
@@ -7387,6 +8213,18 @@
       "season": "Season 0"
     },
     {
+      "id": 162,
+      "tokenId": 1001002,
+      "itemId": "rune_aquatic_2002_s1_nft",
+      "name": "Hearty Warrior",
+      "class": "Aquatic",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "Single attacks attack deal bonus DMG equal to 5% of remaining HP. AoE and multihit attacks deal bonus DMG equal to 3% of remaining HP.",
+      "image": "rune_aquatic_offensive_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 44,
       "tokenId": 1000007,
       "itemId": "rune_beast_3001_s0_nft",
@@ -7397,6 +8235,18 @@
       "effect": "Single attacks apply {Bleed} for 2 turns if target doesn't have {Bleed} and this Axie's HP is above 75%. Deal 20% more DMG against Bleeding Enemies.\nTake 10% less DMG from Bleeding Enemies",
       "image": "rune_beast_hybrid_1.png",
       "season": "Season 0"
+    },
+    {
+      "id": 159,
+      "tokenId": 1001007,
+      "itemId": "rune_beast_3001_s1_nft",
+      "name": "Dominant Predator",
+      "class": "Beast",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "Single attacks apply {Bleed} for 2 turns if target doesn't have {Bleed} and this Axie's HP is above 75%. Deal 20% more DMG against Bleeding Enemies.\nTake 10% less DMG from Bleeding Enemies",
+      "image": "rune_beast_hybrid_1.png",
+      "season": "Season 1"
     },
     {
       "id": 106,
@@ -7411,6 +8261,18 @@
       "season": "Season 0"
     },
     {
+      "id": 206,
+      "tokenId": 1001008,
+      "itemId": "rune_beast_4001_s1_nft",
+      "name": "Endless Anger",
+      "class": "Beast",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "{Solo}. Gain 2 {Rage} when your turn starts. {Rage} now grant 3 bonus DMG for Single attacks (AoE receives half of that).",
+      "image": "rune_beast_utility_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 13,
       "tokenId": 1000005,
       "itemId": "rune_beast_2001_s0_nft",
@@ -7421,6 +8283,18 @@
       "effect": "Cannot gain Shield. Take 15% less DMG.",
       "image": "rune_beast_defensive_1.png",
       "season": "Season 0"
+    },
+    {
+      "id": 171,
+      "tokenId": 1001005,
+      "itemId": "rune_beast_2001_s1_nft",
+      "name": "Pangolin Scale",
+      "class": "Beast",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "Cannot gain Shield. Take 15% less DMG.",
+      "image": "rune_beast_defensive_1.png",
+      "season": "Season 1"
     },
     {
       "id": 84,
@@ -7435,6 +8309,18 @@
       "season": "Season 0"
     },
     {
+      "id": 132,
+      "tokenId": 1001006,
+      "itemId": "rune_beast_2002_s1_nft",
+      "name": "Reckless Hunter",
+      "class": "Beast",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "Deal 20% more DMG.\nTake 10% more DMG.",
+      "image": "rune_beast_offensive_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 55,
       "tokenId": 1000011,
       "itemId": "rune_bird_3001_s0_nft",
@@ -7445,6 +8331,18 @@
       "effect": "Deal 20% bonus DMG if HP is above 50%. Take 20% less DMG if HP is below 50%.",
       "image": "rune_bird_hybrid_1.png",
       "season": "Season 0"
+    },
+    {
+      "id": 179,
+      "tokenId": 1001011,
+      "itemId": "rune_bird_3001_s1_nft",
+      "name": "Raven's Tactic",
+      "class": "Bird",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "Deal 20% bonus DMG if HP is above 50%. Take 20% less DMG if HP is below 50%.",
+      "image": "rune_bird_hybrid_1.png",
+      "season": "Season 1"
     },
     {
       "id": 116,
@@ -7459,6 +8357,18 @@
       "season": "Season 0"
     },
     {
+      "id": 178,
+      "tokenId": 1001012,
+      "itemId": "rune_bird_4001_s1_nft",
+      "name": "Feather Descend",
+      "class": "Bird",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "{Solo}. When your turn starts, this Axie gain 2 {Feather}, another random ally (not summon) gain 2 {Feather}. This Axie gains back half of the Feather stack consumed.",
+      "image": "rune_bird_utility_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 10,
       "tokenId": 1000010,
       "itemId": "rune_bird_2002_s0_nft",
@@ -7469,6 +8379,18 @@
       "effect": "Attack cards also deal 6 DMG per Energy cost to all enemies.",
       "image": "rune_bird_offensive_1.png",
       "season": "Season 0"
+    },
+    {
+      "id": 198,
+      "tokenId": 1001010,
+      "itemId": "rune_bird_2002_s1_nft",
+      "name": "Energy Guru",
+      "class": "Bird",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "Attack cards also deal 6 DMG per Energy cost to all enemies.",
+      "image": "rune_bird_offensive_1.png",
+      "season": "Season 1"
     },
     {
       "id": 31,
@@ -7483,6 +8405,18 @@
       "season": "Season 0"
     },
     {
+      "id": 129,
+      "tokenId": 1001009,
+      "itemId": "rune_bird_2001_s1_nft",
+      "name": "The Incubator",
+      "class": "Bird",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "Summons summoned by this Axie gain 14 bonus max HP.",
+      "image": "rune_bird_defensive_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 27,
       "tokenId": 1000015,
       "itemId": "rune_bug_3001_s0_nft",
@@ -7493,6 +8427,18 @@
       "effect": "Single Attack consumes 25% of current Shield and deal bonus DMG equal to 2 times that amount.",
       "image": "rune_bug_offensive_1.png",
       "season": "Season 0"
+    },
+    {
+      "id": 201,
+      "tokenId": 1001015,
+      "itemId": "rune_bug_3001_s1_nft",
+      "name": "Sturdy Fighter",
+      "class": "Bug",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "Single Attack consumes 25% of current Shield and deal bonus DMG equal to 2 times that amount.",
+      "image": "rune_bug_offensive_1.png",
+      "season": "Season 1"
     },
     {
       "id": 6,
@@ -7507,6 +8453,18 @@
       "season": "Season 0"
     },
     {
+      "id": 211,
+      "tokenId": 1001016,
+      "itemId": "rune_bug_4001_s1_nft",
+      "name": "Collect And Protect",
+      "class": "Bug",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "{Solo}. In odd <Round>s, draw 1 additional Card when your turn starts. In even <Round>s, gain 50 Shield when your turn starts.",
+      "image": "rune_bug_utility_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 81,
       "tokenId": 1000014,
       "itemId": "rune_bug_2002_s0_nft",
@@ -7517,6 +8475,18 @@
       "effect": "When your turn starts, steal 50% Shield from the Enemy with highest Shield.",
       "image": "rune_bug_hybrid_1.png",
       "season": "Season 0"
+    },
+    {
+      "id": 199,
+      "tokenId": 1001014,
+      "itemId": "rune_bug_2002_s1_nft",
+      "name": "Shield Leecher",
+      "class": "Bug",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "When your turn starts, steal 50% Shield from the Enemy with highest Shield.",
+      "image": "rune_bug_hybrid_1.png",
+      "season": "Season 1"
     },
     {
       "id": 73,
@@ -7531,6 +8501,18 @@
       "season": "Season 0"
     },
     {
+      "id": 164,
+      "tokenId": 1001013,
+      "itemId": "rune_bug_2001_s1_nft",
+      "name": "Vault Builder",
+      "class": "Bug",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "When your turn ends, gain Shield equal to (3 x the number of cards in your Discard Pile).",
+      "image": "rune_bug_defensive_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 62,
       "tokenId": 1000019,
       "itemId": "rune_dawn_3001_s0_nft",
@@ -7541,6 +8523,18 @@
       "effect": "Your allies gain 1 {Damage Boost} whenever this Axie attacks. Your allies gain 15 Shield whenever this Axie uses a Skill.",
       "image": "rune_dawn_hybrid_1.png",
       "season": "Season 0"
+    },
+    {
+      "id": 145,
+      "tokenId": 1001019,
+      "itemId": "rune_dawn_3001_s1_nft",
+      "name": "Heaven's Echoes",
+      "class": "Dawn",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "Your allies gain 1 {Damage Boost} whenever this Axie attacks. Your allies gain 15 Shield whenever this Axie uses a Skill.",
+      "image": "rune_dawn_hybrid_1.png",
+      "season": "Season 1"
     },
     {
       "id": 77,
@@ -7555,6 +8549,18 @@
       "season": "Season 0"
     },
     {
+      "id": 166,
+      "tokenId": 1001020,
+      "itemId": "rune_dawn_4001_s1_nft",
+      "name": "Holy Prayer",
+      "class": "Dawn",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "{Solo}. When your turn starts, remove 1 Curse in your deck. Heal all teammates for 10 HP and grant all teammate 1 {Damage Boost} when successfully removing a Curse this way.",
+      "image": "rune_dawn_utility_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 69,
       "tokenId": 1000017,
       "itemId": "rune_dawn_2001_s0_nft",
@@ -7565,6 +8571,18 @@
       "effect": "Take 5% less DMG per Buff on this Axie (capped at 20%).",
       "image": "rune_dawn_defensive_1.png",
       "season": "Season 0"
+    },
+    {
+      "id": 189,
+      "tokenId": 1001017,
+      "itemId": "rune_dawn_2001_s1_nft",
+      "name": "Arcane Protection",
+      "class": "Dawn",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "Take 5% less DMG per Buff on this Axie (capped at 20%).",
+      "image": "rune_dawn_defensive_1.png",
+      "season": "Season 1"
     },
     {
       "id": 122,
@@ -7579,6 +8597,18 @@
       "season": "Season 0"
     },
     {
+      "id": 168,
+      "tokenId": 1001018,
+      "itemId": "rune_dawn_2002_s1_nft",
+      "name": "Celestial Might",
+      "class": "Dawn",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "Deal 5% more DMG per Buff on this Axie (capped at 20%).",
+      "image": "rune_dawn_offensive_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 3,
       "tokenId": 1000023,
       "itemId": "rune_dusk_3001_s0_nft",
@@ -7589,6 +8619,18 @@
       "effect": "Deal 15% more DMG against debuffed Enemies. Take 15% less DMG from debuffed Enemies",
       "image": "rune_dusk_hybrid_1.png",
       "season": "Season 0"
+    },
+    {
+      "id": 173,
+      "tokenId": 1001023,
+      "itemId": "rune_dusk_3001_s1_nft",
+      "name": "Malediction",
+      "class": "Dusk",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "Deal 15% more DMG against debuffed Enemies. Take 15% less DMG from debuffed Enemies",
+      "image": "rune_dusk_hybrid_1.png",
+      "season": "Season 1"
     },
     {
       "id": 80,
@@ -7603,6 +8645,18 @@
       "season": "Season 0"
     },
     {
+      "id": 143,
+      "tokenId": 1001024,
+      "itemId": "rune_dusk_4001_s1_nft",
+      "name": "Gloomy Dice",
+      "class": "Dusk",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "{Solo}. In Odd <Round>s, randomly apply {Hex} or {Fear} to all enemies for 2 turns at the start of your turn.",
+      "image": "rune_dusk_utility_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 86,
       "tokenId": 1000022,
       "itemId": "rune_dusk_2002_s0_nft",
@@ -7613,6 +8667,18 @@
       "effect": "This Axie attacks deal bonus DMG per Curse card in your deck.\nSingle attacks deal 5 bonus DMG per card (cap at 15 DMG).\nAoE and Multihit attack deal 2 bonus DMG per card (cap at 6 DMG).",
       "image": "rune_dusk_offensive_1.png",
       "season": "Season 0"
+    },
+    {
+      "id": 204,
+      "tokenId": 1001022,
+      "itemId": "rune_dusk_2002_s1_nft",
+      "name": "Cursed Ritual",
+      "class": "Dusk",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "This Axie attacks deal bonus DMG per Curse card in your deck.\nSingle attacks deal 5 bonus DMG per card (cap at 15 DMG).\nAoE and Multihit attack deal 2 bonus DMG per card (cap at 6 DMG).",
+      "image": "rune_dusk_offensive_1.png",
+      "season": "Season 1"
     },
     {
       "id": 98,
@@ -7627,6 +8693,18 @@
       "season": "Season 0"
     },
     {
+      "id": 172,
+      "tokenId": 1001021,
+      "itemId": "rune_dusk_2001_s1_nft",
+      "name": "Wicked Ward",
+      "class": "Dusk",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "Gain 15 Shield whenever you play a card that apply Curse.",
+      "image": "rune_dusk_defensive_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 92,
       "tokenId": 1000027,
       "itemId": "rune_mech_3001_s0_nft",
@@ -7637,6 +8715,18 @@
       "effect": "Gain 10 bonus Shield from cards. Gain 3 {Damage Boost} whenever using a Shield card.",
       "image": "rune_mech_hybrid_1.png",
       "season": "Season 0"
+    },
+    {
+      "id": 133,
+      "tokenId": 1001027,
+      "itemId": "rune_mech_3001_s1_nft",
+      "name": "Adaptive Program",
+      "class": "Mech",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "Gain 10 bonus Shield from cards. Gain 3 {Damage Boost} whenever using a Shield card.",
+      "image": "rune_mech_hybrid_1.png",
+      "season": "Season 1"
     },
     {
       "id": 72,
@@ -7651,6 +8741,18 @@
       "season": "Season 0"
     },
     {
+      "id": 155,
+      "tokenId": 1001028,
+      "itemId": "rune_mech_4001_s1_nft",
+      "name": "Shield Backup",
+      "class": "Mech",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "{Solo}. Increase Shield card's effect by 15%. This Axie's Shield isn't removed when your enemy's turn ends.",
+      "image": "rune_mech_utility_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 37,
       "tokenId": 1000025,
       "itemId": "rune_mech_2001_s0_nft",
@@ -7661,6 +8763,18 @@
       "effect": "When taking a fatal hit, survive with 1 HP until end of turn (active 1 time per battle). After that, apply an irremovable {Heal Block}.",
       "image": "rune_mech_defensive_1.png",
       "season": "Season 0"
+    },
+    {
+      "id": 184,
+      "tokenId": 1001025,
+      "itemId": "rune_mech_2001_s1_nft",
+      "name": "Last Stand",
+      "class": "Mech",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "When taking a fatal hit, survive with 1 HP until end of turn (active 1 time per battle). After that, apply an irremovable {Heal Block}.",
+      "image": "rune_mech_defensive_1.png",
+      "season": "Season 1"
     },
     {
       "id": 109,
@@ -7675,6 +8789,18 @@
       "season": "Season 0"
     },
     {
+      "id": 196,
+      "tokenId": 1001026,
+      "itemId": "rune_mech_2002_s1_nft",
+      "name": "Zap Armor",
+      "class": "Mech",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "Deal 20% more DMG if this Axie has Shield.",
+      "image": "rune_mech_offensive_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 94,
       "tokenId": 1000031,
       "itemId": "rune_neutral_3001_s0_nft",
@@ -7685,6 +8811,18 @@
       "effect": "All cards gain 15% {Class Bonus}.",
       "image": "rune_neutral_hybrid_2.png",
       "season": "Season 0"
+    },
+    {
+      "id": 144,
+      "tokenId": 1001031,
+      "itemId": "rune_neutral_3001_s1_nft",
+      "name": "Pure Instinct",
+      "class": "Neutral",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "All cards gain 15% {Class Bonus}.",
+      "image": "rune_neutral_hybrid_2.png",
+      "season": "Season 1"
     },
     {
       "id": 20,
@@ -7699,6 +8837,18 @@
       "season": "Season 0"
     },
     {
+      "id": 177,
+      "tokenId": 1001032,
+      "itemId": "rune_neutral_4001_s1_nft",
+      "name": "Shady Exchange",
+      "class": "Neutral",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "{Solo}.Energy +1 in Even <Round>s.\nAdd 2 [Daze] to your deck.",
+      "image": "rune_neutral_utility_2.png",
+      "season": "Season 1"
+    },
+    {
       "id": 50,
       "tokenId": 1000030,
       "itemId": "rune_neutral_2002_s0_nft",
@@ -7709,6 +8859,18 @@
       "effect": "Attack cards gain 15% {Class Bonus}.",
       "image": "rune_neutral_offensive_2.png",
       "season": "Season 0"
+    },
+    {
+      "id": 148,
+      "tokenId": 1001030,
+      "itemId": "rune_neutral_2002_s1_nft",
+      "name": "Pure Power",
+      "class": "Neutral",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "Attack cards gain 15% {Class Bonus}.",
+      "image": "rune_neutral_offensive_2.png",
+      "season": "Season 1"
     },
     {
       "id": 114,
@@ -7723,6 +8885,18 @@
       "season": "Season 0"
     },
     {
+      "id": 195,
+      "tokenId": 1001029,
+      "itemId": "rune_neutral_2001_s1_nft",
+      "name": "Pure Skill",
+      "class": "Neutral",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "Healing and Shield cards gain 15% {Class Bonus}.        ",
+      "image": "rune_neutral_defensive_2.png",
+      "season": "Season 1"
+    },
+    {
       "id": 96,
       "tokenId": 1000035,
       "itemId": "rune_plant_3001_s0_nft",
@@ -7733,6 +8907,18 @@
       "effect": "{Solo}. Shielding cards of this Axie also restore HP equal to 100% of Shield gained but grant 35% less Shield.",
       "image": "rune_plant_hybrid_1.png",
       "season": "Season 0"
+    },
+    {
+      "id": 212,
+      "tokenId": 1001035,
+      "itemId": "rune_plant_3001_s1_nft",
+      "name": "Rise And Ruin",
+      "class": "Plant",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "{Solo}. Shielding cards of this Axie also restore HP equal to 100% of Shield gained but grant 35% less Shield.",
+      "image": "rune_plant_hybrid_1.png",
+      "season": "Season 1"
     },
     {
       "id": 68,
@@ -7747,6 +8933,18 @@
       "season": "Season 0"
     },
     {
+      "id": 209,
+      "tokenId": 1001036,
+      "itemId": "rune_plant_4001_s1_nft",
+      "name": "Gaia's Embrace",
+      "class": "Plant",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "{Solo}. Increase all ally Axies' max HP by 50.",
+      "image": "rune_plant_defensive_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 15,
       "tokenId": 1000034,
       "itemId": "rune_plant_2002_s0_nft",
@@ -7757,6 +8955,18 @@
       "effect": "All teammates regen 4 HP when your turn ends. Increase Healing card effects by 10%.",
       "image": "rune_plant_utility_1.png",
       "season": "Season 0"
+    },
+    {
+      "id": 141,
+      "tokenId": 1001034,
+      "itemId": "rune_plant_2002_s1_nft",
+      "name": "Healing Pulse",
+      "class": "Plant",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "All teammates regen 4 HP when your turn ends. Increase Healing card effects by 10%.",
+      "image": "rune_plant_utility_1.png",
+      "season": "Season 1"
     },
     {
       "id": 83,
@@ -7771,6 +8981,18 @@
       "season": "Season 0"
     },
     {
+      "id": 190,
+      "tokenId": 1001033,
+      "itemId": "rune_plant_2001_s1_nft",
+      "name": "Miracle Leaf",
+      "class": "Plant",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "Start Battle with 3 {Leaf}.\nSingle attacks consume 1 {Leaf} and deal 15 bonus DMG.\nAoE attacks consume 1 {Leaf} and deal 6 bonus DMG.",
+      "image": "rune_plant_offensive_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 11,
       "tokenId": 1000039,
       "itemId": "rune_reptile_3001_s0_nft",
@@ -7781,6 +9003,18 @@
       "effect": "{Solo}. Apply 1 {Poison} to Attacker. Take 2% less DMG per {Poison} stack on the attacking enemy. Max at 20%.",
       "image": "rune_reptile_hybrid_1.png",
       "season": "Season 0"
+    },
+    {
+      "id": 175,
+      "tokenId": 1001039,
+      "itemId": "rune_reptile_3001_s1_nft",
+      "name": "Poison Touch",
+      "class": "Reptile",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "{Solo}. Apply 1 {Poison} to Attacker. Take 2% less DMG per {Poison} stack on the attacking enemy. Max at 20%.",
+      "image": "rune_reptile_hybrid_1.png",
+      "season": "Season 1"
     },
     {
       "id": 101,
@@ -7795,6 +9029,18 @@
       "season": "Season 0"
     },
     {
+      "id": 136,
+      "tokenId": 1001040,
+      "itemId": "rune_reptile_4001_s1_nft",
+      "name": "Regenerator",
+      "class": "Reptile",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "{Solo}. When your turn start, {Cleanse} 2 random debuffs if HP is above 75% or recover 10% of max HP if not.",
+      "image": "rune_reptile_utility_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 126,
       "tokenId": 1000037,
       "itemId": "rune_reptile_2001_s0_nft",
@@ -7807,6 +9053,18 @@
       "season": "Season 0"
     },
     {
+      "id": 135,
+      "tokenId": 1001037,
+      "itemId": "rune_reptile_2001_s1_nft",
+      "name": "Delayed Protection",
+      "class": "Reptile",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "When your turn starts, gain 12 Shield for each attack this Axie took in the previous turn.",
+      "image": "rune_reptile_defensive_1.png",
+      "season": "Season 1"
+    },
+    {
       "id": 33,
       "tokenId": 1000038,
       "itemId": "rune_reptile_2002_s0_nft",
@@ -7817,6 +9075,18 @@
       "effect": "Attack cards apply 1 additional {Poison}.\nNon- Multihit Attacks deal 1 bonus DMG per 2 {Poison} on target.",
       "image": "rune_reptile_offensive_1.png",
       "season": "Season 0"
+    },
+    {
+      "id": 134,
+      "tokenId": 1001038,
+      "itemId": "rune_reptile_2002_s1_nft",
+      "name": "Venom Master",
+      "class": "Reptile",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "Attack cards apply 1 additional {Poison}.\nNon- Multihit Attacks deal 1 bonus DMG per 2 {Poison} on target.",
+      "image": "rune_reptile_offensive_1.png",
+      "season": "Season 1"
     }
   ],
   "charms": [
@@ -7847,6 +9117,19 @@
       "season": "Season Alpha"
     },
     {
+      "id": 301,
+      "tokenId": 0,
+      "itemId": "ecard_aquatic_3002_s1",
+      "name": "Aquatic's Charm of Power II",
+      "class": "Aquatic",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "(Enhance a Non-Multihit Attack card)\nATK +10",
+      "potentialCost": 3,
+      "image": "ecard_aquatic_5002.png",
+      "season": "Season 1"
+    },
+    {
       "id": 4,
       "tokenId": 0,
       "itemId": "ecard_aquatic_3001_s0",
@@ -7871,6 +9154,19 @@
       "potentialCost": 3,
       "image": "ecard_aquatic_5001.png",
       "season": "Season Alpha"
+    },
+    {
+      "id": 325,
+      "tokenId": 0,
+      "itemId": "ecard_aquatic_3001_s1",
+      "name": "Aquatic's Charm of Vitality II",
+      "class": "Aquatic",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "(Enhance any card)\nAxie's max HP +18",
+      "potentialCost": 3,
+      "image": "ecard_aquatic_5001.png",
+      "season": "Season 1"
     },
     {
       "id": 192,
@@ -7899,6 +9195,19 @@
       "season": "Season 0"
     },
     {
+      "id": 271,
+      "tokenId": 0,
+      "itemId": "ecard_aquatic_3003_s1",
+      "name": "Bubble Paste",
+      "class": "Aquatic",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "(Enhance any Attack card)\nAll teammates gain 1 {Bubble}.",
+      "potentialCost": 4,
+      "image": "ecard_aquatic_4003.png",
+      "season": "Season 1"
+    },
+    {
       "id": 26,
       "tokenId": 0,
       "itemId": "ecard_aquatic_4001_s0",
@@ -7923,6 +9232,19 @@
       "potentialCost": 4,
       "image": "ecard_aquatic_5003.png",
       "season": "Season Alpha"
+    },
+    {
+      "id": 251,
+      "tokenId": 0,
+      "itemId": "ecard_aquatic_4001_s1",
+      "name": "Aquatic Energy Drink S",
+      "class": "Aquatic",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "(Enhance any card)\nAdd <Ethereal>.",
+      "potentialCost": 4,
+      "image": "ecard_aquatic_5003.png",
+      "season": "Season 1"
     },
     {
       "id": 40,
@@ -7951,6 +9273,19 @@
       "season": "Season 0"
     },
     {
+      "id": 255,
+      "tokenId": 0,
+      "itemId": "ecard_aquatic_4002_s1",
+      "name": "Sticky Octopus",
+      "class": "Aquatic",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "(Enhance any card)\nAdd <Retain>. Card's base stat -10%.",
+      "potentialCost": 4,
+      "image": "ecard_aquatic_5004.png",
+      "season": "Season 1"
+    },
+    {
       "id": 77,
       "tokenId": 0,
       "itemId": "ecard_aquatic_4003_s0",
@@ -7975,6 +9310,19 @@
       "potentialCost": 5,
       "image": "ecard_aquatic_5005.png",
       "season": "Season Alpha"
+    },
+    {
+      "id": 333,
+      "tokenId": 0,
+      "itemId": "ecard_aquatic_4003_s1",
+      "name": "Paralyzing Jellyfish",
+      "class": "Aquatic",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "(Enhance any Attack card)\nSingle attacks applies {Vulnerable} for 4 turns.\nAoE an Multihit apply {Vulnerable} for 2 turns.",
+      "potentialCost": 5,
+      "image": "ecard_aquatic_5005.png",
+      "season": "Season 1"
     },
     {
       "id": 120,
@@ -8003,6 +9351,19 @@
       "season": "Season 0"
     },
     {
+      "id": 237,
+      "tokenId": 0,
+      "itemId": "ecard_aquatic_2002_s1",
+      "name": "Aquatic's  Charm of Power I",
+      "class": "Aquatic",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "(Enhance a Non-Multihit Attack card)\nATK +6",
+      "potentialCost": 2,
+      "image": "ecard_aquatic_4002.png",
+      "season": "Season 1"
+    },
+    {
       "id": 98,
       "tokenId": 0,
       "itemId": "ecard_aquatic_2001_s0",
@@ -8027,6 +9388,19 @@
       "potentialCost": 2,
       "image": "ecard_aquatic_4001.png",
       "season": "Season Alpha"
+    },
+    {
+      "id": 281,
+      "tokenId": 0,
+      "itemId": "ecard_aquatic_2001_s1",
+      "name": "Aquatic's Charm of Vitality I",
+      "class": "Aquatic",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "(Enhance any card)\nAxie's max HP +12",
+      "potentialCost": 2,
+      "image": "ecard_aquatic_4001.png",
+      "season": "Season 1"
     },
     {
       "id": 33,
@@ -8055,6 +9429,19 @@
       "season": "Season Alpha"
     },
     {
+      "id": 319,
+      "tokenId": 0,
+      "itemId": "ecard_beast_3002_s1",
+      "name": "Beast's Charm of Power II",
+      "class": "Beast",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "(Enhance a Non-Multihit Attack card)\nATK +10",
+      "potentialCost": 3,
+      "image": "ecard_beast_5001.png",
+      "season": "Season 1"
+    },
+    {
       "id": 128,
       "tokenId": 0,
       "itemId": "ecard_beast_5002",
@@ -8079,6 +9466,19 @@
       "potentialCost": 3,
       "image": "ecard_beast_5002.png",
       "season": "Season 0"
+    },
+    {
+      "id": 244,
+      "tokenId": 0,
+      "itemId": "ecard_beast_3001_s1",
+      "name": "Beast's Charm of Vitality II",
+      "class": "Beast",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "(Enhance any card)\nAxie's max HP +18",
+      "potentialCost": 3,
+      "image": "ecard_beast_5002.png",
+      "season": "Season 1"
     },
     {
       "id": 66,
@@ -8107,6 +9507,19 @@
       "season": "Season 0"
     },
     {
+      "id": 322,
+      "tokenId": 0,
+      "itemId": "ecard_beast_3003_s1",
+      "name": "Mask of Frenzy",
+      "class": "Beast",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "(Enhance any Attack card)\nAll teammates gain 1 {Rage}.",
+      "potentialCost": 4,
+      "image": "ecard_beast_4003.png",
+      "season": "Season 1"
+    },
+    {
       "id": 133,
       "tokenId": 0,
       "itemId": "ecard_beast_5003",
@@ -8131,6 +9544,19 @@
       "potentialCost": 4,
       "image": "ecard_beast_5003.png",
       "season": "Season 0"
+    },
+    {
+      "id": 239,
+      "tokenId": 0,
+      "itemId": "ecard_beast_4001_s1",
+      "name": "Beast Energy Drink M",
+      "class": "Beast",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "(Enhance any card)\nAdd <Banish>.",
+      "potentialCost": 4,
+      "image": "ecard_beast_5003.png",
+      "season": "Season 1"
     },
     {
       "id": 80,
@@ -8159,6 +9585,19 @@
       "season": "Season 0"
     },
     {
+      "id": 360,
+      "tokenId": 0,
+      "itemId": "ecard_beast_4002_s1",
+      "name": "Beast Energy Drink S",
+      "class": "Beast",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "(Enhance any cards)\nAdd <Ethereal>.",
+      "potentialCost": 4,
+      "image": "ecard_beast_5004.png",
+      "season": "Season 1"
+    },
+    {
       "id": 41,
       "tokenId": 0,
       "itemId": "ecard_beast_5005",
@@ -8183,6 +9622,19 @@
       "potentialCost": 5,
       "image": "ecard_beast_5005.png",
       "season": "Season 0"
+    },
+    {
+      "id": 303,
+      "tokenId": 0,
+      "itemId": "ecard_beast_4003_s1",
+      "name": "Hidden Razor",
+      "class": "Beast",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "(Enhance an Attack card)\nSingle attacks apply {Bleed} for 4 turns.\nAoE and Multihit apply {Bleed} for 2 turns.",
+      "potentialCost": 5,
+      "image": "ecard_beast_5005.png",
+      "season": "Season 1"
     },
     {
       "id": 119,
@@ -8211,6 +9663,19 @@
       "season": "Season 0"
     },
     {
+      "id": 338,
+      "tokenId": 0,
+      "itemId": "ecard_beast_2002_s1",
+      "name": "Beast's Charm of Power I",
+      "class": "Beast",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "(Enhance a Non-Multihit Attack card)\nATK +6",
+      "potentialCost": 2,
+      "image": "ecard_beast_4001.png",
+      "season": "Season 1"
+    },
+    {
       "id": 16,
       "tokenId": 0,
       "itemId": "ecard_beast_2001_s0",
@@ -8235,6 +9700,19 @@
       "potentialCost": 2,
       "image": "ecard_beast_4002.png",
       "season": "Season Alpha"
+    },
+    {
+      "id": 269,
+      "tokenId": 0,
+      "itemId": "ecard_beast_2001_s1",
+      "name": "Beast's Charm of Vitality I",
+      "class": "Beast",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "(Enhance any card)\nAxie's max HP +12",
+      "potentialCost": 2,
+      "image": "ecard_beast_4002.png",
+      "season": "Season 1"
     },
     {
       "id": 34,
@@ -8263,6 +9741,19 @@
       "season": "Season Alpha"
     },
     {
+      "id": 277,
+      "tokenId": 0,
+      "itemId": "ecard_bird_3002_s1",
+      "name": "Bird's Charm of Focus II",
+      "class": "Bird",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "(Enhance a Multihit Attack card)\nATK +4",
+      "potentialCost": 3,
+      "image": "ecard_bird_5002.png",
+      "season": "Season 1"
+    },
+    {
       "id": 11,
       "tokenId": 0,
       "itemId": "ecard_bird_3001_s0",
@@ -8287,6 +9778,19 @@
       "potentialCost": 3,
       "image": "ecard_bird_5001.png",
       "season": "Season Alpha"
+    },
+    {
+      "id": 287,
+      "tokenId": 0,
+      "itemId": "ecard_bird_3001_s1",
+      "name": "Bird's Charm of Power II",
+      "class": "Bird",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "(Enhance a Non-Multihit Attack card)\nATK +10",
+      "potentialCost": 3,
+      "image": "ecard_bird_5001.png",
+      "season": "Season 1"
     },
     {
       "id": 44,
@@ -8315,6 +9819,19 @@
       "season": "Season 0"
     },
     {
+      "id": 240,
+      "tokenId": 0,
+      "itemId": "ecard_bird_3003_s1",
+      "name": "Feather Fan",
+      "class": "Bird",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "(Enhance any Attack card)\nAll teammates gain 1 {Feather}.",
+      "potentialCost": 4,
+      "image": "ecard_bird_4003.png",
+      "season": "Season 1"
+    },
+    {
       "id": 101,
       "tokenId": 0,
       "itemId": "ecard_bird_4002_s0",
@@ -8339,6 +9856,19 @@
       "potentialCost": 4,
       "image": "ecard_bird_5004.png",
       "season": "Season Alpha"
+    },
+    {
+      "id": 332,
+      "tokenId": 0,
+      "itemId": "ecard_bird_4002_s1",
+      "name": "Bird Energy Drink S",
+      "class": "Bird",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "(Enhance any card)\nAdd <Ethereal>.",
+      "potentialCost": 4,
+      "image": "ecard_bird_5004.png",
+      "season": "Season 1"
     },
     {
       "id": 171,
@@ -8367,6 +9897,19 @@
       "season": "Season 0"
     },
     {
+      "id": 307,
+      "tokenId": 0,
+      "itemId": "ecard_bird_4001_s1",
+      "name": "Secret Egg",
+      "class": "Bird",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "(Enhance any card)\nAdd <Innate>. Card's base stat -10%.",
+      "potentialCost": 4,
+      "image": "ecard_bird_5003.png",
+      "season": "Season 1"
+    },
+    {
       "id": 116,
       "tokenId": 0,
       "itemId": "ecard_bird_4003_s0",
@@ -8391,6 +9934,19 @@
       "potentialCost": 5,
       "image": "ecard_bird_5005.png",
       "season": "Season Alpha"
+    },
+    {
+      "id": 323,
+      "tokenId": 0,
+      "itemId": "ecard_bird_4003_s1",
+      "name": "Flamingo Hammer",
+      "class": "Bird",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "(Enhance an Attack card)\nSingle attack applies {Fragile} for 4 turns.\nAoE and Multihit apply {Fragile} for 2 turns.",
+      "potentialCost": 5,
+      "image": "ecard_bird_5005.png",
+      "season": "Season 1"
     },
     {
       "id": 154,
@@ -8419,6 +9975,19 @@
       "season": "Season Alpha"
     },
     {
+      "id": 348,
+      "tokenId": 0,
+      "itemId": "ecard_bird_2002_s1",
+      "name": "Bird's Charm of Focus I",
+      "class": "Bird",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "(Enhance a Multihit Attack card)\nATK +3",
+      "potentialCost": 2,
+      "image": "ecard_bird_4002.png",
+      "season": "Season 1"
+    },
+    {
       "id": 24,
       "tokenId": 0,
       "itemId": "ecard_bird_2001_s0",
@@ -8443,6 +10012,19 @@
       "potentialCost": 2,
       "image": "ecard_bird_4001.png",
       "season": "Season Alpha"
+    },
+    {
+      "id": 260,
+      "tokenId": 0,
+      "itemId": "ecard_bird_2001_s1",
+      "name": "Bird's Charm of Power I",
+      "class": "Bird",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "(Enhance a Non-Multihit Attack card)\nATK +6",
+      "potentialCost": 2,
+      "image": "ecard_bird_4001.png",
+      "season": "Season 1"
     },
     {
       "id": 162,
@@ -8471,6 +10053,19 @@
       "season": "Season Alpha"
     },
     {
+      "id": 265,
+      "tokenId": 0,
+      "itemId": "ecard_bug_3001_s1",
+      "name": "Bug's Charm of Endurance II",
+      "class": "Bug",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "(Enhance a Shielding card)\nShield Stat +10",
+      "potentialCost": 3,
+      "image": "ecard_bug_5001.png",
+      "season": "Season 1"
+    },
+    {
       "id": 76,
       "tokenId": 0,
       "itemId": "ecard_bug_5002",
@@ -8495,6 +10090,19 @@
       "potentialCost": 3,
       "image": "ecard_bug_5002.png",
       "season": "Season 0"
+    },
+    {
+      "id": 293,
+      "tokenId": 0,
+      "itemId": "ecard_bug_3002_s1",
+      "name": "Bug's Charm of Power II",
+      "class": "Bug",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "(Enhance a Non-Multihit Attack card)\nATK +10",
+      "potentialCost": 3,
+      "image": "ecard_bug_5002.png",
+      "season": "Season 1"
     },
     {
       "id": 85,
@@ -8523,6 +10131,19 @@
       "season": "Season 0"
     },
     {
+      "id": 302,
+      "tokenId": 0,
+      "itemId": "ecard_bug_3003_s1",
+      "name": "Trickster's Card",
+      "class": "Bug",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "(Enhance any Skill or Secret card)\nDraw 1 Card",
+      "potentialCost": 4,
+      "image": "ecard_bug_4003.png",
+      "season": "Season 1"
+    },
+    {
       "id": 52,
       "tokenId": 0,
       "itemId": "ecard_bug_5004",
@@ -8547,6 +10168,19 @@
       "potentialCost": 4,
       "image": "ecard_bug_5004.png",
       "season": "Season 0"
+    },
+    {
+      "id": 298,
+      "tokenId": 0,
+      "itemId": "ecard_bug_4002_s1",
+      "name": "Bug Energy Drink M",
+      "class": "Bug",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "(Enhance any card)\nAdd <Banish>.",
+      "potentialCost": 4,
+      "image": "ecard_bug_5004.png",
+      "season": "Season 1"
     },
     {
       "id": 13,
@@ -8575,6 +10209,19 @@
       "season": "Season 0"
     },
     {
+      "id": 249,
+      "tokenId": 0,
+      "itemId": "ecard_bug_4001_s1",
+      "name": "Secret Cocoon",
+      "class": "Bug",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "(Enhance any card)\nAdd <Innate>.",
+      "potentialCost": 4,
+      "image": "ecard_bug_5003.png",
+      "season": "Season 1"
+    },
+    {
       "id": 111,
       "tokenId": 0,
       "itemId": "ecard_bug_5005",
@@ -8599,6 +10246,19 @@
       "potentialCost": 5,
       "image": "ecard_bug_5005.png",
       "season": "Season 0"
+    },
+    {
+      "id": 355,
+      "tokenId": 0,
+      "itemId": "ecard_bug_4003_s1",
+      "name": "Lazy Snail",
+      "class": "Bug",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "(Enhance an Attack card)\nSingle attack applies {Weak} for 4 turns.\nAoE and Multihit attack apply {Weak} for 2 turns.",
+      "potentialCost": 5,
+      "image": "ecard_bug_5005.png",
+      "season": "Season 1"
     },
     {
       "id": 14,
@@ -8627,6 +10287,19 @@
       "season": "Season 0"
     },
     {
+      "id": 345,
+      "tokenId": 0,
+      "itemId": "ecard_bug_2001_s1",
+      "name": "Bug's Charm of Endurance I",
+      "class": "Bug",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "(Enhance a Shielding card)\nShield Stat +6",
+      "potentialCost": 2,
+      "image": "ecard_bug_4001.png",
+      "season": "Season 1"
+    },
+    {
       "id": 50,
       "tokenId": 0,
       "itemId": "ecard_bug_4002",
@@ -8651,6 +10324,19 @@
       "potentialCost": 2,
       "image": "ecard_bug_4002.png",
       "season": "Season 0"
+    },
+    {
+      "id": 299,
+      "tokenId": 0,
+      "itemId": "ecard_bug_2002_s1",
+      "name": "Bug's Charm of Power I",
+      "class": "Bug",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "(Enhance a Non-Multihit Attack card)\nATK +6",
+      "potentialCost": 2,
+      "image": "ecard_bug_4002.png",
+      "season": "Season 1"
     },
     {
       "id": 194,
@@ -8991,6 +10677,19 @@
       "season": null
     },
     {
+      "id": 300,
+      "tokenId": 0,
+      "itemId": "ecard_neutral_1004_s1",
+      "name": "Charm of Endurance I",
+      "class": "Neutral",
+      "isBlockchain": 0,
+      "rarity": "Common",
+      "effect": "(Enhance Shielding cards)\nShield Stat +2",
+      "potentialCost": 1,
+      "image": "ecard_neutral_1004.png",
+      "season": "Season 1"
+    },
+    {
       "id": 37,
       "tokenId": 0,
       "itemId": "ecard_neutral_1005_s0",
@@ -9015,6 +10714,19 @@
       "potentialCost": 1,
       "image": "ecard_neutral_1005.png",
       "season": null
+    },
+    {
+      "id": 245,
+      "tokenId": 0,
+      "itemId": "ecard_neutral_1005_s1",
+      "name": "Charm of Faith I",
+      "class": "Neutral",
+      "isBlockchain": 0,
+      "rarity": "Common",
+      "effect": "(Enhance Healing cards)\nHeal Stat +2",
+      "potentialCost": 1,
+      "image": "ecard_neutral_1005.png",
+      "season": "Season 1"
     },
     {
       "id": 151,
@@ -9043,6 +10755,19 @@
       "season": null
     },
     {
+      "id": 296,
+      "tokenId": 0,
+      "itemId": "ecard_neutral_1003_s1",
+      "name": "Charm of Focus I",
+      "class": "Neutral",
+      "isBlockchain": 0,
+      "rarity": "Common",
+      "effect": "(Enhance Multihit Attack card)\nATK +1",
+      "potentialCost": 1,
+      "image": "ecard_neutral_1003.png",
+      "season": "Season 1"
+    },
+    {
       "id": 3,
       "tokenId": 0,
       "itemId": "ecard_neutral_1002",
@@ -9067,6 +10792,19 @@
       "potentialCost": 1,
       "image": "ecard_neutral_1002.png",
       "season": "Season 0"
+    },
+    {
+      "id": 276,
+      "tokenId": 0,
+      "itemId": "ecard_neutral_1002_s1",
+      "name": "Charm of Power I",
+      "class": "Neutral",
+      "isBlockchain": 0,
+      "rarity": "Common",
+      "effect": "(Enhance Non-Multihit Attack card)\nATK +2",
+      "potentialCost": 1,
+      "image": "ecard_neutral_1002.png",
+      "season": "Season 1"
     },
     {
       "id": 6,
@@ -9095,6 +10833,19 @@
       "season": null
     },
     {
+      "id": 306,
+      "tokenId": 0,
+      "itemId": "ecard_neutral_1001_s1",
+      "name": "Charm of Vitality I",
+      "class": "Neutral",
+      "isBlockchain": 0,
+      "rarity": "Common",
+      "effect": "(Enhance any card)\nAxie's max HP +4",
+      "potentialCost": 1,
+      "image": "ecard_neutral_1001.png",
+      "season": "Season 1"
+    },
+    {
       "id": 23,
       "tokenId": 0,
       "itemId": "ecard_neutral_3004",
@@ -9119,6 +10870,19 @@
       "potentialCost": 3,
       "image": "ecard_neutral_3004.png",
       "season": "Season 0"
+    },
+    {
+      "id": 297,
+      "tokenId": 0,
+      "itemId": "ecard_neutral_3004_s1",
+      "name": "Charm of Endurance III",
+      "class": "Neutral",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "(Enhance Shielding cards)\nShield Stat +7",
+      "potentialCost": 3,
+      "image": "ecard_neutral_3004.png",
+      "season": "Season 1"
     },
     {
       "id": 10,
@@ -9147,6 +10911,19 @@
       "season": "Season Alpha"
     },
     {
+      "id": 270,
+      "tokenId": 0,
+      "itemId": "ecard_neutral_3005_s1",
+      "name": "Charm of Faith III",
+      "class": "Neutral",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "(Enhance Healing cards)\nHeal Stat +7",
+      "potentialCost": 3,
+      "image": "ecard_neutral_3005.png",
+      "season": "Season 1"
+    },
+    {
       "id": 146,
       "tokenId": 0,
       "itemId": "ecard_neutral_3003",
@@ -9171,6 +10948,19 @@
       "potentialCost": 3,
       "image": "ecard_neutral_3003.png",
       "season": "Season 0"
+    },
+    {
+      "id": 368,
+      "tokenId": 0,
+      "itemId": "ecard_neutral_3003_s1",
+      "name": "Charm of Focus III",
+      "class": "Neutral",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "(Enhance Multihit Attack card)\nATK +3",
+      "potentialCost": 3,
+      "image": "ecard_neutral_3003.png",
+      "season": "Season 1"
     },
     {
       "id": 43,
@@ -9199,6 +10989,19 @@
       "season": "Season Alpha"
     },
     {
+      "id": 290,
+      "tokenId": 0,
+      "itemId": "ecard_neutral_3002_s1",
+      "name": "Charm of Power III",
+      "class": "Neutral",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "(Enhance Non-Multihit Attack card)\nATK +7",
+      "potentialCost": 3,
+      "image": "ecard_neutral_3002.png",
+      "season": "Season 1"
+    },
+    {
       "id": 2,
       "tokenId": 0,
       "itemId": "ecard_neutral_3001_s0",
@@ -9223,6 +11026,19 @@
       "potentialCost": 3,
       "image": "ecard_neutral_3001.png",
       "season": "Season Alpha"
+    },
+    {
+      "id": 326,
+      "tokenId": 0,
+      "itemId": "ecard_neutral_3001_s1",
+      "name": "Charm of Vitality III",
+      "class": "Neutral",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "(Enhance any card)\nAxie's max HP +12",
+      "potentialCost": 3,
+      "image": "ecard_neutral_3001.png",
+      "season": "Season 1"
     },
     {
       "id": 46,
@@ -9251,6 +11067,19 @@
       "season": "Season Alpha"
     },
     {
+      "id": 305,
+      "tokenId": 0,
+      "itemId": "ecard_neutral_3006_s1",
+      "name": "Moon Stamp",
+      "class": "Neutral",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "(Enhance Single Target Attack cards)\nThis card targets the second closest enemy. Card's base stat -10%.",
+      "potentialCost": 4,
+      "image": "ecard_neutral_4002.png",
+      "season": "Season 1"
+    },
+    {
       "id": 152,
       "tokenId": 0,
       "itemId": "ecard_neutral_3007_s0",
@@ -9275,6 +11104,19 @@
       "potentialCost": 4,
       "image": "ecard_neutral_4003.png",
       "season": "Season Alpha"
+    },
+    {
+      "id": 242,
+      "tokenId": 0,
+      "itemId": "ecard_neutral_3007_s1",
+      "name": "Sun Stamp",
+      "class": "Neutral",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "(Enhance Single Target Attack cards)\nThis card targets the furthest enemy. Card's base stat -10%.",
+      "potentialCost": 4,
+      "image": "ecard_neutral_4003.png",
+      "season": "Season 1"
     },
     {
       "id": 9,
@@ -9303,6 +11145,19 @@
       "season": "Season 0"
     },
     {
+      "id": 263,
+      "tokenId": 0,
+      "itemId": "ecard_neutral_5004_s1",
+      "name": "Energy Drink M",
+      "class": "Neutral",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "(Enhance any card)\nAdd <Banish>.",
+      "potentialCost": 5,
+      "image": "ecard_neutral_5005.png",
+      "season": "Season 1"
+    },
+    {
       "id": 31,
       "tokenId": 0,
       "itemId": "ecard_neutral_5006",
@@ -9327,6 +11182,19 @@
       "potentialCost": 5,
       "image": "ecard_neutral_5006.png",
       "season": "Season 0"
+    },
+    {
+      "id": 291,
+      "tokenId": 0,
+      "itemId": "ecard_neutral_5005_s1",
+      "name": "Energy Drink S",
+      "class": "Neutral",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "(Enhance any card)\nAdd <Ethereal>.",
+      "potentialCost": 5,
+      "image": "ecard_neutral_5006.png",
+      "season": "Season 1"
     },
     {
       "id": 204,
@@ -9355,6 +11223,19 @@
       "season": "Season 0"
     },
     {
+      "id": 282,
+      "tokenId": 0,
+      "itemId": "ecard_neutral_5002_s1",
+      "name": "Pre Order Tag",
+      "class": "Neutral",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "(Enhance any card)\nAdd <Innate>. Card's base stat -10%.",
+      "potentialCost": 5,
+      "image": "ecard_neutral_5003.png",
+      "season": "Season 1"
+    },
+    {
       "id": 68,
       "tokenId": 0,
       "itemId": "ecard_neutral_5001",
@@ -9379,6 +11260,19 @@
       "potentialCost": 5,
       "image": "ecard_neutral_5001.png",
       "season": "Season 0"
+    },
+    {
+      "id": 370,
+      "tokenId": 0,
+      "itemId": "ecard_neutral_5001_s1",
+      "name": "Rocket Stamp",
+      "class": "Neutral",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "(Enhance Single Target Attack cards)\nThis card can target any enemy. Card's base stat -15%.",
+      "potentialCost": 5,
+      "image": "ecard_neutral_5001.png",
+      "season": "Season 1"
     },
     {
       "id": 29,
@@ -9407,6 +11301,19 @@
       "season": "Season Alpha"
     },
     {
+      "id": 261,
+      "tokenId": 0,
+      "itemId": "ecard_neutral_5003_s1",
+      "name": "Scotch Tape",
+      "class": "Neutral",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "(Enhance any card)\nAdd <Retain>. Card's base stat -10%.",
+      "potentialCost": 5,
+      "image": "ecard_neutral_5004.png",
+      "season": "Season 1"
+    },
+    {
       "id": 1,
       "tokenId": 0,
       "itemId": "ecard_neutral_2004",
@@ -9431,6 +11338,19 @@
       "potentialCost": 2,
       "image": "ecard_neutral_2004.png",
       "season": "Season 0"
+    },
+    {
+      "id": 339,
+      "tokenId": 0,
+      "itemId": "ecard_neutral_2004_s1",
+      "name": "Charm of Endurance II",
+      "class": "Neutral",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "(Enhance Shielding cards)\nShield Stat +4",
+      "potentialCost": 2,
+      "image": "ecard_neutral_2004.png",
+      "season": "Season 1"
     },
     {
       "id": 59,
@@ -9459,6 +11379,19 @@
       "season": "Season Alpha"
     },
     {
+      "id": 304,
+      "tokenId": 0,
+      "itemId": "ecard_neutral_2005_s1",
+      "name": "Charm of Faith II",
+      "class": "Neutral",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "(Enhance Healing cards)\nHeal Stat +4",
+      "potentialCost": 2,
+      "image": "ecard_neutral_2005.png",
+      "season": "Season 1"
+    },
+    {
       "id": 48,
       "tokenId": 0,
       "itemId": "ecard_neutral_2003_s0",
@@ -9483,6 +11416,19 @@
       "potentialCost": 2,
       "image": "ecard_neutral_2003.png",
       "season": "Season Alpha"
+    },
+    {
+      "id": 329,
+      "tokenId": 0,
+      "itemId": "ecard_neutral_2003_s1",
+      "name": "Charm of Focus II",
+      "class": "Neutral",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "(Enhance Multihit Attack card)\nATK +2",
+      "potentialCost": 2,
+      "image": "ecard_neutral_2003.png",
+      "season": "Season 1"
     },
     {
       "id": 70,
@@ -9511,6 +11457,19 @@
       "season": "Season Alpha"
     },
     {
+      "id": 273,
+      "tokenId": 0,
+      "itemId": "ecard_neutral_2002_s1",
+      "name": "Charm of Power II",
+      "class": "Neutral",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "(Enhance Non-Multihit Attack card)\nATK +4",
+      "potentialCost": 2,
+      "image": "ecard_neutral_2002.png",
+      "season": "Season 1"
+    },
+    {
       "id": 103,
       "tokenId": 0,
       "itemId": "ecard_neutral_2001_s0",
@@ -9535,6 +11494,19 @@
       "potentialCost": 2,
       "image": "ecard_neutral_2001.png",
       "season": "Season Alpha"
+    },
+    {
+      "id": 351,
+      "tokenId": 0,
+      "itemId": "ecard_neutral_2001_s1",
+      "name": "Charm of Vitality II",
+      "class": "Neutral",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "(Enhance any card)\nAxie's max HP +8",
+      "potentialCost": 2,
+      "image": "ecard_neutral_2001.png",
+      "season": "Season 1"
     },
     {
       "id": 7,
@@ -9563,6 +11535,19 @@
       "season": "Season 0"
     },
     {
+      "id": 359,
+      "tokenId": 0,
+      "itemId": "ecard_neutral_2006_s1",
+      "name": "Earth Stamp",
+      "class": "Neutral",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "(Enhance Single Target Attack cards)\nThis card targets the closest enemy.",
+      "potentialCost": 3,
+      "image": "ecard_neutral_4001.png",
+      "season": "Season 1"
+    },
+    {
       "id": 83,
       "tokenId": 0,
       "itemId": "ecard_plant_3002_s0",
@@ -9587,6 +11572,19 @@
       "potentialCost": 3,
       "image": "ecard_plant_5002.png",
       "season": "Season Alpha"
+    },
+    {
+      "id": 363,
+      "tokenId": 0,
+      "itemId": "ecard_plant_3002_s1",
+      "name": "Plant's Charm of Faith II",
+      "class": "Plant",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "(Enhance any Healing card)\nHeal Stat +10",
+      "potentialCost": 3,
+      "image": "ecard_plant_5002.png",
+      "season": "Season 1"
     },
     {
       "id": 132,
@@ -9615,6 +11613,19 @@
       "season": "Season Alpha"
     },
     {
+      "id": 252,
+      "tokenId": 0,
+      "itemId": "ecard_plant_3001_s1",
+      "name": "Plant's Charm of Vitality II",
+      "class": "Plant",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "(Enhance any card)\nAxie's max HP +18",
+      "potentialCost": 3,
+      "image": "ecard_plant_5001.png",
+      "season": "Season 1"
+    },
+    {
       "id": 173,
       "tokenId": 0,
       "itemId": "ecard_plant_4003",
@@ -9639,6 +11650,19 @@
       "potentialCost": 4,
       "image": "ecard_plant_4003.png",
       "season": "Season 0"
+    },
+    {
+      "id": 279,
+      "tokenId": 0,
+      "itemId": "ecard_plant_3003_s1",
+      "name": "Leafy Pot",
+      "class": "Plant",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "(Enhance any Skill or Secret card)\nAll teammates gain 1 {Leaf}.",
+      "potentialCost": 4,
+      "image": "ecard_plant_4003.png",
+      "season": "Season 1"
     },
     {
       "id": 180,
@@ -9667,6 +11691,19 @@
       "season": "Season 0"
     },
     {
+      "id": 236,
+      "tokenId": 0,
+      "itemId": "ecard_plant_4002_s1",
+      "name": "Ancient Root",
+      "class": "Plant",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "(Enhance any card)\nAdd <Retain>. Card's base stat -10%.",
+      "potentialCost": 4,
+      "image": "ecard_plant_5004.png",
+      "season": "Season 1"
+    },
+    {
       "id": 131,
       "tokenId": 0,
       "itemId": "ecard_plant_4001_s0",
@@ -9691,6 +11728,19 @@
       "potentialCost": 4,
       "image": "ecard_plant_5003.png",
       "season": "Season Alpha"
+    },
+    {
+      "id": 314,
+      "tokenId": 0,
+      "itemId": "ecard_plant_4001_s1",
+      "name": "Secret Sprout",
+      "class": "Plant",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "(Enhance any card)\nAdd <Innate>. Card's base stat -10%.",
+      "potentialCost": 4,
+      "image": "ecard_plant_5003.png",
+      "season": "Season 1"
     },
     {
       "id": 21,
@@ -9719,6 +11769,19 @@
       "season": "Season 0"
     },
     {
+      "id": 264,
+      "tokenId": 0,
+      "itemId": "ecard_plant_4003_s1",
+      "name": "Red Sage",
+      "class": "Plant",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "(Enhance Shield and Healing cards)\nAdd <Cleanse>.",
+      "potentialCost": 5,
+      "image": "ecard_plant_5005.png",
+      "season": "Season 1"
+    },
+    {
       "id": 62,
       "tokenId": 0,
       "itemId": "ecard_plant_4002",
@@ -9745,6 +11808,19 @@
       "season": "Season 0"
     },
     {
+      "id": 346,
+      "tokenId": 0,
+      "itemId": "ecard_plant_2002_s1",
+      "name": "Plant's Charm of Faith I",
+      "class": "Plant",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "(Enhance any Healing card)\nHeal Stat +6",
+      "potentialCost": 2,
+      "image": "ecard_plant_4002.png",
+      "season": "Season 1"
+    },
+    {
       "id": 170,
       "tokenId": 0,
       "itemId": "ecard_plant_2001_s0",
@@ -9769,6 +11845,19 @@
       "potentialCost": 2,
       "image": "ecard_plant_4001.png",
       "season": "Season Alpha"
+    },
+    {
+      "id": 335,
+      "tokenId": 0,
+      "itemId": "ecard_plant_2001_s1",
+      "name": "Plant's Charm of Vitality I",
+      "class": "Plant",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "(Enhance any card)\nAxie's max HP +12",
+      "potentialCost": 2,
+      "image": "ecard_plant_4001.png",
+      "season": "Season 1"
     },
     {
       "id": 118,
@@ -9810,6 +11899,19 @@
       "season": "Season Alpha"
     },
     {
+      "id": 358,
+      "tokenId": 0,
+      "itemId": "ecard_reptile_3002_s1",
+      "name": "Reptile's Charm of Endurance II",
+      "class": "Reptile",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "(Enhance any Shielding card)\nShield Stat +10",
+      "potentialCost": 3,
+      "image": "ecard_reptile_5002.png",
+      "season": "Season 1"
+    },
+    {
       "id": 190,
       "tokenId": 0,
       "itemId": "ecard_reptile_3001_s0",
@@ -9834,6 +11936,19 @@
       "potentialCost": 3,
       "image": "ecard_reptile_5001.png",
       "season": "Season Alpha"
+    },
+    {
+      "id": 241,
+      "tokenId": 0,
+      "itemId": "ecard_reptile_3001_s1",
+      "name": "Reptile's Charm of Vitality II",
+      "class": "Reptile",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "(Enhance any card)\nAxie's Max HP +18",
+      "potentialCost": 3,
+      "image": "ecard_reptile_5001.png",
+      "season": "Season 1"
     },
     {
       "id": 182,
@@ -9862,6 +11977,19 @@
       "season": "Season 0"
     },
     {
+      "id": 324,
+      "tokenId": 0,
+      "itemId": "ecard_reptile_3003_s1",
+      "name": "Gecko Mask",
+      "class": "Reptile",
+      "isBlockchain": 0,
+      "rarity": "Epic",
+      "effect": "(Enhance any Attack card)\nApply {Taunt} to this Axie for 4 turns.",
+      "potentialCost": 4,
+      "image": "ecard_reptile_4003.png",
+      "season": "Season 1"
+    },
+    {
       "id": 27,
       "tokenId": 0,
       "itemId": "ecard_reptile_5004",
@@ -9886,6 +12014,19 @@
       "potentialCost": 4,
       "image": "ecard_reptile_5004.png",
       "season": "Season 0"
+    },
+    {
+      "id": 243,
+      "tokenId": 0,
+      "itemId": "ecard_reptile_4002_s1",
+      "name": "Reptile Energy Drink M",
+      "class": "Reptile",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "(Enhance any card)\nAdd <Banish>.",
+      "potentialCost": 4,
+      "image": "ecard_reptile_5004.png",
+      "season": "Season 1"
     },
     {
       "id": 45,
@@ -9914,6 +12055,19 @@
       "season": "Season 0"
     },
     {
+      "id": 294,
+      "tokenId": 0,
+      "itemId": "ecard_reptile_4001_s1",
+      "name": "Sticky Lizard",
+      "class": "Reptile",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "(Enhance any card)\nAdd <Retain>. Card's base stat -10%.",
+      "potentialCost": 4,
+      "image": "ecard_reptile_5003.png",
+      "season": "Season 1"
+    },
+    {
       "id": 87,
       "tokenId": 0,
       "itemId": "ecard_reptile_5005",
@@ -9938,6 +12092,19 @@
       "potentialCost": 5,
       "image": "ecard_reptile_5005.png",
       "season": "Season 0"
+    },
+    {
+      "id": 353,
+      "tokenId": 0,
+      "itemId": "ecard_reptile_4003_s1",
+      "name": "Viper's Venom",
+      "class": "Reptile",
+      "isBlockchain": 0,
+      "rarity": "Mystic",
+      "effect": "(Enhance an Attack card)\nAttack applies 2 {Poison}.",
+      "potentialCost": 5,
+      "image": "ecard_reptile_5005.png",
+      "season": "Season 1"
     },
     {
       "id": 148,
@@ -9966,6 +12133,19 @@
       "season": "Season Alpha"
     },
     {
+      "id": 280,
+      "tokenId": 0,
+      "itemId": "ecard_reptile_2002_s1",
+      "name": "Reptile's Charm of Endurance I",
+      "class": "Reptile",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "(Enhance any Shielding card)\nShield Stat +6",
+      "potentialCost": 2,
+      "image": "ecard_reptile_4002.png",
+      "season": "Season 1"
+    },
+    {
       "id": 17,
       "tokenId": 0,
       "itemId": "ecard_reptile_4001",
@@ -9992,6 +12172,19 @@
       "season": "Season 0"
     },
     {
+      "id": 254,
+      "tokenId": 0,
+      "itemId": "ecard_reptile_2001_s1",
+      "name": "Reptile's Charm of Vitality I",
+      "class": "Reptile",
+      "isBlockchain": 0,
+      "rarity": "Rare",
+      "effect": "(Enhance any card)\nAxie's Max HP +12",
+      "potentialCost": 2,
+      "image": "ecard_reptile_4001.png",
+      "season": "Season 1"
+    },
+    {
       "id": 135,
       "tokenId": 2000004,
       "itemId": "ecard_aquatic_3002_s0_nft",
@@ -10003,6 +12196,19 @@
       "potentialCost": 3,
       "image": "ecard_aquatic_5002.png",
       "season": "Season 0"
+    },
+    {
+      "id": 262,
+      "tokenId": 2001004,
+      "itemId": "ecard_aquatic_3002_s1_nft",
+      "name": "Aquatic's Charm of Power II",
+      "class": "Aquatic",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "(Enhance a Non-Multihit Attack card)\nATK +10",
+      "potentialCost": 3,
+      "image": "ecard_aquatic_5002.png",
+      "season": "Season 1"
     },
     {
       "id": 224,
@@ -10018,6 +12224,19 @@
       "season": "Season 0"
     },
     {
+      "id": 256,
+      "tokenId": 2001003,
+      "itemId": "ecard_aquatic_3001_s1_nft",
+      "name": "Aquatic's Charm of Vitality II",
+      "class": "Aquatic",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "(Enhance any card)\nAxie's max HP +18",
+      "potentialCost": 3,
+      "image": "ecard_aquatic_5001.png",
+      "season": "Season 1"
+    },
+    {
       "id": 28,
       "tokenId": 2000005,
       "itemId": "ecard_aquatic_3003_s0_nft",
@@ -10029,6 +12248,19 @@
       "potentialCost": 4,
       "image": "ecard_aquatic_4003.png",
       "season": "Season 0"
+    },
+    {
+      "id": 320,
+      "tokenId": 2001005,
+      "itemId": "ecard_aquatic_3003_s1_nft",
+      "name": "Bubble Paste",
+      "class": "Aquatic",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "(Enhance any Attack card)\nAll teammates gain 1 {Bubble}.",
+      "potentialCost": 4,
+      "image": "ecard_aquatic_4003.png",
+      "season": "Season 1"
     },
     {
       "id": 5,
@@ -10044,6 +12276,19 @@
       "season": "Season 0"
     },
     {
+      "id": 235,
+      "tokenId": 2001006,
+      "itemId": "ecard_aquatic_4001_s1_nft",
+      "name": "Aquatic Energy Drink S",
+      "class": "Aquatic",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "(Enhance any card)\nAdd <Ethereal>.",
+      "potentialCost": 4,
+      "image": "ecard_aquatic_5003.png",
+      "season": "Season 1"
+    },
+    {
       "id": 19,
       "tokenId": 2000007,
       "itemId": "ecard_aquatic_4002_s0_nft",
@@ -10055,6 +12300,19 @@
       "potentialCost": 4,
       "image": "ecard_aquatic_5004.png",
       "season": "Season 0"
+    },
+    {
+      "id": 283,
+      "tokenId": 2001007,
+      "itemId": "ecard_aquatic_4002_s1_nft",
+      "name": "Sticky Octopus",
+      "class": "Aquatic",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "(Enhance any card)\nAdd <Retain>. Card's base stat -10%.",
+      "potentialCost": 4,
+      "image": "ecard_aquatic_5004.png",
+      "season": "Season 1"
     },
     {
       "id": 179,
@@ -10070,6 +12328,19 @@
       "season": "Season 0"
     },
     {
+      "id": 337,
+      "tokenId": 2001008,
+      "itemId": "ecard_aquatic_4003_s1_nft",
+      "name": "Paralyzing Jellyfish",
+      "class": "Aquatic",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "(Enhance any Attack card)\nSingle attacks applies {Vulnerable} for 4 turns.\nAoE an Multihit apply {Vulnerable} for 2 turns.",
+      "potentialCost": 5,
+      "image": "ecard_aquatic_5005.png",
+      "season": "Season 1"
+    },
+    {
       "id": 35,
       "tokenId": 2000002,
       "itemId": "ecard_aquatic_2002_s0_nft",
@@ -10081,6 +12352,19 @@
       "potentialCost": 2,
       "image": "ecard_aquatic_4002.png",
       "season": "Season 0"
+    },
+    {
+      "id": 259,
+      "tokenId": 2001002,
+      "itemId": "ecard_aquatic_2002_s1_nft",
+      "name": "Aquatic's  Charm of Power I",
+      "class": "Aquatic",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "(Enhance a Non-Multihit Attack card)\nATK +6",
+      "potentialCost": 2,
+      "image": "ecard_aquatic_4002.png",
+      "season": "Season 1"
     },
     {
       "id": 106,
@@ -10096,6 +12380,19 @@
       "season": "Season 0"
     },
     {
+      "id": 275,
+      "tokenId": 2001001,
+      "itemId": "ecard_aquatic_2001_s1_nft",
+      "name": "Aquatic's Charm of Vitality I",
+      "class": "Aquatic",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "(Enhance any card)\nAxie's max HP +12",
+      "potentialCost": 2,
+      "image": "ecard_aquatic_4001.png",
+      "season": "Season 1"
+    },
+    {
       "id": 63,
       "tokenId": 2000012,
       "itemId": "ecard_beast_3002_s0_nft",
@@ -10107,6 +12404,19 @@
       "potentialCost": 3,
       "image": "ecard_beast_5001.png",
       "season": "Season 0"
+    },
+    {
+      "id": 288,
+      "tokenId": 2001012,
+      "itemId": "ecard_beast_3002_s1_nft",
+      "name": "Beast's Charm of Power II",
+      "class": "Beast",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "(Enhance a Non-Multihit Attack card)\nATK +10",
+      "potentialCost": 3,
+      "image": "ecard_beast_5001.png",
+      "season": "Season 1"
     },
     {
       "id": 220,
@@ -10122,6 +12432,19 @@
       "season": "Season 0"
     },
     {
+      "id": 364,
+      "tokenId": 2001011,
+      "itemId": "ecard_beast_3001_s1_nft",
+      "name": "Beast's Charm of Vitality II",
+      "class": "Beast",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "(Enhance any card)\nAxie's max HP +18",
+      "potentialCost": 3,
+      "image": "ecard_beast_5002.png",
+      "season": "Season 1"
+    },
+    {
       "id": 72,
       "tokenId": 2000013,
       "itemId": "ecard_beast_3003_s0_nft",
@@ -10133,6 +12456,19 @@
       "potentialCost": 4,
       "image": "ecard_beast_4003.png",
       "season": "Season 0"
+    },
+    {
+      "id": 361,
+      "tokenId": 2001013,
+      "itemId": "ecard_beast_3003_s1_nft",
+      "name": "Mask of Frenzy",
+      "class": "Beast",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "(Enhance any Attack card)\nAll teammates gain 1 {Rage}.",
+      "potentialCost": 4,
+      "image": "ecard_beast_4003.png",
+      "season": "Season 1"
     },
     {
       "id": 167,
@@ -10148,6 +12484,19 @@
       "season": "Season 0"
     },
     {
+      "id": 272,
+      "tokenId": 2001014,
+      "itemId": "ecard_beast_4001_s1_nft",
+      "name": "Beast Energy Drink M",
+      "class": "Beast",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "(Enhance any card)\nAdd <Banish>.",
+      "potentialCost": 4,
+      "image": "ecard_beast_5003.png",
+      "season": "Season 1"
+    },
+    {
       "id": 158,
       "tokenId": 2000015,
       "itemId": "ecard_beast_4002_s0_nft",
@@ -10159,6 +12508,19 @@
       "potentialCost": 4,
       "image": "ecard_beast_5004.png",
       "season": "Season 0"
+    },
+    {
+      "id": 234,
+      "tokenId": 2001015,
+      "itemId": "ecard_beast_4002_s1_nft",
+      "name": "Beast Energy Drink S",
+      "class": "Beast",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "(Enhance any cards)\nAdd <Ethereal>.",
+      "potentialCost": 4,
+      "image": "ecard_beast_5004.png",
+      "season": "Season 1"
     },
     {
       "id": 117,
@@ -10174,6 +12536,19 @@
       "season": "Season 0"
     },
     {
+      "id": 267,
+      "tokenId": 2001016,
+      "itemId": "ecard_beast_4003_s1_nft",
+      "name": "Hidden Razor",
+      "class": "Beast",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "(Enhance an Attack card)\nSingle attacks apply {Bleed} for 4 turns.\nAoE and Multihit apply {Bleed} for 2 turns.",
+      "potentialCost": 5,
+      "image": "ecard_beast_5005.png",
+      "season": "Season 1"
+    },
+    {
       "id": 39,
       "tokenId": 2000010,
       "itemId": "ecard_beast_2002_s0_nft",
@@ -10185,6 +12560,19 @@
       "potentialCost": 2,
       "image": "ecard_beast_4001.png",
       "season": "Season 0"
+    },
+    {
+      "id": 250,
+      "tokenId": 2001010,
+      "itemId": "ecard_beast_2002_s1_nft",
+      "name": "Beast's Charm of Power I",
+      "class": "Beast",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "(Enhance a Non-Multihit Attack card)\nATK +6",
+      "potentialCost": 2,
+      "image": "ecard_beast_4001.png",
+      "season": "Season 1"
     },
     {
       "id": 203,
@@ -10200,6 +12588,19 @@
       "season": "Season 0"
     },
     {
+      "id": 278,
+      "tokenId": 2001009,
+      "itemId": "ecard_beast_2001_s1_nft",
+      "name": "Beast's Charm of Vitality I",
+      "class": "Beast",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "(Enhance any card)\nAxie's max HP +12",
+      "potentialCost": 2,
+      "image": "ecard_beast_4002.png",
+      "season": "Season 1"
+    },
+    {
       "id": 222,
       "tokenId": 2000020,
       "itemId": "ecard_bird_3002_s0_nft",
@@ -10211,6 +12612,19 @@
       "potentialCost": 3,
       "image": "ecard_bird_5002.png",
       "season": "Season 0"
+    },
+    {
+      "id": 238,
+      "tokenId": 2001020,
+      "itemId": "ecard_bird_3002_s1_nft",
+      "name": "Bird's Charm of Focus II",
+      "class": "Bird",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "(Enhance a Multihit Attack card)\nATK +4",
+      "potentialCost": 3,
+      "image": "ecard_bird_5002.png",
+      "season": "Season 1"
     },
     {
       "id": 84,
@@ -10226,6 +12640,19 @@
       "season": "Season 0"
     },
     {
+      "id": 362,
+      "tokenId": 2001019,
+      "itemId": "ecard_bird_3001_s1_nft",
+      "name": "Bird's Charm of Power II",
+      "class": "Bird",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "(Enhance a Non-Multihit Attack card)\nATK +10",
+      "potentialCost": 3,
+      "image": "ecard_bird_5001.png",
+      "season": "Season 1"
+    },
+    {
       "id": 196,
       "tokenId": 2000021,
       "itemId": "ecard_bird_3003_s0_nft",
@@ -10237,6 +12664,19 @@
       "potentialCost": 4,
       "image": "ecard_bird_4003.png",
       "season": "Season 0"
+    },
+    {
+      "id": 367,
+      "tokenId": 2001021,
+      "itemId": "ecard_bird_3003_s1_nft",
+      "name": "Feather Fan",
+      "class": "Bird",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "(Enhance any Attack card)\nAll teammates gain 1 {Feather}.",
+      "potentialCost": 4,
+      "image": "ecard_bird_4003.png",
+      "season": "Season 1"
     },
     {
       "id": 143,
@@ -10252,6 +12692,19 @@
       "season": "Season 0"
     },
     {
+      "id": 247,
+      "tokenId": 2001023,
+      "itemId": "ecard_bird_4002_s1_nft",
+      "name": "Bird Energy Drink S",
+      "class": "Bird",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "(Enhance any card)\nAdd <Ethereal>.",
+      "potentialCost": 4,
+      "image": "ecard_bird_5004.png",
+      "season": "Season 1"
+    },
+    {
       "id": 60,
       "tokenId": 2000022,
       "itemId": "ecard_bird_4001_s0_nft",
@@ -10263,6 +12716,19 @@
       "potentialCost": 4,
       "image": "ecard_bird_5003.png",
       "season": "Season 0"
+    },
+    {
+      "id": 321,
+      "tokenId": 2001022,
+      "itemId": "ecard_bird_4001_s1_nft",
+      "name": "Secret Egg",
+      "class": "Bird",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "(Enhance any card)\nAdd <Innate>. Card's base stat -10%.",
+      "potentialCost": 4,
+      "image": "ecard_bird_5003.png",
+      "season": "Season 1"
     },
     {
       "id": 49,
@@ -10278,6 +12744,19 @@
       "season": "Season 0"
     },
     {
+      "id": 248,
+      "tokenId": 2001024,
+      "itemId": "ecard_bird_4003_s1_nft",
+      "name": "Flamingo Hammer",
+      "class": "Bird",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "(Enhance an Attack card)\nSingle attack applies {Fragile} for 4 turns.\nAoE and Multihit apply {Fragile} for 2 turns.",
+      "potentialCost": 5,
+      "image": "ecard_bird_5005.png",
+      "season": "Season 1"
+    },
+    {
       "id": 12,
       "tokenId": 2000018,
       "itemId": "ecard_bird_2002_s0_nft",
@@ -10289,6 +12768,19 @@
       "potentialCost": 2,
       "image": "ecard_bird_4002.png",
       "season": "Season 0"
+    },
+    {
+      "id": 318,
+      "tokenId": 2001018,
+      "itemId": "ecard_bird_2002_s1_nft",
+      "name": "Bird's Charm of Focus I",
+      "class": "Bird",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "(Enhance a Multihit Attack card)\nATK +3",
+      "potentialCost": 2,
+      "image": "ecard_bird_4002.png",
+      "season": "Season 1"
     },
     {
       "id": 172,
@@ -10304,6 +12796,19 @@
       "season": "Season 0"
     },
     {
+      "id": 317,
+      "tokenId": 2001017,
+      "itemId": "ecard_bird_2001_s1_nft",
+      "name": "Bird's Charm of Power I",
+      "class": "Bird",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "(Enhance a Non-Multihit Attack card)\nATK +6",
+      "potentialCost": 2,
+      "image": "ecard_bird_4001.png",
+      "season": "Season 1"
+    },
+    {
       "id": 123,
       "tokenId": 2000027,
       "itemId": "ecard_bug_3001_s0_nft",
@@ -10315,6 +12820,19 @@
       "potentialCost": 3,
       "image": "ecard_bug_5001.png",
       "season": "Season 0"
+    },
+    {
+      "id": 347,
+      "tokenId": 2001027,
+      "itemId": "ecard_bug_3001_s1_nft",
+      "name": "Bug's Charm of Endurance II",
+      "class": "Bug",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "(Enhance a Shielding card)\nShield Stat +10",
+      "potentialCost": 3,
+      "image": "ecard_bug_5001.png",
+      "season": "Season 1"
     },
     {
       "id": 137,
@@ -10330,6 +12848,19 @@
       "season": "Season 0"
     },
     {
+      "id": 369,
+      "tokenId": 2001028,
+      "itemId": "ecard_bug_3002_s1_nft",
+      "name": "Bug's Charm of Power II",
+      "class": "Bug",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "(Enhance a Non-Multihit Attack card)\nATK +10",
+      "potentialCost": 3,
+      "image": "ecard_bug_5002.png",
+      "season": "Season 1"
+    },
+    {
       "id": 99,
       "tokenId": 2000029,
       "itemId": "ecard_bug_3003_s0_nft",
@@ -10341,6 +12872,19 @@
       "potentialCost": 4,
       "image": "ecard_bug_4003.png",
       "season": "Season 0"
+    },
+    {
+      "id": 292,
+      "tokenId": 2001029,
+      "itemId": "ecard_bug_3003_s1_nft",
+      "name": "Trickster's Card",
+      "class": "Bug",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "(Enhance any Skill or Secret card)\nDraw 1 Card",
+      "potentialCost": 4,
+      "image": "ecard_bug_4003.png",
+      "season": "Season 1"
     },
     {
       "id": 51,
@@ -10356,6 +12900,19 @@
       "season": "Season 0"
     },
     {
+      "id": 343,
+      "tokenId": 2001031,
+      "itemId": "ecard_bug_4002_s1_nft",
+      "name": "Bug Energy Drink M",
+      "class": "Bug",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "(Enhance any card)\nAdd <Banish>.",
+      "potentialCost": 4,
+      "image": "ecard_bug_5004.png",
+      "season": "Season 1"
+    },
+    {
       "id": 96,
       "tokenId": 2000030,
       "itemId": "ecard_bug_4001_s0_nft",
@@ -10367,6 +12924,19 @@
       "potentialCost": 4,
       "image": "ecard_bug_5003.png",
       "season": "Season 0"
+    },
+    {
+      "id": 334,
+      "tokenId": 2001030,
+      "itemId": "ecard_bug_4001_s1_nft",
+      "name": "Secret Cocoon",
+      "class": "Bug",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "(Enhance any card)\nAdd <Innate>.",
+      "potentialCost": 4,
+      "image": "ecard_bug_5003.png",
+      "season": "Season 1"
     },
     {
       "id": 150,
@@ -10382,6 +12952,19 @@
       "season": "Season 0"
     },
     {
+      "id": 310,
+      "tokenId": 2001032,
+      "itemId": "ecard_bug_4003_s1_nft",
+      "name": "Lazy Snail",
+      "class": "Bug",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "(Enhance an Attack card)\nSingle attack applies {Weak} for 4 turns.\nAoE and Multihit attack apply {Weak} for 2 turns.",
+      "potentialCost": 5,
+      "image": "ecard_bug_5005.png",
+      "season": "Season 1"
+    },
+    {
       "id": 32,
       "tokenId": 2000025,
       "itemId": "ecard_bug_2001_s0_nft",
@@ -10393,6 +12976,19 @@
       "potentialCost": 2,
       "image": "ecard_bug_4001.png",
       "season": "Season 0"
+    },
+    {
+      "id": 342,
+      "tokenId": 2001025,
+      "itemId": "ecard_bug_2001_s1_nft",
+      "name": "Bug's Charm of Endurance I",
+      "class": "Bug",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "(Enhance a Shielding card)\nShield Stat +6",
+      "potentialCost": 2,
+      "image": "ecard_bug_4001.png",
+      "season": "Season 1"
     },
     {
       "id": 169,
@@ -10408,6 +13004,19 @@
       "season": "Season 0"
     },
     {
+      "id": 313,
+      "tokenId": 2001026,
+      "itemId": "ecard_bug_2002_s1_nft",
+      "name": "Bug's Charm of Power I",
+      "class": "Bug",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "(Enhance a Non-Multihit Attack card)\nATK +6",
+      "potentialCost": 2,
+      "image": "ecard_bug_4002.png",
+      "season": "Season 1"
+    },
+    {
       "id": 139,
       "tokenId": 2000042,
       "itemId": "ecard_neutral_3004_s0_nft",
@@ -10419,6 +13028,19 @@
       "potentialCost": 3,
       "image": "ecard_neutral_3004.png",
       "season": "Season 0"
+    },
+    {
+      "id": 366,
+      "tokenId": 2001042,
+      "itemId": "ecard_neutral_3004_s1_nft",
+      "name": "Charm of Endurance III",
+      "class": "Neutral",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "(Enhance Shielding cards)\nShield Stat +7",
+      "potentialCost": 3,
+      "image": "ecard_neutral_3004.png",
+      "season": "Season 1"
     },
     {
       "id": 211,
@@ -10434,6 +13056,19 @@
       "season": "Season 0"
     },
     {
+      "id": 253,
+      "tokenId": 2001043,
+      "itemId": "ecard_neutral_3005_s1_nft",
+      "name": "Charm of Faith III",
+      "class": "Neutral",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "(Enhance Healing cards)\nHeal Stat +7",
+      "potentialCost": 3,
+      "image": "ecard_neutral_3005.png",
+      "season": "Season 1"
+    },
+    {
       "id": 226,
       "tokenId": 2000041,
       "itemId": "ecard_neutral_3003_s0_nft",
@@ -10445,6 +13080,19 @@
       "potentialCost": 3,
       "image": "ecard_neutral_3003.png",
       "season": "Season 0"
+    },
+    {
+      "id": 340,
+      "tokenId": 2001041,
+      "itemId": "ecard_neutral_3003_s1_nft",
+      "name": "Charm of Focus III",
+      "class": "Neutral",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "(Enhance Multihit Attack card)\nATK +3",
+      "potentialCost": 3,
+      "image": "ecard_neutral_3003.png",
+      "season": "Season 1"
     },
     {
       "id": 47,
@@ -10460,6 +13108,19 @@
       "season": "Season 0"
     },
     {
+      "id": 286,
+      "tokenId": 2001040,
+      "itemId": "ecard_neutral_3002_s1_nft",
+      "name": "Charm of Power III",
+      "class": "Neutral",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "(Enhance Non-Multihit Attack card)\nATK +7",
+      "potentialCost": 3,
+      "image": "ecard_neutral_3002.png",
+      "season": "Season 1"
+    },
+    {
       "id": 214,
       "tokenId": 2000039,
       "itemId": "ecard_neutral_3001_s0_nft",
@@ -10471,6 +13132,19 @@
       "potentialCost": 3,
       "image": "ecard_neutral_3001.png",
       "season": "Season 0"
+    },
+    {
+      "id": 284,
+      "tokenId": 2001039,
+      "itemId": "ecard_neutral_3001_s1_nft",
+      "name": "Charm of Vitality III",
+      "class": "Neutral",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "(Enhance any card)\nAxie's max HP +12",
+      "potentialCost": 3,
+      "image": "ecard_neutral_3001.png",
+      "season": "Season 1"
     },
     {
       "id": 81,
@@ -10486,6 +13160,19 @@
       "season": "Season 0"
     },
     {
+      "id": 336,
+      "tokenId": 2001044,
+      "itemId": "ecard_neutral_3006_s1_nft",
+      "name": "Moon Stamp",
+      "class": "Neutral",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "(Enhance Single Target Attack cards)\nThis card targets the second closest enemy. Card's base stat -10%.",
+      "potentialCost": 4,
+      "image": "ecard_neutral_4002.png",
+      "season": "Season 1"
+    },
+    {
       "id": 25,
       "tokenId": 2000045,
       "itemId": "ecard_neutral_3007_s0_nft",
@@ -10497,6 +13184,19 @@
       "potentialCost": 4,
       "image": "ecard_neutral_4003.png",
       "season": "Season 0"
+    },
+    {
+      "id": 309,
+      "tokenId": 2001045,
+      "itemId": "ecard_neutral_3007_s1_nft",
+      "name": "Sun Stamp",
+      "class": "Neutral",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "(Enhance Single Target Attack cards)\nThis card targets the furthest enemy. Card's base stat -10%.",
+      "potentialCost": 4,
+      "image": "ecard_neutral_4003.png",
+      "season": "Season 1"
     },
     {
       "id": 65,
@@ -10512,6 +13212,19 @@
       "season": "Season 0"
     },
     {
+      "id": 344,
+      "tokenId": 2001049,
+      "itemId": "ecard_neutral_5004_s1_nft",
+      "name": "Energy Drink M",
+      "class": "Neutral",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "(Enhance any card)\nAdd <Banish>.",
+      "potentialCost": 5,
+      "image": "ecard_neutral_5005.png",
+      "season": "Season 1"
+    },
+    {
       "id": 228,
       "tokenId": 2000050,
       "itemId": "ecard_neutral_5005_s0_nft",
@@ -10523,6 +13236,19 @@
       "potentialCost": 5,
       "image": "ecard_neutral_5006.png",
       "season": "Season 0"
+    },
+    {
+      "id": 356,
+      "tokenId": 2001050,
+      "itemId": "ecard_neutral_5005_s1_nft",
+      "name": "Energy Drink S",
+      "class": "Neutral",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "(Enhance any card)\nAdd <Ethereal>.",
+      "potentialCost": 5,
+      "image": "ecard_neutral_5006.png",
+      "season": "Season 1"
     },
     {
       "id": 102,
@@ -10538,6 +13264,19 @@
       "season": "Season 0"
     },
     {
+      "id": 349,
+      "tokenId": 2001047,
+      "itemId": "ecard_neutral_5002_s1_nft",
+      "name": "Pre Order Tag",
+      "class": "Neutral",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "(Enhance any card)\nAdd <Innate>. Card's base stat -10%.",
+      "potentialCost": 5,
+      "image": "ecard_neutral_5003.png",
+      "season": "Season 1"
+    },
+    {
       "id": 54,
       "tokenId": 2000046,
       "itemId": "ecard_neutral_5001_s0_nft",
@@ -10549,6 +13288,19 @@
       "potentialCost": 5,
       "image": "ecard_neutral_5001.png",
       "season": "Season 0"
+    },
+    {
+      "id": 330,
+      "tokenId": 2001046,
+      "itemId": "ecard_neutral_5001_s1_nft",
+      "name": "Rocket Stamp",
+      "class": "Neutral",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "(Enhance Single Target Attack cards)\nThis card can target any enemy. Card's base stat -15%.",
+      "potentialCost": 5,
+      "image": "ecard_neutral_5001.png",
+      "season": "Season 1"
     },
     {
       "id": 176,
@@ -10564,6 +13316,19 @@
       "season": "Season 0"
     },
     {
+      "id": 341,
+      "tokenId": 2001048,
+      "itemId": "ecard_neutral_5003_s1_nft",
+      "name": "Scotch Tape",
+      "class": "Neutral",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "(Enhance any card)\nAdd <Retain>. Card's base stat -10%.",
+      "potentialCost": 5,
+      "image": "ecard_neutral_5004.png",
+      "season": "Season 1"
+    },
+    {
       "id": 57,
       "tokenId": 2000036,
       "itemId": "ecard_neutral_2004_s0_nft",
@@ -10575,6 +13340,19 @@
       "potentialCost": 2,
       "image": "ecard_neutral_2004.png",
       "season": "Season 0"
+    },
+    {
+      "id": 285,
+      "tokenId": 2001036,
+      "itemId": "ecard_neutral_2004_s1_nft",
+      "name": "Charm of Endurance II",
+      "class": "Neutral",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "(Enhance Shielding cards)\nShield Stat +4",
+      "potentialCost": 2,
+      "image": "ecard_neutral_2004.png",
+      "season": "Season 1"
     },
     {
       "id": 55,
@@ -10590,6 +13368,19 @@
       "season": "Season 0"
     },
     {
+      "id": 274,
+      "tokenId": 2001037,
+      "itemId": "ecard_neutral_2005_s1_nft",
+      "name": "Charm of Faith II",
+      "class": "Neutral",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "(Enhance Healing cards)\nHeal Stat +4",
+      "potentialCost": 2,
+      "image": "ecard_neutral_2005.png",
+      "season": "Season 1"
+    },
+    {
       "id": 110,
       "tokenId": 2000035,
       "itemId": "ecard_neutral_2003_s0_nft",
@@ -10601,6 +13392,19 @@
       "potentialCost": 2,
       "image": "ecard_neutral_2003.png",
       "season": "Season 0"
+    },
+    {
+      "id": 257,
+      "tokenId": 2001035,
+      "itemId": "ecard_neutral_2003_s1_nft",
+      "name": "Charm of Focus II",
+      "class": "Neutral",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "(Enhance Multihit Attack card)\nATK +2",
+      "potentialCost": 2,
+      "image": "ecard_neutral_2003.png",
+      "season": "Season 1"
     },
     {
       "id": 134,
@@ -10616,6 +13420,19 @@
       "season": "Season 0"
     },
     {
+      "id": 295,
+      "tokenId": 2001034,
+      "itemId": "ecard_neutral_2002_s1_nft",
+      "name": "Charm of Power II",
+      "class": "Neutral",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "(Enhance Non-Multihit Attack card)\nATK +4",
+      "potentialCost": 2,
+      "image": "ecard_neutral_2002.png",
+      "season": "Season 1"
+    },
+    {
       "id": 217,
       "tokenId": 2000033,
       "itemId": "ecard_neutral_2001_s0_nft",
@@ -10627,6 +13444,19 @@
       "potentialCost": 2,
       "image": "ecard_neutral_2001.png",
       "season": "Season 0"
+    },
+    {
+      "id": 268,
+      "tokenId": 2001033,
+      "itemId": "ecard_neutral_2001_s1_nft",
+      "name": "Charm of Vitality II",
+      "class": "Neutral",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "(Enhance any card)\nAxie's max HP +8",
+      "potentialCost": 2,
+      "image": "ecard_neutral_2001.png",
+      "season": "Season 1"
     },
     {
       "id": 61,
@@ -10642,6 +13472,19 @@
       "season": "Season 0"
     },
     {
+      "id": 289,
+      "tokenId": 2001038,
+      "itemId": "ecard_neutral_2006_s1_nft",
+      "name": "Earth Stamp",
+      "class": "Neutral",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "(Enhance Single Target Attack cards)\nThis card targets the closest enemy.",
+      "potentialCost": 3,
+      "image": "ecard_neutral_4001.png",
+      "season": "Season 1"
+    },
+    {
       "id": 187,
       "tokenId": 2000054,
       "itemId": "ecard_plant_3002_s0_nft",
@@ -10653,6 +13496,19 @@
       "potentialCost": 3,
       "image": "ecard_plant_5002.png",
       "season": "Season 0"
+    },
+    {
+      "id": 311,
+      "tokenId": 2001054,
+      "itemId": "ecard_plant_3002_s1_nft",
+      "name": "Plant's Charm of Faith II",
+      "class": "Plant",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "(Enhance any Healing card)\nHeal Stat +10",
+      "potentialCost": 3,
+      "image": "ecard_plant_5002.png",
+      "season": "Season 1"
     },
     {
       "id": 73,
@@ -10668,6 +13524,19 @@
       "season": "Season 0"
     },
     {
+      "id": 328,
+      "tokenId": 2001053,
+      "itemId": "ecard_plant_3001_s1_nft",
+      "name": "Plant's Charm of Vitality II",
+      "class": "Plant",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "(Enhance any card)\nAxie's max HP +18",
+      "potentialCost": 3,
+      "image": "ecard_plant_5001.png",
+      "season": "Season 1"
+    },
+    {
       "id": 91,
       "tokenId": 2000055,
       "itemId": "ecard_plant_3003_s0_nft",
@@ -10679,6 +13548,19 @@
       "potentialCost": 4,
       "image": "ecard_plant_4003.png",
       "season": "Season 0"
+    },
+    {
+      "id": 266,
+      "tokenId": 2001055,
+      "itemId": "ecard_plant_3003_s1_nft",
+      "name": "Leafy Pot",
+      "class": "Plant",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "(Enhance any Skill or Secret card)\nAll teammates gain 1 {Leaf}.",
+      "potentialCost": 4,
+      "image": "ecard_plant_4003.png",
+      "season": "Season 1"
     },
     {
       "id": 223,
@@ -10694,6 +13576,19 @@
       "season": "Season 0"
     },
     {
+      "id": 258,
+      "tokenId": 2001057,
+      "itemId": "ecard_plant_4002_s1_nft",
+      "name": "Ancient Root",
+      "class": "Plant",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "(Enhance any card)\nAdd <Retain>. Card's base stat -10%.",
+      "potentialCost": 4,
+      "image": "ecard_plant_5004.png",
+      "season": "Season 1"
+    },
+    {
       "id": 104,
       "tokenId": 2000056,
       "itemId": "ecard_plant_4001_s0_nft",
@@ -10705,6 +13600,19 @@
       "potentialCost": 4,
       "image": "ecard_plant_5003.png",
       "season": "Season 0"
+    },
+    {
+      "id": 365,
+      "tokenId": 2001056,
+      "itemId": "ecard_plant_4001_s1_nft",
+      "name": "Secret Sprout",
+      "class": "Plant",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "(Enhance any card)\nAdd <Innate>. Card's base stat -10%.",
+      "potentialCost": 4,
+      "image": "ecard_plant_5003.png",
+      "season": "Season 1"
     },
     {
       "id": 141,
@@ -10720,6 +13628,19 @@
       "season": "Season 0"
     },
     {
+      "id": 354,
+      "tokenId": 2001058,
+      "itemId": "ecard_plant_4003_s1_nft",
+      "name": "Red Sage",
+      "class": "Plant",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "(Enhance Shield and Healing cards)\nAdd <Cleanse>.",
+      "potentialCost": 5,
+      "image": "ecard_plant_5005.png",
+      "season": "Season 1"
+    },
+    {
       "id": 159,
       "tokenId": 2000052,
       "itemId": "ecard_plant_2002_s0_nft",
@@ -10731,6 +13652,19 @@
       "potentialCost": 2,
       "image": "ecard_plant_4002.png",
       "season": "Season 0"
+    },
+    {
+      "id": 312,
+      "tokenId": 2001052,
+      "itemId": "ecard_plant_2002_s1_nft",
+      "name": "Plant's Charm of Faith I",
+      "class": "Plant",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "(Enhance any Healing card)\nHeal Stat +6",
+      "potentialCost": 2,
+      "image": "ecard_plant_4002.png",
+      "season": "Season 1"
     },
     {
       "id": 185,
@@ -10746,6 +13680,19 @@
       "season": "Season 0"
     },
     {
+      "id": 331,
+      "tokenId": 2001051,
+      "itemId": "ecard_plant_2001_s1_nft",
+      "name": "Plant's Charm of Vitality I",
+      "class": "Plant",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "(Enhance any card)\nAxie's max HP +12",
+      "potentialCost": 2,
+      "image": "ecard_plant_4001.png",
+      "season": "Season 1"
+    },
+    {
       "id": 36,
       "tokenId": 2000062,
       "itemId": "ecard_reptile_3002_s0_nft",
@@ -10757,6 +13704,19 @@
       "potentialCost": 3,
       "image": "ecard_reptile_5002.png",
       "season": "Season 0"
+    },
+    {
+      "id": 315,
+      "tokenId": 2001062,
+      "itemId": "ecard_reptile_3002_s1_nft",
+      "name": "Reptile's Charm of Endurance II",
+      "class": "Reptile",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "(Enhance any Shielding card)\nShield Stat +10",
+      "potentialCost": 3,
+      "image": "ecard_reptile_5002.png",
+      "season": "Season 1"
     },
     {
       "id": 138,
@@ -10772,6 +13732,19 @@
       "season": "Season 0"
     },
     {
+      "id": 308,
+      "tokenId": 2001061,
+      "itemId": "ecard_reptile_3001_s1_nft",
+      "name": "Reptile's Charm of Vitality II",
+      "class": "Reptile",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "(Enhance any card)\nAxie's Max HP +18",
+      "potentialCost": 3,
+      "image": "ecard_reptile_5001.png",
+      "season": "Season 1"
+    },
+    {
       "id": 58,
       "tokenId": 2000063,
       "itemId": "ecard_reptile_3003_s0_nft",
@@ -10783,6 +13756,19 @@
       "potentialCost": 4,
       "image": "ecard_reptile_4003.png",
       "season": "Season 0"
+    },
+    {
+      "id": 350,
+      "tokenId": 2001063,
+      "itemId": "ecard_reptile_3003_s1_nft",
+      "name": "Gecko Mask",
+      "class": "Reptile",
+      "isBlockchain": 1,
+      "rarity": "Epic",
+      "effect": "(Enhance any Attack card)\nApply {Taunt} to this Axie for 4 turns.",
+      "potentialCost": 4,
+      "image": "ecard_reptile_4003.png",
+      "season": "Season 1"
     },
     {
       "id": 175,
@@ -10798,6 +13784,19 @@
       "season": "Season 0"
     },
     {
+      "id": 357,
+      "tokenId": 2001065,
+      "itemId": "ecard_reptile_4002_s1_nft",
+      "name": "Reptile Energy Drink M",
+      "class": "Reptile",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "(Enhance any card)\nAdd <Banish>.",
+      "potentialCost": 4,
+      "image": "ecard_reptile_5004.png",
+      "season": "Season 1"
+    },
+    {
       "id": 90,
       "tokenId": 2000064,
       "itemId": "ecard_reptile_4001_s0_nft",
@@ -10809,6 +13808,19 @@
       "potentialCost": 4,
       "image": "ecard_reptile_5003.png",
       "season": "Season 0"
+    },
+    {
+      "id": 246,
+      "tokenId": 2001064,
+      "itemId": "ecard_reptile_4001_s1_nft",
+      "name": "Sticky Lizard",
+      "class": "Reptile",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "(Enhance any card)\nAdd <Retain>. Card's base stat -10%.",
+      "potentialCost": 4,
+      "image": "ecard_reptile_5003.png",
+      "season": "Season 1"
     },
     {
       "id": 130,
@@ -10824,6 +13836,19 @@
       "season": "Season 0"
     },
     {
+      "id": 316,
+      "tokenId": 2001066,
+      "itemId": "ecard_reptile_4003_s1_nft",
+      "name": "Viper's Venom",
+      "class": "Reptile",
+      "isBlockchain": 1,
+      "rarity": "Mystic",
+      "effect": "(Enhance an Attack card)\nAttack applies 2 {Poison}.",
+      "potentialCost": 5,
+      "image": "ecard_reptile_5005.png",
+      "season": "Season 1"
+    },
+    {
       "id": 53,
       "tokenId": 2000060,
       "itemId": "ecard_reptile_2002_s0_nft",
@@ -10837,6 +13862,19 @@
       "season": "Season 0"
     },
     {
+      "id": 352,
+      "tokenId": 2001060,
+      "itemId": "ecard_reptile_2002_s1_nft",
+      "name": "Reptile's Charm of Endurance I",
+      "class": "Reptile",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "(Enhance any Shielding card)\nShield Stat +6",
+      "potentialCost": 2,
+      "image": "ecard_reptile_4002.png",
+      "season": "Season 1"
+    },
+    {
       "id": 208,
       "tokenId": 2000059,
       "itemId": "ecard_reptile_2001_s0_nft",
@@ -10848,46 +13886,19 @@
       "potentialCost": 2,
       "image": "ecard_reptile_4001.png",
       "season": "Season 0"
+    },
+    {
+      "id": 327,
+      "tokenId": 2001059,
+      "itemId": "ecard_reptile_2001_s1_nft",
+      "name": "Reptile's Charm of Vitality I",
+      "class": "Reptile",
+      "isBlockchain": 1,
+      "rarity": "Rare",
+      "effect": "(Enhance any card)\nAxie's Max HP +12",
+      "potentialCost": 2,
+      "image": "ecard_reptile_4001.png",
+      "season": "Season 1"
     }
-  ],
-  "summons": [
-    {
-      "id": 1,
-      "name": "Little Robin",
-      "class": "Bird",
-      "hp": 18,
-      "effect": "Teammate's non-Multihit deal 12 bonus DMG, Multihit deal 6 bonus DMG. Loses 8 HP when your turn ends."
-    },
-    {
-      "id": 2,
-      "name": "Mavis",
-      "class": "Bird",
-      "hp": 18,
-      "effect": "When your turn starts (after card drawing), Mavis reduces 1 Energy of a random Attack card. Lose 8 HP when your turn ends."
-    },
-    {
-      "id": 3,
-      "name": "Mushroom",
-      "class": "Plant",
-      "hp": 18,
-      "effect": "When your turn ends, this Mushroom restores 24 HP to your most injured ally and loses 8 HP."
-    },
-    {
-      "id": 4,
-      "name": "Clover",
-      "class": "Plant",
-      "hp": 35,
-      "effect": "When your turn starts, randomly grants 1~2 Leafs to your Axies. Clover disappears after 4 leafs are granted."
-    },
-    {
-      "id": 5,
-      "name": "Trunk",
-      "class": "Plant",
-      "hp": 75,
-      "effect": "Taunt. The target is always targeted by enemy's attack abilities."
-    }
-  ],
-  "cardImageUrl": "https://cdn.axieinfinity.com/game/origin-cards/base/origin-cards-20220826a/",
-  "runeImageUrl": "https://storage.googleapis.com/origin-production/assets/item/",
-  "charmImageUrl": "https://storage.googleapis.com/origin-production/assets/item/"
+  ]
 }
