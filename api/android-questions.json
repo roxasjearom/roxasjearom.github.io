@@ -2,45 +2,66 @@
   "androidQuestions": [
     {
       "id": 1,
-      "question": "What is Android?",
-      "answer": "",
-      "category": 1
+      "question": "What is a lambda expression in Kotlin?",
+      "answer": "A lambda expression is a way to define a function without creating a separate named function. It allows you to define a function inline, using a more concise syntax.",
+      "category": 1,
+      "tags": "kotlin"
     },
     {
       "id": 2,
-      "question": "What is the latest version of Android?",
-      "answer": "",
-      "category": 1
+      "question": "What is the difference between a class and an object in Kotlin?",
+      "answer": "A class is a blueprint for creating objects, while an object is a single instance of a class. Objects are often used to implement singletons in Kotlin.",
+      "category": 1,
+      "tags": "kotlin"
     },
     {
       "id": 3,
       "question": "What is Dalvik? What is ART? What's the difference?",
       "answer": "",
-      "category": 1
+      "category": 1,
+      "tags": ""
     },
     {
       "id": 4,
       "question": "How do you secure a user's private information (PIN) in your Android app?",
       "answer": "",
-      "category": 1
+      "category": 1,
+      "tags": "security"
     },
     {
       "id": 4,
       "question": "How do you communicate securely to a server from your app?",
       "answer": "",
-      "category": 1
+      "category": 1,
+      "tags": "security"
     },
     {
       "id": 5,
       "question": "What's the difference between SharedFlow and StateFlow?",
       "answer": "",
-      "category": 1
+      "category": 1,
+      "tags": "flow"
     },
     {
       "id": 6,
       "question": "What is a Coroutine?",
-      "answer": "",
-      "category": 1
+      "answer": "A coroutine is a concurrency design pattern that you can use on Android to simplify code that executes asynchronously.",
+      "category": 1,
+      "tags": "coroutine"
+    },
+    {
+      "id": 7,
+      "question": "What is polymorphism?",
+      "answer": "Polymorphism is the ability of an object to take on multiple forms. This can be achieved through inheritance and method overriding. For example, a subclass can override a method from its superclass to provide a different implementation.",
+      "category": 1,
+      "tags": "general"
+    },
+    {
+      "id": 8,
+      "question": " What is an Activity in Android?",
+      "answer": "An activity serves as the entry point for an app's interaction with the user.",
+      "category": 1,
+      "tags": "android"
     }
   ]
 }
