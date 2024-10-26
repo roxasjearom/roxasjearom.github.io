@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "uuid": "9f0d8ba9-4140-b941-57d3-a7ad57c6b417",
+      "abilityUrls": [
+        {
+          "slot": "Grenade",
+          "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/da2d65e4abc2129e284cf5248fd70925f093a0b3.mp4"
+        },
+        {
+          "slot": "Ability1",
+          "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/9df59d490062acceb7c6ca32a3650b55718381f7.mp4"
+        },
+        {
+          "slot": "Ability2",
+          "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8e0b72295747346b60c354765944f5233fb208f2.mp4"
+        },
+        {
+          "slot": "Ultimate",
+          "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ccd8e6c574b7017a2681e5d37c744f5a654327e3.mp4"
+        }
+      ]
+    },
+    {
+      "uuid": "eb93336a-449b-9c1b-0a54-a891f7921d69",
+      "abilityUrls": [
+        {
+          "slot": "Grenade",
+          "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8c5b0e23be0814583ad4601b4297d04dbaff79f7.mp4"
+        },
+        {
+          "slot": "Ability1",
+          "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/c62125b1b5637b7b0e0881348502f7e8b8e93572.mp4"
+        },
+        {
+          "slot": "Ability2",
+          "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/b702ed368fd050e7cb77adf26bc55bb63c5936fb.mp4"
+        },
+        {
+          "slot": "Ultimate",
+          "videoUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/aa122a33b1ef0320174991b8ddee4e82dbc2b937.mp4"
+        }
+      ]
+    }
+  ]
+}
